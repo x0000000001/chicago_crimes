@@ -52,3 +52,7 @@ Team members :
 * Antoine Toussaint (2312379)
 * Jeremy Tsatas (2077907)
 * Md. Radwan Rahman (2084095)
+
+## Data source
+
+All data was extracted from the [Chicago data portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data).
