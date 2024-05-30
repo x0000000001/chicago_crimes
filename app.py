@@ -17,7 +17,8 @@ import pandas as pd
 app = dash.Dash(__name__)
 app.title = "TP4 | INF8808"
 
-DATA_PATH = "../src/assets/data/crimes.csv"
+# DATA_PATH = "../src/assets/data/crimes.csv" # full dataset
+DATA_PATH = "../src/assets/data/crimes_reduced.csv"  # 1000 times reduced dataset
 
 with open(DATA_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
