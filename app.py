@@ -11,17 +11,27 @@
 
 import dash
 import dash_html_components as html
+import importlib
+import dash_core_components as dcc
 
 import pandas as pd
 
 app = dash.Dash(__name__)
-app.title = "TP4 | INF8808"
+app.title = "Chicago Crimes | INF8808"
 
-# DATA_PATH = "../src/assets/data/crimes.csv" # full dataset
-DATA_PATH = "../src/assets/data/crimes_reduced.csv"  # 1000 times reduced dataset
+# DATA_PATH = "assets/data/crimes.csv" # full dataset
+DATA_PATH = "assets/data/crimes_reduced.csv"  # 1000 times reduced dataset
 
 with open(DATA_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
+
+# Load figures
+figures_files = []
+figures = {}
+
+for figure_file in figures_files:
+    module = importlib.import_module(f"viz.{figure_file}")
+    figures[figure_file] = module.get_figure(data)
 
 app.layout = html.Div(
     className="content",
@@ -37,7 +47,7 @@ app.layout = html.Div(
         html.Main(
             className="viz-container",
             children=[
-                # our graphs
+                # Our visualizations will be displayed here
             ],
         ),
     ],
