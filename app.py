@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
-
 """
     File name: app.py
     Author: Olivia Gélinas
     Course: INF8808
     Python Version: 3.8
 
-    This file contains the source code for TP4.
+    This file contains the source code for project.
 """
 
 import dash
 import dash_html_components as html
 import importlib
 import dash_core_components as dcc
+import os
 
 import pandas as pd
 
@@ -26,7 +26,7 @@ with open(DATA_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
 
 # Load figures
-figures_files = []
+figures_files = [os.path.splitext(f)[0] for f in os.listdir("viz") if f.endswith(".py")]
 figures = {}
 
 for figure_file in figures_files:
