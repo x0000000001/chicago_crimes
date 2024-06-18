@@ -26,7 +26,11 @@ with open(DATA_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
 
 # Load figures
-figures_files = [os.path.splitext(f)[0] for f in os.listdir("viz") if f.endswith(".py")]
+figures_files = [
+    os.path.splitext(f)[0]
+    for f in os.listdir("viz")
+    if f.endswith(".py") and not f.startswith("viz_template")
+]
 figures = {}
 
 for figure_file in figures_files:
@@ -47,7 +51,7 @@ app.layout = html.Div(
         html.Main(
             className="viz-container",
             children=[
-                # Our visualizations will be displayed here
+                dcc.Graph(figure=figures[figure_file]) for figure_file in figures
             ],
         ),
     ],
