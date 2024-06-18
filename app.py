@@ -8,14 +8,14 @@
     This file contains the source code for project.
 """
 
-import dash
-import dash_html_components as html
 import importlib
-import dash_core_components as dcc
 import os
-from dash.dependencies import Input, Output, State
 
+import dash
+import dash_core_components as dcc
+import dash_html_components as html
 import pandas as pd
+from dash.dependencies import Input, Output
 
 app = dash.Dash(__name__)
 app.title = "Chicago Crimes | INF8808"
@@ -135,7 +135,8 @@ def multiline_update_mode(multiline_graph, display_mode, checklist_values):
     # Update the traces visibility
     for trace in multiline_graph["data"]:
         if trace.get("customdata")[0][0] == display_mode:
-            max_y = max(max_y, max(trace["y"]))
+            # max_y = max(max_y, max(trace["y"]))
+            max_y = max(max_y, trace["y"])
             trace["visible"] = True
         else:
             trace["visible"] = False
