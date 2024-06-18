@@ -1,0 +1,1401 @@
+day_of_week,district,neighborhood,specific_count,crime_category,total_count,crime_rate
+Friday,1,Douglas / Loop,8676,Violent Crimes,340060,0.025513144739163676
+Friday,2,Douglas / Englewood,14183,Violent Crimes,340060,0.0417073457625125
+Friday,3,Grand Crossing / Jackson Park,20589,Violent Crimes,340060,0.06054519790625184
+Friday,4,Avalon Park / Burnside,21997,Violent Crimes,340060,0.06468564370993354
+Friday,5,Burnside / Pullman,18174,Violent Crimes,340060,0.05344350996882903
+Friday,6,Auburn Gresham / Chatham,22877,Violent Crimes,340060,0.0672734223372346
+Friday,7,Englewood / Grand Crossing,24953,Violent Crimes,340060,0.07337822737164029
+Friday,8,Archer Heights / Ashburn,22061,Violent Crimes,340060,0.06487384579191907
+Friday,9,Armour Square / Bridgeport,16973,Violent Crimes,340060,0.049911780274069284
+Friday,10,Little Village / Lower West Side,16377,Violent Crimes,340060,0.04815914838557901
+Friday,11,Austin / Garfield Park,23038,Violent Crimes,340060,0.06774686819972946
+Friday,12,East Village / Garfield Park,10634,Violent Crimes,340060,0.031270952184908545
+Friday,13,East Village / Garfield Park,4457,Violent Crimes,340060,0.013106510615773687
+Friday,14,Avondale / Bucktown,10832,Violent Crimes,340060,0.031853202376051284
+Friday,15,Austin,16174,Violent Crimes,340060,0.04756219490678116
+Friday,16,Dunning / Edison Park,8655,Violent Crimes,340060,0.025451390931012174
+Friday,17,Albany Park / Avondale,8323,Violent Crimes,340060,0.024475092630712226
+Friday,18,Lincoln Park / Magnificent Mile,10363,Violent Crimes,340060,0.03047403399400106
+Friday,19,Lake View / Lincoln Park,7640,Violent Crimes,340060,0.02246662353702288
+Friday,20,Andersonville / Edgewater,5649,Violent Crimes,340060,0.01661177439275422
+Friday,21,Chinatown / Douglas,4440,Violent Crimes,340060,0.01305651943774628
+Friday,22,Auburn Gresham / Beverly,11364,Violent Crimes,340060,0.03341763218255602
+Friday,23,Boystown / Lake View,3231,Violent Crimes,340060,0.00950126448273834
+Friday,24,Edgewater / Rogers Park,9738,Violent Crimes,340060,0.0286361230371111
+Friday,25,Austin / Avondale,18662,Violent Crimes,340060,0.05487855084396871
+Monday,1,Douglas / Loop,8025,Violent Crimes,329361,0.024365362019182598
+Monday,2,Douglas / Englewood,14097,Violent Crimes,329361,0.04280106023481833
+Monday,3,Grand Crossing / Jackson Park,20525,Violent Crimes,329361,0.062317639307629014
+Monday,4,Avalon Park / Burnside,21607,Violent Crimes,329361,0.06560278842971694
+Monday,5,Burnside / Pullman,18302,Violent Crimes,329361,0.0555682063146517
+Monday,6,Auburn Gresham / Chatham,22426,Violent Crimes,329361,0.06808942163765594
+Monday,7,Englewood / Grand Crossing,24333,Violent Crimes,329361,0.07387942106078133
+Monday,8,Archer Heights / Ashburn,21113,Violent Crimes,329361,0.06410291443127754
+Monday,9,Armour Square / Bridgeport,15977,Violent Crimes,329361,0.04850908273900067
+Monday,10,Little Village / Lower West Side,16461,Violent Crimes,329361,0.04997859491560932
+Monday,11,Austin / Garfield Park,22320,Violent Crimes,329361,0.06776758632624992
+Monday,12,East Village / Garfield Park,9978,Violent Crimes,329361,0.030295025822729468
+Monday,13,East Village / Garfield Park,4046,Violent Crimes,329361,0.012284393112724336
+Monday,14,Avondale / Bucktown,10424,Violent Crimes,329361,0.031649163076381236
+Monday,15,Austin,15625,Violent Crimes,329361,0.04744034661055802
+Monday,16,Dunning / Edison Park,8196,Violent Crimes,329361,0.024884549172488547
+Monday,17,Albany Park / Avondale,8314,Violent Crimes,329361,0.02524281867009148
+Monday,18,Lincoln Park / Magnificent Mile,8649,Violent Crimes,329361,0.026259939701421844
+Monday,19,Lake View / Lincoln Park,7042,Violent Crimes,329361,0.021380794933219174
+Monday,20,Andersonville / Edgewater,5470,Violent Crimes,329361,0.016607916541424152
+Monday,21,Chinatown / Douglas,4257,Violent Crimes,329361,0.012925027553353311
+Monday,22,Auburn Gresham / Beverly,10912,Violent Crimes,329361,0.03313081998172218
+Monday,23,Boystown / Lake View,3130,Violent Crimes,329361,0.009503250233026983
+Monday,24,Edgewater / Rogers Park,9759,Violent Crimes,329361,0.029630101924635884
+Monday,25,Austin / Avondale,18373,Violent Crimes,329361,0.05578377524965008
+Saturday,1,Douglas / Loop,8079,Violent Crimes,358715,0.022522057901119275
+Saturday,2,Douglas / Englewood,14444,Violent Crimes,358715,0.04026594929122005
+Saturday,3,Grand Crossing / Jackson Park,20871,Violent Crimes,358715,0.058182679843329664
+Saturday,4,Avalon Park / Burnside,22187,Violent Crimes,358715,0.061851330443388204
+Saturday,5,Burnside / Pullman,18209,Violent Crimes,358715,0.05076174679062766
+Saturday,6,Auburn Gresham / Chatham,23896,Violent Crimes,358715,0.06661555831230921
+Saturday,7,Englewood / Grand Crossing,25552,Violent Crimes,358715,0.07123203657499687
+Saturday,8,Archer Heights / Ashburn,22645,Violent Crimes,358715,0.063128110059518
+Saturday,9,Armour Square / Bridgeport,18228,Violent Crimes,358715,0.050814713630598106
+Saturday,10,Little Village / Lower West Side,18854,Violent Crimes,358715,0.052559831621203465
+Saturday,11,Austin / Garfield Park,24224,Violent Crimes,358715,0.06752993323390435
+Saturday,12,East Village / Garfield Park,11018,Violent Crimes,358715,0.03071519172602205
+Saturday,13,East Village / Garfield Park,4521,Violent Crimes,358715,0.012603320184547621
+Saturday,14,Avondale / Bucktown,12826,Violent Crimes,358715,0.0357554047084733
+Saturday,15,Austin,17178,Violent Crimes,358715,0.047887598790125864
+Saturday,16,Dunning / Edison Park,9294,Violent Crimes,358715,0.02590914793080858
+Saturday,17,Albany Park / Avondale,8806,Violent Crimes,358715,0.02454873646209386
+Saturday,18,Lincoln Park / Magnificent Mile,13055,Violent Crimes,358715,0.0363937945165382
+Saturday,19,Lake View / Lincoln Park,9528,Violent Crimes,358715,0.026561476380970967
+Saturday,20,Andersonville / Edgewater,5603,Violent Crimes,358715,0.015619642334443778
+Saturday,21,Chinatown / Douglas,4165,Violent Crimes,358715,0.011610888867206556
+Saturday,22,Auburn Gresham / Beverly,10742,Violent Crimes,358715,0.029945778682240777
+Saturday,23,Boystown / Lake View,3692,Violent Crimes,358715,0.0102922933247843
+Saturday,24,Edgewater / Rogers Park,10209,Violent Crimes,358715,0.028459919434648675
+Saturday,25,Austin / Avondale,20889,Violent Crimes,358715,0.05823285895488062
+Sunday,1,Douglas / Loop,7886,Violent Crimes,368605,0.021394175336742583
+Sunday,2,Douglas / Englewood,14227,Violent Crimes,368605,0.038596871990341966
+Sunday,3,Grand Crossing / Jackson Park,21240,Violent Crimes,368605,0.05762265840126965
+Sunday,4,Avalon Park / Burnside,22756,Violent Crimes,368605,0.06173546208000434
+Sunday,5,Burnside / Pullman,18335,Violent Crimes,368605,0.04974159330448583
+Sunday,6,Auburn Gresham / Chatham,23571,Violent Crimes,368605,0.0639465009970022
+Sunday,7,Englewood / Grand Crossing,25605,Violent Crimes,368605,0.06946460303034413
+Sunday,8,Archer Heights / Ashburn,23753,Violent Crimes,368605,0.0644402544729453
+Sunday,9,Armour Square / Bridgeport,19479,Violent Crimes,368605,0.052845186581842354
+Sunday,10,Little Village / Lower West Side,19601,Violent Crimes,368605,0.053176164186595404
+Sunday,11,Austin / Garfield Park,24079,Violent Crimes,368605,0.06532467003974445
+Sunday,12,East Village / Garfield Park,11843,Violent Crimes,368605,0.03212924404172488
+Sunday,13,East Village / Garfield Park,4555,Violent Crimes,368605,0.01235740155450957
+Sunday,14,Avondale / Bucktown,13534,Violent Crimes,368605,0.03671681067809715
+Sunday,15,Austin,17571,Violent Crimes,368605,0.047668913877999486
+Sunday,16,Dunning / Edison Park,10454,Violent Crimes,368605,0.02836098262367575
+Sunday,17,Albany Park / Avondale,9717,Violent Crimes,368605,0.026361552339224915
+Sunday,18,Lincoln Park / Magnificent Mile,13578,Violent Crimes,368605,0.03683617965030317
+Sunday,19,Lake View / Lincoln Park,9648,Violent Crimes,368605,0.026174360087356383
+Sunday,20,Andersonville / Edgewater,5684,Violent Crimes,368605,0.015420300864068584
+Sunday,21,Chinatown / Douglas,4026,Violent Crimes,368605,0.010922260956850829
+Sunday,22,Auburn Gresham / Beverly,11153,Violent Crimes,368605,0.030257321523039567
+Sunday,23,Boystown / Lake View,3800,Violent Crimes,368605,0.010309138508701727
+Sunday,24,Edgewater / Rogers Park,10586,Violent Crimes,368605,0.02871908954029381
+Sunday,25,Austin / Avondale,21924,Violent Crimes,368605,0.05947830333283596
+Thursday,1,Douglas / Loop,8398,Violent Crimes,328088,0.025596791104825534
+Thursday,2,Douglas / Englewood,14217,Violent Crimes,328088,0.04333288629879788
+Thursday,3,Grand Crossing / Jackson Park,20204,Violent Crimes,328088,0.06158103923337641
+Thursday,4,Avalon Park / Burnside,21822,Violent Crimes,328088,0.06651264294945258
+Thursday,5,Burnside / Pullman,18154,Violent Crimes,328088,0.055332715612884345
+Thursday,6,Auburn Gresham / Chatham,22290,Violent Crimes,328088,0.0679390895125698
+Thursday,7,Englewood / Grand Crossing,24271,Violent Crimes,328088,0.07397710370388433
+Thursday,8,Archer Heights / Ashburn,20799,Violent Crimes,328088,0.06339457706468996
+Thursday,9,Armour Square / Bridgeport,15960,Violent Crimes,328088,0.04864548535758699
+Thursday,10,Little Village / Lower West Side,15932,Violent Crimes,328088,0.048560142400819295
+Thursday,11,Austin / Garfield Park,22476,Violent Crimes,328088,0.06850601058252664
+Thursday,12,East Village / Garfield Park,10241,Violent Crimes,328088,0.031214186437784983
+Thursday,13,East Village / Garfield Park,4226,Violent Crimes,328088,0.01288069054643876
+Thursday,14,Avondale / Bucktown,10172,Violent Crimes,328088,0.031003877008607447
+Thursday,15,Austin,15847,Violent Crimes,328088,0.0483010655677745
+Thursday,16,Dunning / Edison Park,8044,Violent Crimes,328088,0.024517812294262514
+Thursday,17,Albany Park / Avondale,7963,Violent Crimes,328088,0.024270927312184536
+Thursday,18,Lincoln Park / Magnificent Mile,9023,Violent Crimes,328088,0.02750176781839019
+Thursday,19,Lake View / Lincoln Park,6900,Violent Crimes,328088,0.021030942917753773
+Thursday,20,Andersonville / Edgewater,5397,Violent Crimes,328088,0.016449854916973494
+Thursday,21,Chinatown / Douglas,4395,Violent Crimes,328088,0.013395796249786643
+Thursday,22,Auburn Gresham / Beverly,11064,Violent Crimes,328088,0.03372265977420692
+Thursday,23,Boystown / Lake View,3112,Violent Crimes,328088,0.009485260052181123
+Thursday,24,Edgewater / Rogers Park,9290,Violent Crimes,328088,0.028315573870425007
+Thursday,25,Austin / Avondale,17891,Violent Crimes,328088,0.05453110141181634
+Tuesday,1,Douglas / Loop,8420,Violent Crimes,328423,0.02563766849459386
+Tuesday,2,Douglas / Englewood,14319,Violent Crimes,328423,0.04359926070951182
+Tuesday,3,Grand Crossing / Jackson Park,20607,Violent Crimes,328423,0.06274530102946504
+Tuesday,4,Avalon Park / Burnside,22136,Violent Crimes,328423,0.06740088239861398
+Tuesday,5,Burnside / Pullman,18163,Violent Crimes,328423,0.05530367848780384
+Tuesday,6,Auburn Gresham / Chatham,22335,Violent Crimes,328423,0.06800680829296364
+Tuesday,7,Englewood / Grand Crossing,24848,Violent Crimes,328423,0.07565852574271595
+Tuesday,8,Archer Heights / Ashburn,20754,Violent Crimes,328423,0.06319289452931129
+Tuesday,9,Armour Square / Bridgeport,16041,Violent Crimes,328423,0.04884249885056771
+Tuesday,10,Little Village / Lower West Side,15773,Violent Crimes,328423,0.04802647804812696
+Tuesday,11,Austin / Garfield Park,22740,Violent Crimes,328423,0.06923997405784613
+Tuesday,12,East Village / Garfield Park,9928,Violent Crimes,328423,0.030229307935193333
+Tuesday,13,East Village / Garfield Park,4245,Violent Crimes,328423,0.0129254041282127
+Tuesday,14,Avondale / Bucktown,10042,Violent Crimes,328423,0.0305764212616047
+Tuesday,15,Austin,16030,Violent Crimes,328423,0.04880900545942276
+Tuesday,16,Dunning / Edison Park,8082,Violent Crimes,328423,0.024608507930321568
+Tuesday,17,Albany Park / Avondale,8125,Violent Crimes,328423,0.02473943664116094
+Tuesday,18,Lincoln Park / Magnificent Mile,8225,Violent Crimes,328423,0.025043922015206
+Tuesday,19,Lake View / Lincoln Park,6566,Violent Crimes,328423,0.019992509659798492
+Tuesday,20,Andersonville / Edgewater,5374,Violent Crimes,328423,0.016363044001181402
+Tuesday,21,Chinatown / Douglas,4527,Violent Crimes,328423,0.013784052883019765
+Tuesday,22,Auburn Gresham / Beverly,10929,Violent Crimes,328423,0.03327720652938436
+Tuesday,23,Boystown / Lake View,3035,Violent Crimes,328423,0.009241131102267503
+Tuesday,24,Edgewater / Rogers Park,9419,Violent Crimes,328423,0.02867947738130399
+Tuesday,25,Austin / Avondale,17760,Violent Crimes,328423,0.05407660243040226
+Wednesday,1,Douglas / Loop,8459,Violent Crimes,330281,0.025611524731970654
+Wednesday,2,Douglas / Englewood,14294,Violent Crimes,330281,0.04327829938749126
+Wednesday,3,Grand Crossing / Jackson Park,20372,Violent Crimes,330281,0.06168081118804897
+Wednesday,4,Avalon Park / Burnside,22025,Violent Crimes,330281,0.0666856404092273
+Wednesday,5,Burnside / Pullman,18399,Violent Crimes,330281,0.05570711000632794
+Wednesday,6,Auburn Gresham / Chatham,22471,Violent Crimes,330281,0.06803600570423367
+Wednesday,7,Englewood / Grand Crossing,24807,Violent Crimes,330281,0.0751087710161953
+Wednesday,8,Archer Heights / Ashburn,20771,Violent Crimes,330281,0.06288887341385063
+Wednesday,9,Armour Square / Bridgeport,15959,Violent Crimes,330281,0.04831946130718994
+Wednesday,10,Little Village / Lower West Side,15950,Violent Crimes,330281,0.04829221178329968
+Wednesday,11,Austin / Garfield Park,22860,Violent Crimes,330281,0.06921379068126837
+Wednesday,12,East Village / Garfield Park,10281,Violent Crimes,330281,0.031128039457310592
+Wednesday,13,East Village / Garfield Park,4364,Violent Crimes,330281,0.013212991361900926
+Wednesday,14,Avondale / Bucktown,10389,Violent Crimes,330281,0.03145503374399375
+Wednesday,15,Austin,15959,Violent Crimes,330281,0.04831946130718994
+Wednesday,16,Dunning / Edison Park,8146,Violent Crimes,330281,0.024663846845564837
+Wednesday,17,Albany Park / Avondale,7845,Violent Crimes,330281,0.02375250165767937
+Wednesday,18,Lincoln Park / Magnificent Mile,8599,Violent Crimes,330281,0.02603540621470808
+Wednesday,19,Lake View / Lincoln Park,6702,Violent Crimes,330281,0.02029181212361595
+Wednesday,20,Andersonville / Edgewater,5551,Violent Crimes,330281,0.016806900790538964
+Wednesday,21,Chinatown / Douglas,4466,Violent Crimes,330281,0.013521819299323909
+Wednesday,22,Auburn Gresham / Beverly,11148,Violent Crimes,330281,0.03375307692540594
+Wednesday,23,Boystown / Lake View,3109,Violent Crimes,330281,0.009413196641647567
+Wednesday,24,Edgewater / Rogers Park,9525,Violent Crimes,330281,0.02883907945052849
+Wednesday,25,Austin / Avondale,17830,Violent Crimes,330281,0.053984334551487975
+Friday,1,Douglas / Loop,121,Crimes Against Children,9893,0.01223087031234206
+Friday,2,Douglas / Englewood,361,Crimes Against Children,9893,0.03649044779136763
+Friday,3,Grand Crossing / Jackson Park,669,Crimes Against Children,9893,0.06762357222278378
+Friday,4,Avalon Park / Burnside,890,Crimes Against Children,9893,0.08996259981805317
+Friday,5,Burnside / Pullman,565,Crimes Against Children,9893,0.05711108864853937
+Friday,6,Auburn Gresham / Chatham,694,Crimes Against Children,9893,0.07015061154351562
+Friday,7,Englewood / Grand Crossing,531,Crimes Against Children,9893,0.053674315172344084
+Friday,8,Archer Heights / Ashburn,884,Crimes Against Children,9893,0.08935611038107753
+Friday,9,Armour Square / Bridgeport,516,Crimes Against Children,9893,0.05215809157990498
+Friday,10,Little Village / Lower West Side,440,Crimes Against Children,9893,0.04447589204488022
+Friday,11,Austin / Garfield Park,517,Crimes Against Children,9893,0.052259173152734255
+Friday,12,East Village / Garfield Park,284,Crimes Against Children,9893,0.028707166683513596
+Friday,13,East Village / Garfield Park,77,Crimes Against Children,9893,0.007783281107854039
+Friday,14,Avondale / Bucktown,285,Crimes Against Children,9893,0.02880824825634287
+Friday,15,Austin,387,Crimes Against Children,9893,0.03911856868492874
+Friday,16,Dunning / Edison Park,312,Crimes Against Children,9893,0.03153745072273324
+Friday,17,Albany Park / Avondale,274,Crimes Against Children,9893,0.027696350955220862
+Friday,18,Lincoln Park / Magnificent Mile,147,Crimes Against Children,9893,0.014858991205903165
+Friday,19,Lake View / Lincoln Park,147,Crimes Against Children,9893,0.014858991205903165
+Friday,20,Andersonville / Edgewater,104,Crimes Against Children,9893,0.010512483574244415
+Friday,21,Chinatown / Douglas,124,Crimes Against Children,9893,0.01253411503082988
+Friday,22,Auburn Gresham / Beverly,526,Crimes Against Children,9893,0.05316890730819772
+Friday,23,Boystown / Lake View,52,Crimes Against Children,9893,0.005256241787122208
+Friday,24,Edgewater / Rogers Park,290,Crimes Against Children,9893,0.029313656120489234
+Friday,25,Austin / Avondale,696,Crimes Against Children,9893,0.07035277468917417
+Monday,1,Douglas / Loop,95,Crimes Against Children,7915,0.012002526847757423
+Monday,2,Douglas / Englewood,247,Crimes Against Children,7915,0.031206569804169297
+Monday,3,Grand Crossing / Jackson Park,446,Crimes Against Children,7915,0.05634870499052432
+Monday,4,Avalon Park / Burnside,637,Crimes Against Children,7915,0.08048010107391029
+Monday,5,Burnside / Pullman,471,Crimes Against Children,7915,0.05950726468730259
+Monday,6,Auburn Gresham / Chatham,573,Crimes Against Children,7915,0.07239418825015793
+Monday,7,Englewood / Grand Crossing,487,Crimes Against Children,7915,0.06152874289324068
+Monday,8,Archer Heights / Ashburn,601,Crimes Against Children,7915,0.07593177511054959
+Monday,9,Armour Square / Bridgeport,488,Crimes Against Children,7915,0.06165508528111181
+Monday,10,Little Village / Lower West Side,444,Crimes Against Children,7915,0.05609602021478206
+Monday,11,Austin / Garfield Park,448,Crimes Against Children,7915,0.05660138976626658
+Monday,12,East Village / Garfield Park,225,Crimes Against Children,7915,0.028427037271004423
+Monday,13,East Village / Garfield Park,48,Crimes Against Children,7915,0.006064434617814277
+Monday,14,Avondale / Bucktown,243,Crimes Against Children,7915,0.030701200252684777
+Monday,15,Austin,355,Crimes Against Children,7915,0.04485154769425142
+Monday,16,Dunning / Edison Park,247,Crimes Against Children,7915,0.031206569804169297
+Monday,17,Albany Park / Avondale,236,Crimes Against Children,7915,0.02981680353758686
+Monday,18,Lincoln Park / Magnificent Mile,95,Crimes Against Children,7915,0.012002526847757423
+Monday,19,Lake View / Lincoln Park,108,Crimes Against Children,7915,0.013644977890082122
+Monday,20,Andersonville / Edgewater,108,Crimes Against Children,7915,0.013644977890082122
+Monday,21,Chinatown / Douglas,92,Crimes Against Children,7915,0.01162349968414403
+Monday,22,Auburn Gresham / Beverly,370,Crimes Against Children,7915,0.04674668351231838
+Monday,23,Boystown / Lake View,45,Crimes Against Children,7915,0.005685407454200884
+Monday,24,Edgewater / Rogers Park,235,Crimes Against Children,7915,0.02969046114971573
+Monday,25,Austin / Avondale,571,Crimes Against Children,7915,0.07214150347441567
+Saturday,1,Douglas / Loop,81,Crimes Against Children,8171,0.009913107330804064
+Saturday,2,Douglas / Englewood,273,Crimes Against Children,8171,0.033410843226043326
+Saturday,3,Grand Crossing / Jackson Park,519,Crimes Against Children,8171,0.06351731734181863
+Saturday,4,Avalon Park / Burnside,692,Crimes Against Children,8171,0.08468975645575817
+Saturday,5,Burnside / Pullman,502,Crimes Against Children,8171,0.06143678864276098
+Saturday,6,Auburn Gresham / Chatham,574,Crimes Against Children,8171,0.07024843960347571
+Saturday,7,Englewood / Grand Crossing,478,Crimes Against Children,8171,0.05849957165585608
+Saturday,8,Archer Heights / Ashburn,727,Crimes Against Children,8171,0.0889731978949945
+Saturday,9,Armour Square / Bridgeport,456,Crimes Against Children,8171,0.05580712275119325
+Saturday,10,Little Village / Lower West Side,369,Crimes Against Children,8171,0.04515971117366296
+Saturday,11,Austin / Garfield Park,405,Crimes Against Children,8171,0.04956553665402032
+Saturday,12,East Village / Garfield Park,208,Crimes Against Children,8171,0.025455880553175866
+Saturday,13,East Village / Garfield Park,57,Crimes Against Children,8171,0.006975890343899156
+Saturday,14,Avondale / Bucktown,263,Crimes Against Children,8171,0.03218700281483294
+Saturday,15,Austin,300,Crimes Against Children,8171,0.036715212336311344
+Saturday,16,Dunning / Edison Park,341,Crimes Against Children,8171,0.0417329580222739
+Saturday,17,Albany Park / Avondale,256,Crimes Against Children,8171,0.03133031452698568
+Saturday,18,Lincoln Park / Magnificent Mile,136,Crimes Against Children,8171,0.016644229592461143
+Saturday,19,Lake View / Lincoln Park,111,Crimes Against Children,8171,0.013584628564435198
+Saturday,20,Andersonville / Edgewater,99,Crimes Against Children,8171,0.012116020070982744
+Saturday,21,Chinatown / Douglas,86,Crimes Against Children,8171,0.010525027536409251
+Saturday,22,Auburn Gresham / Beverly,390,Crimes Against Children,8171,0.04772977603720475
+Saturday,23,Boystown / Lake View,45,Crimes Against Children,8171,0.005507281850446702
+Saturday,24,Edgewater / Rogers Park,223,Crimes Against Children,8171,0.027291641169991433
+Saturday,25,Austin / Avondale,580,Crimes Against Children,8171,0.07098274385020194
+Sunday,1,Douglas / Loop,88,Crimes Against Children,8372,0.01051122790253225
+Sunday,2,Douglas / Englewood,292,Crimes Against Children,8372,0.03487816531294792
+Sunday,3,Grand Crossing / Jackson Park,539,Crimes Against Children,8372,0.06438127090301003
+Sunday,4,Avalon Park / Burnside,730,Crimes Against Children,8372,0.08719541328236981
+Sunday,5,Burnside / Pullman,485,Crimes Against Children,8372,0.057931199235547064
+Sunday,6,Auburn Gresham / Chatham,558,Crimes Against Children,8372,0.06665074056378405
+Sunday,7,Englewood / Grand Crossing,475,Crimes Against Children,8372,0.056736741519350216
+Sunday,8,Archer Heights / Ashburn,736,Crimes Against Children,8372,0.08791208791208792
+Sunday,9,Armour Square / Bridgeport,458,Crimes Against Children,8372,0.054706163401815576
+Sunday,10,Little Village / Lower West Side,438,Crimes Against Children,8372,0.05231724796942188
+Sunday,11,Austin / Garfield Park,389,Crimes Against Children,8372,0.046464405160057336
+Sunday,12,East Village / Garfield Park,204,Crimes Against Children,8372,0.024366937410415672
+Sunday,13,East Village / Garfield Park,67,Crimes Against Children,8372,0.008002866698518872
+Sunday,14,Avondale / Bucktown,277,Crimes Against Children,8372,0.03308647873865265
+Sunday,15,Austin,327,Crimes Against Children,8372,0.03905876731963689
+Sunday,16,Dunning / Edison Park,283,Crimes Against Children,8372,0.03380315336837076
+Sunday,17,Albany Park / Avondale,248,Crimes Against Children,8372,0.029622551361681796
+Sunday,18,Lincoln Park / Magnificent Mile,120,Crimes Against Children,8372,0.01433349259436216
+Sunday,19,Lake View / Lincoln Park,139,Crimes Against Children,8372,0.016602962255136168
+Sunday,20,Andersonville / Edgewater,113,Crimes Against Children,8372,0.013497372193024366
+Sunday,21,Chinatown / Douglas,84,Crimes Against Children,8372,0.010033444816053512
+Sunday,22,Auburn Gresham / Beverly,383,Crimes Against Children,8372,0.045747730530339224
+Sunday,23,Boystown / Lake View,50,Crimes Against Children,8372,0.005972288580984233
+Sunday,24,Edgewater / Rogers Park,254,Crimes Against Children,8372,0.030339225991399904
+Sunday,25,Austin / Avondale,635,Crimes Against Children,8372,0.07584806497849976
+Thursday,1,Douglas / Loop,83,Crimes Against Children,7980,0.010401002506265664
+Thursday,2,Douglas / Englewood,295,Crimes Against Children,7980,0.03696741854636591
+Thursday,3,Grand Crossing / Jackson Park,503,Crimes Against Children,7980,0.06303258145363408
+Thursday,4,Avalon Park / Burnside,620,Crimes Against Children,7980,0.07769423558897243
+Thursday,5,Burnside / Pullman,482,Crimes Against Children,7980,0.060401002506265664
+Thursday,6,Auburn Gresham / Chatham,546,Crimes Against Children,7980,0.06842105263157895
+Thursday,7,Englewood / Grand Crossing,437,Crimes Against Children,7980,0.05476190476190476
+Thursday,8,Archer Heights / Ashburn,644,Crimes Against Children,7980,0.08070175438596491
+Thursday,9,Armour Square / Bridgeport,485,Crimes Against Children,7980,0.06077694235588972
+Thursday,10,Little Village / Lower West Side,408,Crimes Against Children,7980,0.05112781954887218
+Thursday,11,Austin / Garfield Park,420,Crimes Against Children,7980,0.05263157894736842
+Thursday,12,East Village / Garfield Park,236,Crimes Against Children,7980,0.02957393483709273
+Thursday,13,East Village / Garfield Park,43,Crimes Against Children,7980,0.0053884711779448626
+Thursday,14,Avondale / Bucktown,241,Crimes Against Children,7980,0.030200501253132832
+Thursday,15,Austin,363,Crimes Against Children,7980,0.04548872180451128
+Thursday,16,Dunning / Edison Park,248,Crimes Against Children,7980,0.03107769423558897
+Thursday,17,Albany Park / Avondale,235,Crimes Against Children,7980,0.02944862155388471
+Thursday,18,Lincoln Park / Magnificent Mile,113,Crimes Against Children,7980,0.014160401002506266
+Thursday,19,Lake View / Lincoln Park,117,Crimes Against Children,7980,0.014661654135338346
+Thursday,20,Andersonville / Edgewater,87,Crimes Against Children,7980,0.010902255639097745
+Thursday,21,Chinatown / Douglas,70,Crimes Against Children,7980,0.008771929824561403
+Thursday,22,Auburn Gresham / Beverly,394,Crimes Against Children,7980,0.0493734335839599
+Thursday,23,Boystown / Lake View,47,Crimes Against Children,7980,0.005889724310776942
+Thursday,24,Edgewater / Rogers Park,258,Crimes Against Children,7980,0.032330827067669175
+Thursday,25,Austin / Avondale,605,Crimes Against Children,7980,0.07581453634085213
+Tuesday,1,Douglas / Loop,76,Crimes Against Children,7794,0.009751090582499358
+Tuesday,2,Douglas / Englewood,254,Crimes Against Children,7794,0.032589171157300485
+Tuesday,3,Grand Crossing / Jackson Park,514,Crimes Against Children,7794,0.06594816525532461
+Tuesday,4,Avalon Park / Burnside,616,Crimes Against Children,7794,0.07903515524762637
+Tuesday,5,Burnside / Pullman,449,Crimes Against Children,7794,0.05760841673081858
+Tuesday,6,Auburn Gresham / Chatham,534,Crimes Against Children,7794,0.06851424172440339
+Tuesday,7,Englewood / Grand Crossing,522,Crimes Against Children,7794,0.06697459584295612
+Tuesday,8,Archer Heights / Ashburn,640,Crimes Against Children,7794,0.08211444701052091
+Tuesday,9,Armour Square / Bridgeport,448,Crimes Against Children,7794,0.05748011290736464
+Tuesday,10,Little Village / Lower West Side,428,Crimes Against Children,7794,0.05491403643828586
+Tuesday,11,Austin / Garfield Park,400,Crimes Against Children,7794,0.051321529381575574
+Tuesday,12,East Village / Garfield Park,226,Crimes Against Children,7794,0.028996664100590198
+Tuesday,13,East Village / Garfield Park,50,Crimes Against Children,7794,0.006415191172696947
+Tuesday,14,Avondale / Bucktown,243,Crimes Against Children,7794,0.03117782909930716
+Tuesday,15,Austin,288,Crimes Against Children,7794,0.03695150115473441
+Tuesday,16,Dunning / Edison Park,254,Crimes Against Children,7794,0.032589171157300485
+Tuesday,17,Albany Park / Avondale,233,Crimes Against Children,7794,0.02989479086476777
+Tuesday,18,Lincoln Park / Magnificent Mile,129,Crimes Against Children,7794,0.016551193225558123
+Tuesday,19,Lake View / Lincoln Park,116,Crimes Against Children,7794,0.014883243520656916
+Tuesday,20,Andersonville / Edgewater,84,Crimes Against Children,7794,0.01077752117013087
+Tuesday,21,Chinatown / Douglas,86,Crimes Against Children,7794,0.011034128817038748
+Tuesday,22,Auburn Gresham / Beverly,375,Crimes Against Children,7794,0.0481139337952271
+Tuesday,23,Boystown / Lake View,47,Crimes Against Children,7794,0.00603027970233513
+Tuesday,24,Edgewater / Rogers Park,228,Crimes Against Children,7794,0.029253271747498075
+Tuesday,25,Austin / Avondale,554,Crimes Against Children,7794,0.07108031819348216
+Wednesday,1,Douglas / Loop,77,Crimes Against Children,7876,0.009776536312849162
+Wednesday,2,Douglas / Englewood,274,Crimes Against Children,7876,0.034789233113255456
+Wednesday,3,Grand Crossing / Jackson Park,485,Crimes Against Children,7876,0.06157948197054342
+Wednesday,4,Avalon Park / Burnside,667,Crimes Against Children,7876,0.08468765871000508
+Wednesday,5,Burnside / Pullman,489,Crimes Against Children,7876,0.06208735398679533
+Wednesday,6,Auburn Gresham / Chatham,560,Crimes Against Children,7876,0.07110208227526663
+Wednesday,7,Englewood / Grand Crossing,465,Crimes Against Children,7876,0.0590401218892839
+Wednesday,8,Archer Heights / Ashburn,622,Crimes Against Children,7876,0.07897409852717115
+Wednesday,9,Armour Square / Bridgeport,477,Crimes Against Children,7876,0.06056373793803961
+Wednesday,10,Little Village / Lower West Side,390,Crimes Against Children,7876,0.04951752158456069
+Wednesday,11,Austin / Garfield Park,416,Crimes Against Children,7876,0.05281868969019807
+Wednesday,12,East Village / Garfield Park,237,Crimes Against Children,7876,0.030091416962925343
+Wednesday,13,East Village / Garfield Park,61,Crimes Against Children,7876,0.007745048247841544
+Wednesday,14,Avondale / Bucktown,239,Crimes Against Children,7876,0.030345352971051294
+Wednesday,15,Austin,322,Crimes Against Children,7876,0.040883697308278316
+Wednesday,16,Dunning / Edison Park,253,Crimes Against Children,7876,0.03212290502793296
+Wednesday,17,Albany Park / Avondale,250,Crimes Against Children,7876,0.03174200101574403
+Wednesday,18,Lincoln Park / Magnificent Mile,100,Crimes Against Children,7876,0.012696800406297613
+Wednesday,19,Lake View / Lincoln Park,112,Crimes Against Children,7876,0.014220416455053326
+Wednesday,20,Andersonville / Edgewater,95,Crimes Against Children,7876,0.012061960385982732
+Wednesday,21,Chinatown / Douglas,83,Crimes Against Children,7876,0.010538344337227019
+Wednesday,22,Auburn Gresham / Beverly,366,Crimes Against Children,7876,0.04647028948704927
+Wednesday,23,Boystown / Lake View,45,Crimes Against Children,7876,0.005713560182833925
+Wednesday,24,Edgewater / Rogers Park,244,Crimes Against Children,7876,0.030980192991366177
+Wednesday,25,Austin / Avondale,547,Crimes Against Children,7876,0.06945149822244795
+Friday,1,Douglas / Loop,31281,Property Crimes,563252,0.05553642064298041
+Friday,2,Douglas / Englewood,18486,Property Crimes,563252,0.03282012314203944
+Friday,3,Grand Crossing / Jackson Park,25205,Property Crimes,563252,0.044749064361955214
+Friday,4,Avalon Park / Burnside,29523,Property Crimes,563252,0.052415259954691686
+Friday,5,Burnside / Pullman,20924,Property Crimes,563252,0.0371485587268221
+Friday,6,Auburn Gresham / Chatham,29657,Property Crimes,563252,0.05265316412547137
+Friday,7,Englewood / Grand Crossing,25275,Property Crimes,563252,0.04487334266012371
+Friday,8,Archer Heights / Ashburn,40030,Property Crimes,563252,0.07106943250978248
+Friday,9,Armour Square / Bridgeport,25993,Property Crimes,563252,0.046148082918480535
+Friday,10,Little Village / Lower West Side,19265,Property Crimes,563252,0.03420316306022882
+Friday,11,Austin / Garfield Park,22192,Property Crimes,563252,0.03939977132793137
+Friday,12,East Village / Garfield Park,24010,Property Crimes,563252,0.04262745627179309
+Friday,13,East Village / Garfield Park,10729,Property Crimes,563252,0.01904831230071087
+Friday,14,Avondale / Bucktown,27165,Property Crimes,563252,0.04822885671067302
+Friday,15,Austin,14914,Property Crimes,563252,0.0264783791269272
+Friday,16,Dunning / Edison Park,22313,Property Crimes,563252,0.03961459524333691
+Friday,17,Albany Park / Avondale,19575,Property Crimes,563252,0.034753538380689286
+Friday,18,Lincoln Park / Magnificent Mile,35104,Property Crimes,563252,0.062323791127239674
+Friday,19,Lake View / Lincoln Park,25994,Property Crimes,563252,0.04614985832274009
+Friday,20,Andersonville / Edgewater,11059,Property Crimes,563252,0.01963419570636234
+Friday,21,Chinatown / Douglas,9077,Property Crimes,563252,0.016115344463934436
+Friday,22,Auburn Gresham / Beverly,18492,Property Crimes,563252,0.03283077556759674
+Friday,23,Boystown / Lake View,7450,Property Crimes,563252,0.013226761733646751
+Friday,24,Edgewater / Rogers Park,18285,Property Crimes,563252,0.03246326688586991
+Friday,25,Austin / Avondale,31254,Property Crimes,563252,0.05548848472797256
+Monday,1,Douglas / Loop,27362,Property Crimes,530812,0.051547440525082325
+Monday,2,Douglas / Englewood,18171,Property Crimes,530812,0.03423245894968464
+Monday,3,Grand Crossing / Jackson Park,25273,Property Crimes,530812,0.04761196054346925
+Monday,4,Avalon Park / Burnside,29149,Property Crimes,530812,0.0549139808444421
+Monday,5,Burnside / Pullman,21029,Property Crimes,530812,0.03961666277326059
+Monday,6,Auburn Gresham / Chatham,29331,Property Crimes,530812,0.055256851766727205
+Monday,7,Englewood / Grand Crossing,24989,Property Crimes,530812,0.04707693119221118
+Monday,8,Archer Heights / Ashburn,38884,Property Crimes,530812,0.0732538073743623
+Monday,9,Armour Square / Bridgeport,24782,Property Crimes,530812,0.046686962615766034
+Monday,10,Little Village / Lower West Side,18617,Property Crimes,530812,0.03507268109989978
+Monday,11,Austin / Garfield Park,21549,Property Crimes,530812,0.040596293979789456
+Monday,12,East Village / Garfield Park,20919,Property Crimes,530812,0.039409433094956405
+Monday,13,East Village / Garfield Park,9546,Property Crimes,530812,0.017983768264470283
+Monday,14,Avondale / Bucktown,24411,Property Crimes,530812,0.04598803342803102
+Monday,15,Austin,14936,Property Crimes,530812,0.028138022501375252
+Monday,16,Dunning / Edison Park,20118,Property Crimes,530812,0.037900424255668676
+Monday,17,Albany Park / Avondale,18739,Property Crimes,530812,0.03530251765220078
+Monday,18,Lincoln Park / Magnificent Mile,28516,Property Crimes,530812,0.05372146824110985
+Monday,19,Lake View / Lincoln Park,22803,Property Crimes,530812,0.04295871231245714
+Monday,20,Andersonville / Edgewater,10510,Property Crimes,530812,0.01979985380888149
+Monday,21,Chinatown / Douglas,8484,Property Crimes,530812,0.015983059915751715
+Monday,22,Auburn Gresham / Beverly,17652,Property Crimes,530812,0.03325471164932217
+Monday,23,Boystown / Lake View,6756,Property Crimes,530812,0.012727670060209641
+Monday,24,Edgewater / Rogers Park,18070,Property Crimes,530812,0.034042184426878064
+Monday,25,Austin / Avondale,30216,Property Crimes,530812,0.05692410872399267
+Saturday,1,Douglas / Loop,27346,Property Crimes,530636,0.051534385152910846
+Saturday,2,Douglas / Englewood,16674,Property Crimes,530636,0.0314226701543054
+Saturday,3,Grand Crossing / Jackson Park,23159,Property Crimes,530636,0.04364385379054569
+Saturday,4,Avalon Park / Burnside,26895,Property Crimes,530636,0.05068446166487008
+Saturday,5,Burnside / Pullman,19442,Property Crimes,530636,0.036639052005517904
+Saturday,6,Auburn Gresham / Chatham,27537,Property Crimes,530636,0.05189433057689263
+Saturday,7,Englewood / Grand Crossing,23443,Property Crimes,530636,0.04417906059897934
+Saturday,8,Archer Heights / Ashburn,38198,Property Crimes,530636,0.07198531573432636
+Saturday,9,Armour Square / Bridgeport,24780,Property Crimes,530636,0.04669867856685185
+Saturday,10,Little Village / Lower West Side,18541,Property Crimes,530636,0.034941089560451985
+Saturday,11,Austin / Garfield Park,20944,Property Crimes,530636,0.03946961759096631
+Saturday,12,East Village / Garfield Park,21919,Property Crimes,530636,0.04130703533118748
+Saturday,13,East Village / Garfield Park,9967,Property Crimes,530636,0.018783120632599373
+Saturday,14,Avondale / Bucktown,26727,Property Crimes,530636,0.050367860454247355
+Saturday,15,Austin,14180,Property Crimes,530636,0.02672264980137043
+Saturday,16,Dunning / Edison Park,20596,Property Crimes,530636,0.03881380079753353
+Saturday,17,Albany Park / Avondale,17833,Property Crimes,530636,0.033606841601399075
+Saturday,18,Lincoln Park / Magnificent Mile,37547,Property Crimes,530636,0.0707584860431633
+Saturday,19,Lake View / Lincoln Park,25663,Property Crimes,530636,0.048362719453636765
+Saturday,20,Andersonville / Edgewater,10068,Property Crimes,530636,0.01897345826517613
+Saturday,21,Chinatown / Douglas,7765,Property Crimes,530636,0.014633383336222947
+Saturday,22,Auburn Gresham / Beverly,16665,Property Crimes,530636,0.031405709375164896
+Saturday,23,Boystown / Lake View,7614,Property Crimes,530636,0.014348819152865618
+Saturday,24,Edgewater / Rogers Park,17259,Property Crimes,530636,0.0325251207984381
+Saturday,25,Austin / Avondale,29874,Property Crimes,530636,0.056298479560376605
+Sunday,1,Douglas / Loop,21902,Property Crimes,491426,0.044568256461807065
+Sunday,2,Douglas / Englewood,15691,Property Crimes,491426,0.03192952753822549
+Sunday,3,Grand Crossing / Jackson Park,21835,Property Crimes,491426,0.044431918539108634
+Sunday,4,Avalon Park / Burnside,25896,Property Crimes,491426,0.052695624570128566
+Sunday,5,Burnside / Pullman,18982,Property Crimes,491426,0.03862636490539776
+Sunday,6,Auburn Gresham / Chatham,26131,Property Crimes,491426,0.053173824746757394
+Sunday,7,Englewood / Grand Crossing,23025,Property Crimes,491426,0.04685344283778229
+Sunday,8,Archer Heights / Ashburn,35648,Property Crimes,491426,0.07253991445304074
+Sunday,9,Armour Square / Bridgeport,23553,Property Crimes,491426,0.04792786706442068
+Sunday,10,Little Village / Lower West Side,17956,Property Crimes,491426,0.03653856328317997
+Sunday,11,Austin / Garfield Park,19821,Property Crimes,491426,0.04033364128068112
+Sunday,12,East Village / Garfield Park,19801,Property Crimes,491426,0.04029294339330845
+Sunday,13,East Village / Garfield Park,8920,Property Crimes,491426,0.018151257768209254
+Sunday,14,Avondale / Bucktown,24326,Property Crimes,491426,0.049500840411374245
+Sunday,15,Austin,13638,Property Crimes,491426,0.027751889399421276
+Sunday,16,Dunning / Edison Park,19069,Property Crimes,491426,0.03880340071546886
+Sunday,17,Albany Park / Avondale,16725,Property Crimes,491426,0.03403360831539235
+Sunday,18,Lincoln Park / Magnificent Mile,31192,Property Crimes,491426,0.06347242514641065
+Sunday,19,Lake View / Lincoln Park,23105,Property Crimes,491426,0.047016234387272954
+Sunday,20,Andersonville / Edgewater,9360,Property Crimes,491426,0.019046611290407914
+Sunday,21,Chinatown / Douglas,7242,Property Crimes,491426,0.014736705017642534
+Sunday,22,Auburn Gresham / Beverly,16026,Property Crimes,491426,0.03261121715171766
+Sunday,23,Boystown / Lake View,6780,Property Crimes,491426,0.013796583819333939
+Sunday,24,Edgewater / Rogers Park,16572,Property Crimes,491426,0.03372226947699145
+Sunday,25,Austin / Avondale,28230,Property Crimes,491426,0.05744506802651874
+Thursday,1,Douglas / Loop,28444,Property Crimes,524714,0.05420857838746441
+Thursday,2,Douglas / Englewood,17784,Property Crimes,524714,0.03389274919289365
+Thursday,3,Grand Crossing / Jackson Park,24261,Property Crimes,524714,0.04623661651871305
+Thursday,4,Avalon Park / Burnside,28395,Property Crimes,524714,0.05411519418197342
+Thursday,5,Burnside / Pullman,20230,Property Crimes,524714,0.03855433626699497
+Thursday,6,Auburn Gresham / Chatham,28775,Property Crimes,524714,0.054839398224556614
+Thursday,7,Englewood / Grand Crossing,24131,Property Crimes,524714,0.04598886250414511
+Thursday,8,Archer Heights / Ashburn,38079,Property Crimes,524714,0.0725709624671726
+Thursday,9,Armour Square / Bridgeport,24318,Property Crimes,524714,0.04634524712510053
+Thursday,10,Little Village / Lower West Side,18049,Property Crimes,524714,0.03439778622258983
+Thursday,11,Austin / Garfield Park,20960,Property Crimes,524714,0.03994557034879954
+Thursday,12,East Village / Garfield Park,21483,Property Crimes,524714,0.04094230380740747
+Thursday,13,East Village / Garfield Park,9650,Property Crimes,524714,0.0183909710813891
+Thursday,14,Avondale / Bucktown,24517,Property Crimes,524714,0.04672450134740068
+Thursday,15,Austin,13998,Property Crimes,524714,0.02667738996863053
+Thursday,16,Dunning / Edison Park,20452,Property Crimes,524714,0.038977423891872524
+Thursday,17,Albany Park / Avondale,18534,Property Crimes,524714,0.03532209927693944
+Thursday,18,Lincoln Park / Magnificent Mile,29591,Property Crimes,524714,0.05639453111599843
+Thursday,19,Lake View / Lincoln Park,23145,Property Crimes,524714,0.044109743593652925
+Thursday,20,Andersonville / Edgewater,10613,Property Crimes,524714,0.02022625658930389
+Thursday,21,Chinatown / Douglas,8440,Property Crimes,524714,0.016084952945795233
+Thursday,22,Auburn Gresham / Beverly,17584,Property Crimes,524714,0.03351158917048144
+Thursday,23,Boystown / Lake View,6728,Property Crimes,524714,0.01282222315394672
+Thursday,24,Edgewater / Rogers Park,17360,Property Crimes,524714,0.03308468994537977
+Thursday,25,Austin / Avondale,29193,Property Crimes,524714,0.05563602267139813
+Tuesday,1,Douglas / Loop,27869,Property Crimes,527307,0.052851564648297863
+Tuesday,2,Douglas / Englewood,18187,Property Crimes,527307,0.03449034433451481
+Tuesday,3,Grand Crossing / Jackson Park,25003,Property Crimes,527307,0.047416400692575675
+Tuesday,4,Avalon Park / Burnside,28734,Property Crimes,527307,0.05449197526298721
+Tuesday,5,Burnside / Pullman,20480,Property Crimes,527307,0.03883885478478381
+Tuesday,6,Auburn Gresham / Chatham,29775,Property Crimes,527307,0.05646615728598331
+Tuesday,7,Englewood / Grand Crossing,24762,Property Crimes,527307,0.0469593614346102
+Tuesday,8,Archer Heights / Ashburn,38034,Property Crimes,527307,0.07212875990646815
+Tuesday,9,Armour Square / Bridgeport,24466,Property Crimes,527307,0.04639801861154887
+Tuesday,10,Little Village / Lower West Side,18344,Property Crimes,527307,0.03478808360215207
+Tuesday,11,Austin / Garfield Park,21549,Property Crimes,527307,0.04086613680455598
+Tuesday,12,East Village / Garfield Park,21386,Property Crimes,527307,0.04055701896618099
+Tuesday,13,East Village / Garfield Park,9763,Property Crimes,527307,0.018514831018742402
+Tuesday,14,Avondale / Bucktown,24347,Property Crimes,527307,0.046172343625250564
+Tuesday,15,Austin,14545,Property Crimes,527307,0.02758355189671292
+Tuesday,16,Dunning / Edison Park,20221,Property Crimes,527307,0.03834767981460516
+Tuesday,17,Albany Park / Avondale,18687,Property Crimes,527307,0.03543855856265894
+Tuesday,18,Lincoln Park / Magnificent Mile,28103,Property Crimes,527307,0.05329532890706932
+Tuesday,19,Lake View / Lincoln Park,22282,Property Crimes,527307,0.04225621886301528
+Tuesday,20,Andersonville / Edgewater,10570,Property Crimes,527307,0.020045248782967037
+Tuesday,21,Chinatown / Douglas,8409,Property Crimes,527307,0.015947066888928083
+Tuesday,22,Auburn Gresham / Beverly,17770,Property Crimes,527307,0.0336995336682426
+Tuesday,23,Boystown / Lake View,6737,Property Crimes,527307,0.01277623851001409
+Tuesday,24,Edgewater / Rogers Park,17647,Property Crimes,527307,0.03346627296811914
+Tuesday,25,Austin / Avondale,29637,Property Crimes,527307,0.056204450159015526
+Wednesday,1,Douglas / Loop,28030,Property Crimes,530417,0.052845214237100244
+Wednesday,2,Douglas / Englewood,18053,Property Crimes,530417,0.03403548528799039
+Wednesday,3,Grand Crossing / Jackson Park,24850,Property Crimes,530417,0.04684993128048309
+Wednesday,4,Avalon Park / Burnside,29052,Property Crimes,530417,0.05477200014328349
+Wednesday,5,Burnside / Pullman,20641,Property Crimes,530417,0.03891466525394171
+Wednesday,6,Auburn Gresham / Chatham,29418,Property Crimes,530417,0.05546202327602622
+Wednesday,7,Englewood / Grand Crossing,24759,Property Crimes,530417,0.046678368151850336
+Wednesday,8,Archer Heights / Ashburn,38478,Property Crimes,530417,0.07254292377506755
+Wednesday,9,Armour Square / Bridgeport,24740,Property Crimes,530417,0.046642547278839104
+Wednesday,10,Little Village / Lower West Side,18284,Property Crimes,530417,0.03447099169144277
+Wednesday,11,Austin / Garfield Park,21706,Property Crimes,530417,0.0409225194516767
+Wednesday,12,East Village / Garfield Park,21327,Property Crimes,530417,0.040207987300557864
+Wednesday,13,East Village / Garfield Park,9944,Property Crimes,530417,0.018747513748616655
+Wednesday,14,Avondale / Bucktown,24574,Property Crimes,530417,0.046329585967267266
+Wednesday,15,Austin,14613,Property Crimes,530417,0.027550021963851083
+Wednesday,16,Dunning / Edison Park,20353,Property Crimes,530417,0.03837169623145563
+Wednesday,17,Albany Park / Avondale,18593,Property Crimes,530417,0.03505355220515179
+Wednesday,18,Lincoln Park / Magnificent Mile,29245,Property Crimes,530417,0.0551358648007134
+Wednesday,19,Lake View / Lincoln Park,22874,Property Crimes,530417,0.043124560487314695
+Wednesday,20,Andersonville / Edgewater,10726,Property Crimes,530417,0.020221825469394834
+Wednesday,21,Chinatown / Douglas,8563,Property Crimes,530417,0.01614390187343166
+Wednesday,22,Auburn Gresham / Beverly,17812,Property Crimes,530417,0.03358112579347947
+Wednesday,23,Boystown / Lake View,6822,Property Crimes,530417,0.01286157872013906
+Wednesday,24,Edgewater / Rogers Park,17577,Property Crimes,530417,0.03313807815360367
+Wednesday,25,Austin / Avondale,29383,Property Crimes,530417,0.055396037457321315
+Friday,1,Douglas / Loop,2441,Miscellaneous Crimes,79872,0.030561398237179488
+Friday,2,Douglas / Englewood,2860,Miscellaneous Crimes,79872,0.035807291666666664
+Friday,3,Grand Crossing / Jackson Park,4508,Miscellaneous Crimes,79872,0.05644030448717949
+Friday,4,Avalon Park / Burnside,5242,Miscellaneous Crimes,79872,0.06563000801282051
+Friday,5,Burnside / Pullman,3928,Miscellaneous Crimes,79872,0.049178685897435896
+Friday,6,Auburn Gresham / Chatham,5011,Miscellaneous Crimes,79872,0.06273788060897435
+Friday,7,Englewood / Grand Crossing,4277,Miscellaneous Crimes,79872,0.053548177083333336
+Friday,8,Archer Heights / Ashburn,5685,Miscellaneous Crimes,79872,0.07117638221153846
+Friday,9,Armour Square / Bridgeport,3659,Miscellaneous Crimes,79872,0.045810797275641024
+Friday,10,Little Village / Lower West Side,3460,Miscellaneous Crimes,79872,0.043319310897435896
+Friday,11,Austin / Garfield Park,4003,Miscellaneous Crimes,79872,0.05011768830128205
+Friday,12,East Village / Garfield Park,2244,Miscellaneous Crimes,79872,0.028094951923076924
+Friday,13,East Village / Garfield Park,926,Miscellaneous Crimes,79872,0.01159354967948718
+Friday,14,Avondale / Bucktown,2527,Miscellaneous Crimes,79872,0.031638120993589744
+Friday,15,Austin,3278,Miscellaneous Crimes,79872,0.04104066506410257
+Friday,16,Dunning / Edison Park,4304,Miscellaneous Crimes,79872,0.05388621794871795
+Friday,17,Albany Park / Avondale,2427,Miscellaneous Crimes,79872,0.03038611778846154
+Friday,18,Lincoln Park / Magnificent Mile,2198,Miscellaneous Crimes,79872,0.027519030448717948
+Friday,19,Lake View / Lincoln Park,2091,Miscellaneous Crimes,79872,0.026179387019230768
+Friday,20,Andersonville / Edgewater,1604,Miscellaneous Crimes,79872,0.020082131410256412
+Friday,21,Chinatown / Douglas,1135,Miscellaneous Crimes,79872,0.014210236378205128
+Friday,22,Auburn Gresham / Beverly,3281,Miscellaneous Crimes,79872,0.04107822516025641
+Friday,23,Boystown / Lake View,868,Miscellaneous Crimes,79872,0.01086738782051282
+Friday,24,Edgewater / Rogers Park,2706,Miscellaneous Crimes,79872,0.03387920673076923
+Friday,25,Austin / Avondale,5209,Miscellaneous Crimes,79872,0.06521684695512821
+Monday,1,Douglas / Loop,2613,Miscellaneous Crimes,81183,0.03218654151731274
+Monday,2,Douglas / Englewood,2902,Miscellaneous Crimes,81183,0.03574640010839708
+Monday,3,Grand Crossing / Jackson Park,4712,Miscellaneous Crimes,81183,0.058041708239409726
+Monday,4,Avalon Park / Burnside,5122,Miscellaneous Crimes,81183,0.06309202665582696
+Monday,5,Burnside / Pullman,4023,Miscellaneous Crimes,81183,0.049554709729869556
+Monday,6,Auburn Gresham / Chatham,4987,Miscellaneous Crimes,81183,0.06142911693334811
+Monday,7,Englewood / Grand Crossing,4443,Miscellaneous Crimes,81183,0.05472820664424818
+Monday,8,Archer Heights / Ashburn,5754,Miscellaneous Crimes,81183,0.07087690772698718
+Monday,9,Armour Square / Bridgeport,3681,Miscellaneous Crimes,81183,0.04534200509958981
+Monday,10,Little Village / Lower West Side,3465,Miscellaneous Crimes,81183,0.04268134954362367
+Monday,11,Austin / Garfield Park,4036,Miscellaneous Crimes,81183,0.04971484177721937
+Monday,12,East Village / Garfield Park,2282,Miscellaneous Crimes,81183,0.028109333234790534
+Monday,13,East Village / Garfield Park,992,Miscellaneous Crimes,81183,0.01221930699777047
+Monday,14,Avondale / Bucktown,2519,Miscellaneous Crimes,81183,0.031028663636475617
+Monday,15,Austin,3341,Miscellaneous Crimes,81183,0.04115393616890236
+Monday,16,Dunning / Edison Park,4351,Miscellaneous Crimes,81183,0.05359496446300334
+Monday,17,Albany Park / Avondale,2541,Miscellaneous Crimes,81183,0.03129965633199069
+Monday,18,Lincoln Park / Magnificent Mile,2046,Miscellaneous Crimes,81183,0.025202320682901593
+Monday,19,Lake View / Lincoln Park,2111,Miscellaneous Crimes,81183,0.026002980919650667
+Monday,20,Andersonville / Edgewater,1649,Miscellaneous Crimes,81183,0.020312134313834176
+Monday,21,Chinatown / Douglas,1209,Miscellaneous Crimes,81183,0.01489228040353276
+Monday,22,Auburn Gresham / Beverly,3313,Miscellaneous Crimes,81183,0.04080903637461045
+Monday,23,Boystown / Lake View,910,Miscellaneous Crimes,81183,0.011209243314487024
+Monday,24,Edgewater / Rogers Park,2809,Miscellaneous Crimes,81183,0.034600840077356095
+Monday,25,Austin / Avondale,5372,Miscellaneous Crimes,81183,0.06617148910486186
+Saturday,1,Douglas / Loop,1705,Miscellaneous Crimes,75299,0.022643062988884313
+Saturday,2,Douglas / Englewood,2607,Miscellaneous Crimes,75299,0.03462197373139086
+Saturday,3,Grand Crossing / Jackson Park,4364,Miscellaneous Crimes,75299,0.057955616940464014
+Saturday,4,Avalon Park / Burnside,4920,Miscellaneous Crimes,75299,0.06533951314094477
+Saturday,5,Burnside / Pullman,3867,Miscellaneous Crimes,75299,0.051355263682120615
+Saturday,6,Auburn Gresham / Chatham,4680,Miscellaneous Crimes,75299,0.06215221981699624
+Saturday,7,Englewood / Grand Crossing,4287,Miscellaneous Crimes,75299,0.05693302699903053
+Saturday,8,Archer Heights / Ashburn,5332,Miscellaneous Crimes,75299,0.0708110333470564
+Saturday,9,Armour Square / Bridgeport,3497,Miscellaneous Crimes,75299,0.04644151980769997
+Saturday,10,Little Village / Lower West Side,3517,Miscellaneous Crimes,75299,0.04670712758469568
+Saturday,11,Austin / Garfield Park,3824,Miscellaneous Crimes,75299,0.050784206961579835
+Saturday,12,East Village / Garfield Park,2019,Miscellaneous Crimes,75299,0.02681310508771697
+Saturday,13,East Village / Garfield Park,822,Miscellaneous Crimes,75299,0.010916479634523699
+Saturday,14,Avondale / Bucktown,2421,Miscellaneous Crimes,75299,0.032151821405330745
+Saturday,15,Austin,3271,Miscellaneous Crimes,75299,0.04344015192764844
+Saturday,16,Dunning / Edison Park,4015,Miscellaneous Crimes,75299,0.05332076123188887
+Saturday,17,Albany Park / Avondale,2263,Miscellaneous Crimes,75299,0.030053519967064634
+Saturday,18,Lincoln Park / Magnificent Mile,2037,Miscellaneous Crimes,75299,0.027052152087013108
+Saturday,19,Lake View / Lincoln Park,1900,Miscellaneous Crimes,75299,0.025232738814592492
+Saturday,20,Andersonville / Edgewater,1431,Miscellaneous Crimes,75299,0.01900423644404308
+Saturday,21,Chinatown / Douglas,1068,Miscellaneous Crimes,75299,0.014183455291570937
+Saturday,22,Auburn Gresham / Beverly,3049,Miscellaneous Crimes,75299,0.04049190560299606
+Saturday,23,Boystown / Lake View,841,Miscellaneous Crimes,75299,0.011168807022669624
+Saturday,24,Edgewater / Rogers Park,2615,Miscellaneous Crimes,75299,0.03472821684218914
+Saturday,25,Austin / Avondale,4947,Miscellaneous Crimes,75299,0.06569808363988898
+Sunday,1,Douglas / Loop,1564,Miscellaneous Crimes,74054,0.02111972344505361
+Sunday,2,Douglas / Englewood,2638,Miscellaneous Crimes,74054,0.03562265373916331
+Sunday,3,Grand Crossing / Jackson Park,4267,Miscellaneous Crimes,74054,0.057620115051178866
+Sunday,4,Avalon Park / Burnside,4920,Miscellaneous Crimes,74054,0.06643800469927351
+Sunday,5,Burnside / Pullman,3767,Miscellaneous Crimes,74054,0.05086828530531774
+Sunday,6,Auburn Gresham / Chatham,4652,Miscellaneous Crimes,74054,0.06281902395549194
+Sunday,7,Englewood / Grand Crossing,4132,Miscellaneous Crimes,74054,0.055797121019796364
+Sunday,8,Archer Heights / Ashburn,5395,Miscellaneous Crimes,74054,0.07285224295784158
+Sunday,9,Armour Square / Bridgeport,3457,Miscellaneous Crimes,74054,0.04668215086288384
+Sunday,10,Little Village / Lower West Side,3390,Miscellaneous Crimes,74054,0.04577740567693845
+Sunday,11,Austin / Garfield Park,3815,Miscellaneous Crimes,74054,0.05151646096092041
+Sunday,12,East Village / Garfield Park,2011,Miscellaneous Crimes,74054,0.027155859237853457
+Sunday,13,East Village / Garfield Park,824,Miscellaneous Crimes,74054,0.011127015421179139
+Sunday,14,Avondale / Bucktown,2327,Miscellaneous Crimes,74054,0.03142301563723769
+Sunday,15,Austin,3163,Miscellaneous Crimes,74054,0.0427120749723175
+Sunday,16,Dunning / Edison Park,3999,Miscellaneous Crimes,74054,0.0540011343073973
+Sunday,17,Albany Park / Avondale,2195,Miscellaneous Crimes,74054,0.029640532584330352
+Sunday,18,Lincoln Park / Magnificent Mile,1838,Miscellaneous Crimes,74054,0.02481972614578551
+Sunday,19,Lake View / Lincoln Park,1863,Miscellaneous Crimes,74054,0.025157317633078564
+Sunday,20,Andersonville / Edgewater,1485,Miscellaneous Crimes,74054,0.02005293434520755
+Sunday,21,Chinatown / Douglas,1029,Miscellaneous Crimes,74054,0.013895265616982202
+Sunday,22,Auburn Gresham / Beverly,3038,Miscellaneous Crimes,74054,0.041024117535852216
+Sunday,23,Boystown / Lake View,848,Miscellaneous Crimes,74054,0.011451103248980474
+Sunday,24,Edgewater / Rogers Park,2554,Miscellaneous Crimes,74054,0.03448834634185864
+Sunday,25,Austin / Avondale,4883,Miscellaneous Crimes,74054,0.06593836929807978
+Thursday,1,Douglas / Loop,2467,Miscellaneous Crimes,77997,0.03162942164442222
+Thursday,2,Douglas / Englewood,2710,Miscellaneous Crimes,77997,0.03474492608690078
+Thursday,3,Grand Crossing / Jackson Park,4484,Miscellaneous Crimes,77997,0.05748939061758786
+Thursday,4,Avalon Park / Burnside,5111,Miscellaneous Crimes,77997,0.0655281613395387
+Thursday,5,Burnside / Pullman,3822,Miscellaneous Crimes,77997,0.04900188468787261
+Thursday,6,Auburn Gresham / Chatham,4747,Miscellaneous Crimes,77997,0.06086131517878893
+Thursday,7,Englewood / Grand Crossing,4182,Miscellaneous Crimes,77997,0.05361744682487788
+Thursday,8,Archer Heights / Ashburn,5570,Miscellaneous Crimes,77997,0.07141300306422042
+Thursday,9,Armour Square / Bridgeport,3540,Miscellaneous Crimes,77997,0.04538636101388515
+Thursday,10,Little Village / Lower West Side,3478,Miscellaneous Crimes,77997,0.04459145864584535
+Thursday,11,Austin / Garfield Park,3904,Miscellaneous Crimes,77997,0.05005320717463492
+Thursday,12,East Village / Garfield Park,2209,Miscellaneous Crimes,77997,0.02832160211290178
+Thursday,13,East Village / Garfield Park,926,Miscellaneous Crimes,77997,0.011872251496852443
+Thursday,14,Avondale / Bucktown,2454,Miscellaneous Crimes,77997,0.031462748567252584
+Thursday,15,Austin,3288,Miscellaneous Crimes,77997,0.04215546751798146
+Thursday,16,Dunning / Edison Park,4091,Miscellaneous Crimes,77997,0.052450735284690436
+Thursday,17,Albany Park / Avondale,2382,Miscellaneous Crimes,77997,0.03053963613985153
+Thursday,18,Lincoln Park / Magnificent Mile,2145,Miscellaneous Crimes,77997,0.02750105773298973
+Thursday,19,Lake View / Lincoln Park,1989,Miscellaneous Crimes,77997,0.025500980806954114
+Thursday,20,Andersonville / Edgewater,1537,Miscellaneous Crimes,77997,0.019705886123825275
+Thursday,21,Chinatown / Douglas,1144,Miscellaneous Crimes,77997,0.014667230790927856
+Thursday,22,Auburn Gresham / Beverly,3167,Miscellaneous Crimes,77997,0.04060412579971025
+Thursday,23,Boystown / Lake View,894,Miscellaneous Crimes,77997,0.011461979306896419
+Thursday,24,Edgewater / Rogers Park,2636,Miscellaneous Crimes,77997,0.03379617164762747
+Thursday,25,Austin / Avondale,5120,Miscellaneous Crimes,77997,0.06564355039296384
+Tuesday,1,Douglas / Loop,2560,Miscellaneous Crimes,80370,0.03185268134876198
+Tuesday,2,Douglas / Englewood,2919,Miscellaneous Crimes,80370,0.03631952220977977
+Tuesday,3,Grand Crossing / Jackson Park,4752,Miscellaneous Crimes,80370,0.05912653975363942
+Tuesday,4,Avalon Park / Burnside,5166,Miscellaneous Crimes,80370,0.06427771556550951
+Tuesday,5,Burnside / Pullman,3895,Miscellaneous Crimes,80370,0.04846335697399527
+Tuesday,6,Auburn Gresham / Chatham,5022,Miscellaneous Crimes,80370,0.06248600223964166
+Tuesday,7,Englewood / Grand Crossing,4477,Miscellaneous Crimes,80370,0.05570486499937788
+Tuesday,8,Archer Heights / Ashburn,5590,Miscellaneous Crimes,80370,0.06955331591389823
+Tuesday,9,Armour Square / Bridgeport,3640,Miscellaneous Crimes,80370,0.045290531292770934
+Tuesday,10,Little Village / Lower West Side,3513,Miscellaneous Crimes,80370,0.043710339678984696
+Tuesday,11,Austin / Garfield Park,4140,Miscellaneous Crimes,80370,0.051511758118701005
+Tuesday,12,East Village / Garfield Park,2250,Miscellaneous Crimes,80370,0.027995520716685332
+Tuesday,13,East Village / Garfield Park,913,Miscellaneous Crimes,80370,0.011359960184148313
+Tuesday,14,Avondale / Bucktown,2473,Miscellaneous Crimes,80370,0.030770187881050143
+Tuesday,15,Austin,3410,Miscellaneous Crimes,80370,0.0424287669528431
+Tuesday,16,Dunning / Edison Park,4227,Miscellaneous Crimes,80370,0.052594251586412843
+Tuesday,17,Albany Park / Avondale,2443,Miscellaneous Crimes,80370,0.030396914271494338
+Tuesday,18,Lincoln Park / Magnificent Mile,2079,Miscellaneous Crimes,80370,0.025867861142217244
+Tuesday,19,Lake View / Lincoln Park,2049,Miscellaneous Crimes,80370,0.025494587532661442
+Tuesday,20,Andersonville / Edgewater,1577,Miscellaneous Crimes,80370,0.019621749408983452
+Tuesday,21,Chinatown / Douglas,1171,Miscellaneous Crimes,80370,0.014570113226328231
+Tuesday,22,Auburn Gresham / Beverly,3287,Miscellaneous Crimes,80370,0.0408983451536643
+Tuesday,23,Boystown / Lake View,880,Miscellaneous Crimes,80370,0.01094935921363693
+Tuesday,24,Edgewater / Rogers Park,2706,Miscellaneous Crimes,80370,0.03366927958193356
+Tuesday,25,Austin / Avondale,5231,Miscellaneous Crimes,80370,0.06508647505288043
+Wednesday,1,Douglas / Loop,2553,Miscellaneous Crimes,80165,0.031846815942119376
+Wednesday,2,Douglas / Englewood,2938,Miscellaneous Crimes,80165,0.036649410590656774
+Wednesday,3,Grand Crossing / Jackson Park,4739,Miscellaneous Crimes,80165,0.05911557412836026
+Wednesday,4,Avalon Park / Burnside,5265,Miscellaneous Crimes,80165,0.06567704110272563
+Wednesday,5,Burnside / Pullman,3949,Miscellaneous Crimes,80165,0.049260899394997816
+Wednesday,6,Auburn Gresham / Chatham,4859,Miscellaneous Crimes,80165,0.0606124867460862
+Wednesday,7,Englewood / Grand Crossing,4366,Miscellaneous Crimes,80165,0.054462670741595456
+Wednesday,8,Archer Heights / Ashburn,5801,Miscellaneous Crimes,80165,0.07236325079523483
+Wednesday,9,Armour Square / Bridgeport,3527,Miscellaneous Crimes,80165,0.04399675668932826
+Wednesday,10,Little Village / Lower West Side,3564,Miscellaneous Crimes,80165,0.044458304746460425
+Wednesday,11,Austin / Garfield Park,4041,Miscellaneous Crimes,80165,0.05040853240192104
+Wednesday,12,East Village / Garfield Park,2247,Miscellaneous Crimes,80165,0.02802968876691823
+Wednesday,13,East Village / Garfield Park,954,Miscellaneous Crimes,80165,0.011900455310921225
+Wednesday,14,Avondale / Bucktown,2435,Miscellaneous Crimes,80165,0.030374851868022204
+Wednesday,15,Austin,3343,Miscellaneous Crimes,80165,0.04170149067548182
+Wednesday,16,Dunning / Edison Park,4211,Miscellaneous Crimes,80165,0.05252915861036612
+Wednesday,17,Albany Park / Avondale,2494,Miscellaneous Crimes,80165,0.03111083390507079
+Wednesday,18,Lincoln Park / Magnificent Mile,2181,Miscellaneous Crimes,80165,0.027206386827168964
+Wednesday,19,Lake View / Lincoln Park,1999,Miscellaneous Crimes,80165,0.02493606935695129
+Wednesday,20,Andersonville / Edgewater,1557,Miscellaneous Crimes,80165,0.019422441214994073
+Wednesday,21,Chinatown / Douglas,1122,Miscellaneous Crimes,80165,0.01399613297573754
+Wednesday,22,Auburn Gresham / Beverly,3250,Miscellaneous Crimes,80165,0.040541383396744214
+Wednesday,23,Boystown / Lake View,878,Miscellaneous Crimes,80165,0.010952410653028129
+Wednesday,24,Edgewater / Rogers Park,2759,Miscellaneous Crimes,80165,0.03441651593588224
+Wednesday,25,Austin / Avondale,5133,Miscellaneous Crimes,80165,0.0640304372232271
+Friday,1,Douglas / Loop,751,Public Order Crimes,42990,0.017469178878809024
+Friday,2,Douglas / Englewood,1362,Public Order Crimes,42990,0.0316817864619679
+Friday,3,Grand Crossing / Jackson Park,1892,Public Order Crimes,42990,0.044010234938357755
+Friday,4,Avalon Park / Burnside,2333,Public Order Crimes,42990,0.05426843451965573
+Friday,5,Burnside / Pullman,2195,Public Order Crimes,42990,0.0510583856710863
+Friday,6,Auburn Gresham / Chatham,2366,Public Order Crimes,42990,0.05503605489648755
+Friday,7,Englewood / Grand Crossing,3206,Public Order Crimes,42990,0.07457548267038847
+Friday,8,Archer Heights / Ashburn,2944,Public Order Crimes,42990,0.06848104210281461
+Friday,9,Armour Square / Bridgeport,2674,Public Order Crimes,42990,0.06220051174691789
+Friday,10,Little Village / Lower West Side,2753,Public Order Crimes,42990,0.06403814840660618
+Friday,11,Austin / Garfield Park,4603,Public Order Crimes,42990,0.1070714119562689
+Friday,12,East Village / Garfield Park,1334,Public Order Crimes,42990,0.031030472202837868
+Friday,13,East Village / Garfield Park,757,Public Order Crimes,42990,0.017608746220051173
+Friday,14,Avondale / Bucktown,1541,Public Order Crimes,42990,0.03584554547569202
+Friday,15,Austin,2119,Public Order Crimes,42990,0.04929053268201907
+Friday,16,Dunning / Edison Park,759,Public Order Crimes,42990,0.01765526866713189
+Friday,17,Albany Park / Avondale,932,Public Order Crimes,42990,0.021679460339613862
+Friday,18,Lincoln Park / Magnificent Mile,1674,Public Order Crimes,42990,0.03893928820655967
+Friday,19,Lake View / Lincoln Park,686,Public Order Crimes,42990,0.015957199348685742
+Friday,20,Andersonville / Edgewater,492,Public Order Crimes,42990,0.011444521981856245
+Friday,21,Chinatown / Douglas,225,Public Order Crimes,42990,0.0052337752965806
+Friday,22,Auburn Gresham / Beverly,1036,Public Order Crimes,42990,0.02409862758781112
+Friday,23,Boystown / Lake View,377,Public Order Crimes,42990,0.00876948127471505
+Friday,24,Edgewater / Rogers Park,771,Public Order Crimes,42990,0.017934403349616188
+Friday,25,Austin / Avondale,3208,Public Order Crimes,42990,0.07462200511746918
+Monday,1,Douglas / Loop,626,Public Order Crimes,33178,0.018867924528301886
+Monday,2,Douglas / Englewood,1343,Public Order Crimes,33178,0.0404786304177467
+Monday,3,Grand Crossing / Jackson Park,1694,Public Order Crimes,33178,0.0510579299535837
+Monday,4,Avalon Park / Burnside,1955,Public Order Crimes,33178,0.058924588582795825
+Monday,5,Burnside / Pullman,1747,Public Order Crimes,33178,0.05265537404304057
+Monday,6,Auburn Gresham / Chatham,2026,Public Order Crimes,33178,0.06106456085357767
+Monday,7,Englewood / Grand Crossing,2610,Public Order Crimes,33178,0.07866658629212128
+Monday,8,Archer Heights / Ashburn,2350,Public Order Crimes,33178,0.07083006811742722
+Monday,9,Armour Square / Bridgeport,2297,Public Order Crimes,33178,0.06923262402797034
+Monday,10,Little Village / Lower West Side,1853,Public Order Crimes,33178,0.05585026222195431
+Monday,11,Austin / Garfield Park,2722,Public Order Crimes,33178,0.08204231719814335
+Monday,12,East Village / Garfield Park,962,Public Order Crimes,33178,0.028995117246368076
+Monday,13,East Village / Garfield Park,520,Public Order Crimes,33178,0.015673036349388148
+Monday,14,Avondale / Bucktown,1008,Public Order Crimes,33178,0.030381578154198566
+Monday,15,Austin,1627,Public Order Crimes,33178,0.049038519500874074
+Monday,16,Dunning / Edison Park,630,Public Order Crimes,33178,0.018988486346374102
+Monday,17,Albany Park / Avondale,726,Public Order Crimes,33178,0.0218819699801073
+Monday,18,Lincoln Park / Magnificent Mile,1092,Public Order Crimes,33178,0.03291337633371511
+Monday,19,Lake View / Lincoln Park,444,Public Order Crimes,33178,0.013382361806016034
+Monday,20,Andersonville / Edgewater,419,Public Order Crimes,33178,0.012628850443064681
+Monday,21,Chinatown / Douglas,225,Public Order Crimes,33178,0.00678160226656218
+Monday,22,Auburn Gresham / Beverly,950,Public Order Crimes,33178,0.028633431792151425
+Monday,23,Boystown / Lake View,353,Public Order Crimes,33178,0.010639580444873108
+Monday,24,Edgewater / Rogers Park,679,Public Order Crimes,33178,0.020465368617758755
+Monday,25,Austin / Avondale,2320,Public Order Crimes,33178,0.06992585448188558
+Saturday,1,Douglas / Loop,783,Public Order Crimes,38799,0.020180932498260265
+Saturday,2,Douglas / Englewood,1303,Public Order Crimes,38799,0.03358333977679837
+Saturday,3,Grand Crossing / Jackson Park,1737,Public Order Crimes,38799,0.04476919508234748
+Saturday,4,Avalon Park / Burnside,1964,Public Order Crimes,38799,0.05061986133663239
+Saturday,5,Burnside / Pullman,1931,Public Order Crimes,38799,0.04976932395164824
+Saturday,6,Auburn Gresham / Chatham,2236,Public Order Crimes,38799,0.05763035129771386
+Saturday,7,Englewood / Grand Crossing,2902,Public Order Crimes,38799,0.07479574215830305
+Saturday,8,Archer Heights / Ashburn,2534,Public Order Crimes,38799,0.06531096162272224
+Saturday,9,Armour Square / Bridgeport,2592,Public Order Crimes,38799,0.06680584551148225
+Saturday,10,Little Village / Lower West Side,2722,Public Order Crimes,38799,0.07015644733111678
+Saturday,11,Austin / Garfield Park,4058,Public Order Crimes,38799,0.1045903244928993
+Saturday,12,East Village / Garfield Park,1110,Public Order Crimes,38799,0.02860898476764865
+Saturday,13,East Village / Garfield Park,548,Public Order Crimes,38799,0.014124075362767082
+Saturday,14,Avondale / Bucktown,1555,Public Order Crimes,38799,0.04007835253485915
+Saturday,15,Austin,2163,Public Order Crimes,38799,0.055748859506688314
+Saturday,16,Dunning / Edison Park,593,Public Order Crimes,38799,0.015283899069563648
+Saturday,17,Albany Park / Avondale,718,Public Order Crimes,38799,0.018505631588443
+Saturday,18,Lincoln Park / Magnificent Mile,1634,Public Order Crimes,38799,0.0421144874867909
+Saturday,19,Lake View / Lincoln Park,732,Public Order Crimes,38799,0.018866465630557487
+Saturday,20,Andersonville / Edgewater,422,Public Order Crimes,38799,0.010876568983736694
+Saturday,21,Chinatown / Douglas,164,Public Order Crimes,38799,0.004226913064769711
+Saturday,22,Auburn Gresham / Beverly,874,Public Order Crimes,38799,0.02252635377200443
+Saturday,23,Boystown / Lake View,434,Public Order Crimes,38799,0.011185855305549112
+Saturday,24,Edgewater / Rogers Park,700,Public Order Crimes,38799,0.018041702105724373
+Saturday,25,Austin / Avondale,2390,Public Order Crimes,38799,0.061599525760973224
+Sunday,1,Douglas / Loop,589,Public Order Crimes,33797,0.017427582329792586
+Sunday,2,Douglas / Englewood,1245,Public Order Crimes,33797,0.036837589135130334
+Sunday,3,Grand Crossing / Jackson Park,1650,Public Order Crimes,33797,0.048820901263425746
+Sunday,4,Avalon Park / Burnside,1788,Public Order Crimes,33797,0.052904103914548625
+Sunday,5,Burnside / Pullman,1987,Public Order Crimes,33797,0.05879220049116785
+Sunday,6,Auburn Gresham / Chatham,1960,Public Order Crimes,33797,0.057993313015948164
+Sunday,7,Englewood / Grand Crossing,2504,Public Order Crimes,33797,0.07408941622037458
+Sunday,8,Archer Heights / Ashburn,2655,Public Order Crimes,33797,0.07855726839660325
+Sunday,9,Armour Square / Bridgeport,2328,Public Order Crimes,33797,0.06888185341894251
+Sunday,10,Little Village / Lower West Side,2302,Public Order Crimes,33797,0.06811255436873095
+Sunday,11,Austin / Garfield Park,2920,Public Order Crimes,33797,0.0863982010237595
+Sunday,12,East Village / Garfield Park,922,Public Order Crimes,33797,0.027280527857502145
+Sunday,13,East Village / Garfield Park,430,Public Order Crimes,33797,0.012723022753498832
+Sunday,14,Avondale / Bucktown,1212,Public Order Crimes,33797,0.035861171109861825
+Sunday,15,Austin,1681,Public Order Crimes,33797,0.04973814243867799
+Sunday,16,Dunning / Edison Park,582,Public Order Crimes,33797,0.017220463354735628
+Sunday,17,Albany Park / Avondale,610,Public Order Crimes,33797,0.01804893925496346
+Sunday,18,Lincoln Park / Magnificent Mile,1261,Public Order Crimes,33797,0.037311003935260524
+Sunday,19,Lake View / Lincoln Park,586,Public Order Crimes,33797,0.017338817054768176
+Sunday,20,Andersonville / Edgewater,362,Public Order Crimes,33797,0.010711009852945527
+Sunday,21,Chinatown / Douglas,151,Public Order Crimes,33797,0.00446785217622866
+Sunday,22,Auburn Gresham / Beverly,768,Public Order Crimes,33797,0.022723910406249076
+Sunday,23,Boystown / Lake View,341,Public Order Crimes,33797,0.010089652927774655
+Sunday,24,Edgewater / Rogers Park,626,Public Order Crimes,33797,0.018522354055093646
+Sunday,25,Austin / Avondale,2337,Public Order Crimes,33797,0.06914814924401574
+Thursday,1,Douglas / Loop,752,Public Order Crimes,40634,0.01850666929172614
+Thursday,2,Douglas / Englewood,1559,Public Order Crimes,40634,0.03836688487473544
+Thursday,3,Grand Crossing / Jackson Park,1818,Public Order Crimes,40634,0.0447408574100507
+Thursday,4,Avalon Park / Burnside,2154,Public Order Crimes,40634,0.05300979475316238
+Thursday,5,Burnside / Pullman,2080,Public Order Crimes,40634,0.0511886597430723
+Thursday,6,Auburn Gresham / Chatham,2160,Public Order Crimes,40634,0.053157454348575085
+Thursday,7,Englewood / Grand Crossing,3098,Public Order Crimes,40634,0.07624157109809519
+Thursday,8,Archer Heights / Ashburn,2824,Public Order Crimes,40634,0.06949844957424817
+Thursday,9,Armour Square / Bridgeport,2512,Public Order Crimes,40634,0.06182015061278732
+Thursday,10,Little Village / Lower West Side,2282,Public Order Crimes,40634,0.05615986612196683
+Thursday,11,Austin / Garfield Park,4212,Public Order Crimes,40634,0.10365703597972141
+Thursday,12,East Village / Garfield Park,1150,Public Order Crimes,40634,0.028301422454102474
+Thursday,13,East Village / Garfield Park,766,Public Order Crimes,40634,0.01885120834768913
+Thursday,14,Avondale / Bucktown,1551,Public Order Crimes,40634,0.038170005414185165
+Thursday,15,Austin,1927,Public Order Crimes,40634,0.04742334006004824
+Thursday,16,Dunning / Edison Park,743,Public Order Crimes,40634,0.018285179898607076
+Thursday,17,Albany Park / Avondale,807,Public Order Crimes,40634,0.0198602155830093
+Thursday,18,Lincoln Park / Magnificent Mile,1663,Public Order Crimes,40634,0.04092631786188906
+Thursday,19,Lake View / Lincoln Park,555,Public Order Crimes,40634,0.013658512575675543
+Thursday,20,Andersonville / Edgewater,434,Public Order Crimes,40634,0.010680710734852586
+Thursday,21,Chinatown / Douglas,236,Public Order Crimes,40634,0.0058079440862332035
+Thursday,22,Auburn Gresham / Beverly,982,Public Order Crimes,40634,0.024166953782546637
+Thursday,23,Boystown / Lake View,383,Public Order Crimes,40634,0.009425604173844564
+Thursday,24,Edgewater / Rogers Park,813,Public Order Crimes,40634,0.02000787517842201
+Thursday,25,Austin / Avondale,3173,Public Order Crimes,40634,0.07808731604075404
+Tuesday,1,Douglas / Loop,780,Public Order Crimes,40496,0.019261161596207034
+Tuesday,2,Douglas / Englewood,1805,Public Order Crimes,40496,0.04457230343737653
+Tuesday,3,Grand Crossing / Jackson Park,1825,Public Order Crimes,40496,0.04506617937574081
+Tuesday,4,Avalon Park / Burnside,2215,Public Order Crimes,40496,0.05469676017384433
+Tuesday,5,Burnside / Pullman,2062,Public Order Crimes,40496,0.050918609245357564
+Tuesday,6,Auburn Gresham / Chatham,2154,Public Order Crimes,40496,0.05319043856183327
+Tuesday,7,Englewood / Grand Crossing,3368,Public Order Crimes,40496,0.08316870802054524
+Tuesday,8,Archer Heights / Ashburn,2665,Public Order Crimes,40496,0.06580896878704069
+Tuesday,9,Armour Square / Bridgeport,2620,Public Order Crimes,40496,0.06469774792572106
+Tuesday,10,Little Village / Lower West Side,2346,Public Order Crimes,40496,0.05793164757013038
+Tuesday,11,Austin / Garfield Park,4285,Public Order Crimes,40496,0.10581291979454761
+Tuesday,12,East Village / Garfield Park,1096,Public Order Crimes,40496,0.027064401422362702
+Tuesday,13,East Village / Garfield Park,723,Public Order Crimes,40496,0.017853615171868828
+Tuesday,14,Avondale / Bucktown,1375,Public Order Crimes,40496,0.03395397076254445
+Tuesday,15,Austin,1942,Public Order Crimes,40496,0.04795535361517187
+Tuesday,16,Dunning / Edison Park,671,Public Order Crimes,40496,0.016569537732121692
+Tuesday,17,Albany Park / Avondale,834,Public Order Crimes,40496,0.020594626629790596
+Tuesday,18,Lincoln Park / Magnificent Mile,1345,Public Order Crimes,40496,0.033213156854998024
+Tuesday,19,Lake View / Lincoln Park,537,Public Order Crimes,40496,0.013260568945080996
+Tuesday,20,Andersonville / Edgewater,447,Public Order Crimes,40496,0.011038127222441723
+Tuesday,21,Chinatown / Douglas,240,Public Order Crimes,40496,0.005926511260371394
+Tuesday,22,Auburn Gresham / Beverly,958,Public Order Crimes,40496,0.02365665744764915
+Tuesday,23,Boystown / Lake View,412,Public Order Crimes,40496,0.010173844330304228
+Tuesday,24,Edgewater / Rogers Park,827,Public Order Crimes,40496,0.020421770051363097
+Tuesday,25,Austin / Avondale,2964,Public Order Crimes,40496,0.07319241406558673
+Wednesday,1,Douglas / Loop,773,Public Order Crimes,41396,0.01867330176828679
+Wednesday,2,Douglas / Englewood,1699,Public Order Crimes,41396,0.041042612812832155
+Wednesday,3,Grand Crossing / Jackson Park,1968,Public Order Crimes,41396,0.047540825200502464
+Wednesday,4,Avalon Park / Burnside,2243,Public Order Crimes,41396,0.05418397912841821
+Wednesday,5,Burnside / Pullman,2116,Public Order Crimes,41396,0.051116049859889844
+Wednesday,6,Auburn Gresham / Chatham,2167,Public Order Crimes,41396,0.05234805295197604
+Wednesday,7,Englewood / Grand Crossing,3276,Public Order Crimes,41396,0.07913808097400715
+Wednesday,8,Archer Heights / Ashburn,2788,Public Order Crimes,41396,0.0673495023673785
+Wednesday,9,Armour Square / Bridgeport,2586,Public Order Crimes,41396,0.0624698038457822
+Wednesday,10,Little Village / Lower West Side,2216,Public Order Crimes,41396,0.05353174219731375
+Wednesday,11,Austin / Garfield Park,4386,Public Order Crimes,41396,0.10595226591941251
+Wednesday,12,East Village / Garfield Park,1064,Public Order Crimes,41396,0.025702966470190356
+Wednesday,13,East Village / Garfield Park,751,Public Order Crimes,41396,0.018141849454053532
+Wednesday,14,Avondale / Bucktown,1480,Public Order Crimes,41396,0.035752246593873806
+Wednesday,15,Austin,2047,Public Order Crimes,41396,0.04944922214706735
+Wednesday,16,Dunning / Edison Park,737,Public Order Crimes,41396,0.017803652526814186
+Wednesday,17,Albany Park / Avondale,803,Public Order Crimes,41396,0.019398009469513963
+Wednesday,18,Lincoln Park / Magnificent Mile,1537,Public Order Crimes,41396,0.03712919122620543
+Wednesday,19,Lake View / Lincoln Park,587,Public Order Crimes,41396,0.014180114020678326
+Wednesday,20,Andersonville / Edgewater,481,Public Order Crimes,41396,0.011619480143008986
+Wednesday,21,Chinatown / Douglas,236,Public Order Crimes,41396,0.005701033916320417
+Wednesday,22,Auburn Gresham / Beverly,1018,Public Order Crimes,41396,0.02459174799497536
+Wednesday,23,Boystown / Lake View,411,Public Order Crimes,41396,0.009928495506812253
+Wednesday,24,Edgewater / Rogers Park,890,Public Order Crimes,41396,0.02149966180307276
+Wednesday,25,Austin / Avondale,3136,Public Order Crimes,41396,0.07575611170161368
+Friday,1,Douglas / Loop,5324,White Collar Crimes,59717,0.08915384228946531
+Friday,2,Douglas / Englewood,2020,White Collar Crimes,59717,0.03382621364100675
+Friday,3,Grand Crossing / Jackson Park,2175,White Collar Crimes,59717,0.03642178944019291
+Friday,4,Avalon Park / Burnside,2611,White Collar Crimes,59717,0.043722892978548825
+Friday,5,Burnside / Pullman,1776,White Collar Crimes,59717,0.02974027496357821
+Friday,6,Auburn Gresham / Chatham,3107,White Collar Crimes,59717,0.05202873553594454
+Friday,7,Englewood / Grand Crossing,1888,White Collar Crimes,59717,0.03161578779911918
+Friday,8,Archer Heights / Ashburn,3951,White Collar Crimes,59717,0.06616206440377112
+Friday,9,Armour Square / Bridgeport,2246,White Collar Crimes,59717,0.037610730612723346
+Friday,10,Little Village / Lower West Side,1445,White Collar Crimes,59717,0.024197464708541956
+Friday,11,Austin / Garfield Park,2107,White Collar Crimes,59717,0.035283085218614466
+Friday,12,East Village / Garfield Park,2490,White Collar Crimes,59717,0.04169666929015188
+Friday,13,East Village / Garfield Park,540,White Collar Crimes,59717,0.009042651171358239
+Friday,14,Avondale / Bucktown,2113,White Collar Crimes,59717,0.035383559120518444
+Friday,15,Austin,1451,White Collar Crimes,59717,0.024297938610445935
+Friday,16,Dunning / Edison Park,3114,White Collar Crimes,59717,0.05214595508816585
+Friday,17,Albany Park / Avondale,1799,White Collar Crimes,59717,0.030125424920876803
+Friday,18,Lincoln Park / Magnificent Mile,5524,White Collar Crimes,59717,0.09250297235293133
+Friday,19,Lake View / Lincoln Park,3461,White Collar Crimes,59717,0.057956695748279385
+Friday,20,Andersonville / Edgewater,1522,White Collar Crimes,59717,0.02548687978297637
+Friday,21,Chinatown / Douglas,690,White Collar Crimes,59717,0.01155449871895775
+Friday,22,Auburn Gresham / Beverly,2257,White Collar Crimes,59717,0.03779493276621398
+Friday,23,Boystown / Lake View,987,White Collar Crimes,59717,0.016527956863204782
+Friday,24,Edgewater / Rogers Park,2092,White Collar Crimes,59717,0.035031900463854515
+Friday,25,Austin / Avondale,3027,White Collar Crimes,59717,0.05068908351055813
+Monday,1,Douglas / Loop,4803,White Collar Crimes,57169,0.08401406356591859
+Monday,2,Douglas / Englewood,1986,White Collar Crimes,57169,0.03473910685861219
+Monday,3,Grand Crossing / Jackson Park,2119,White Collar Crimes,57169,0.03706554251429971
+Monday,4,Avalon Park / Burnside,2691,White Collar Crimes,57169,0.04707096503349718
+Monday,5,Burnside / Pullman,1702,White Collar Crimes,57169,0.02977137959383582
+Monday,6,Auburn Gresham / Chatham,2963,White Collar Crimes,57169,0.05182878832933933
+Monday,7,Englewood / Grand Crossing,1706,White Collar Crimes,57169,0.029841347583480556
+Monday,8,Archer Heights / Ashburn,4156,White Collar Crimes,57169,0.0726967412408823
+Monday,9,Armour Square / Bridgeport,2177,White Collar Crimes,57169,0.0380800783641484
+Monday,10,Little Village / Lower West Side,1375,White Collar Crimes,57169,0.024051496440378527
+Monday,11,Austin / Garfield Park,1937,White Collar Crimes,57169,0.03388199898546415
+Monday,12,East Village / Garfield Park,2242,White Collar Crimes,57169,0.039217058195875384
+Monday,13,East Village / Garfield Park,496,White Collar Crimes,57169,0.008676030715947454
+Monday,14,Avondale / Bucktown,2082,White Collar Crimes,57169,0.036418338610085886
+Monday,15,Austin,1299,White Collar Crimes,57169,0.022722104637128513
+Monday,16,Dunning / Edison Park,3145,White Collar Crimes,57169,0.05501233185817488
+Monday,17,Albany Park / Avondale,1856,White Collar Crimes,57169,0.032465147195158216
+Monday,18,Lincoln Park / Magnificent Mile,4432,White Collar Crimes,57169,0.07752453252636919
+Monday,19,Lake View / Lincoln Park,3415,White Collar Crimes,57169,0.05973517115919467
+Monday,20,Andersonville / Edgewater,1543,White Collar Crimes,57169,0.026990152005457502
+Monday,21,Chinatown / Douglas,619,White Collar Crimes,57169,0.010827546397523133
+Monday,22,Auburn Gresham / Beverly,2318,White Collar Crimes,57169,0.0405464499991254
+Monday,23,Boystown / Lake View,997,White Collar Crimes,57169,0.01743952141895083
+Monday,24,Edgewater / Rogers Park,2150,White Collar Crimes,57169,0.037607794434046424
+Monday,25,Austin / Avondale,2960,White Collar Crimes,57169,0.05177631233710577
+Saturday,1,Douglas / Loop,3696,White Collar Crimes,43720,0.08453796889295517
+Saturday,2,Douglas / Englewood,1301,White Collar Crimes,43720,0.02975754803293687
+Saturday,3,Grand Crossing / Jackson Park,1504,White Collar Crimes,43720,0.0344007319304666
+Saturday,4,Avalon Park / Burnside,1678,White Collar Crimes,43720,0.03838060384263495
+Saturday,5,Burnside / Pullman,1095,White Collar Crimes,43720,0.025045745654162854
+Saturday,6,Auburn Gresham / Chatham,2040,White Collar Crimes,43720,0.04666056724611162
+Saturday,7,Englewood / Grand Crossing,1185,White Collar Crimes,43720,0.02710430009149131
+Saturday,8,Archer Heights / Ashburn,2852,White Collar Crimes,43720,0.06523330283623056
+Saturday,9,Armour Square / Bridgeport,1599,White Collar Crimes,43720,0.036573650503202194
+Saturday,10,Little Village / Lower West Side,975,White Collar Crimes,43720,0.022301006404391584
+Saturday,11,Austin / Garfield Park,1361,White Collar Crimes,43720,0.03112991765782251
+Saturday,12,East Village / Garfield Park,1760,White Collar Crimes,43720,0.04025617566331199
+Saturday,13,East Village / Garfield Park,435,White Collar Crimes,43720,0.00994967978042086
+Saturday,14,Avondale / Bucktown,1683,White Collar Crimes,43720,0.03849496797804208
+Saturday,15,Austin,975,White Collar Crimes,43720,0.022301006404391584
+Saturday,16,Dunning / Edison Park,2240,White Collar Crimes,43720,0.05123513266239707
+Saturday,17,Albany Park / Avondale,1280,White Collar Crimes,43720,0.0292772186642269
+Saturday,18,Lincoln Park / Magnificent Mile,5385,White Collar Crimes,43720,0.12317017383348582
+Saturday,19,Lake View / Lincoln Park,3149,White Collar Crimes,43720,0.07202653247941446
+Saturday,20,Andersonville / Edgewater,1120,White Collar Crimes,43720,0.025617566331198535
+Saturday,21,Chinatown / Douglas,485,White Collar Crimes,43720,0.011093321134492223
+Saturday,22,Auburn Gresham / Beverly,1461,White Collar Crimes,43720,0.03341720036596523
+Saturday,23,Boystown / Lake View,801,White Collar Crimes,43720,0.018321134492223237
+Saturday,24,Edgewater / Rogers Park,1491,White Collar Crimes,43720,0.03410338517840805
+Saturday,25,Austin / Avondale,2169,White Collar Crimes,43720,0.04961116193961573
+Sunday,1,Douglas / Loop,2988,White Collar Crimes,34900,0.0856160458452722
+Sunday,2,Douglas / Englewood,1088,White Collar Crimes,34900,0.031174785100286533
+Sunday,3,Grand Crossing / Jackson Park,1183,White Collar Crimes,34900,0.033896848137535816
+Sunday,4,Avalon Park / Burnside,1280,White Collar Crimes,34900,0.03667621776504298
+Sunday,5,Burnside / Pullman,861,White Collar Crimes,34900,0.024670487106017193
+Sunday,6,Auburn Gresham / Chatham,1556,White Collar Crimes,34900,0.044584527220630374
+Sunday,7,Englewood / Grand Crossing,886,White Collar Crimes,34900,0.025386819484240687
+Sunday,8,Archer Heights / Ashburn,2120,White Collar Crimes,34900,0.06074498567335244
+Sunday,9,Armour Square / Bridgeport,1279,White Collar Crimes,34900,0.03664756446991404
+Sunday,10,Little Village / Lower West Side,793,White Collar Crimes,34900,0.022722063037249284
+Sunday,11,Austin / Garfield Park,1012,White Collar Crimes,34900,0.028997134670487108
+Sunday,12,East Village / Garfield Park,1476,White Collar Crimes,34900,0.042292263610315184
+Sunday,13,East Village / Garfield Park,313,White Collar Crimes,34900,0.008968481375358167
+Sunday,14,Avondale / Bucktown,1462,White Collar Crimes,34900,0.04189111747851003
+Sunday,15,Austin,699,White Collar Crimes,34900,0.02002865329512894
+Sunday,16,Dunning / Edison Park,1921,White Collar Crimes,34900,0.05504297994269341
+Sunday,17,Albany Park / Avondale,1068,White Collar Crimes,34900,0.030601719197707735
+Sunday,18,Lincoln Park / Magnificent Mile,4256,White Collar Crimes,34900,0.12194842406876791
+Sunday,19,Lake View / Lincoln Park,2612,White Collar Crimes,34900,0.07484240687679083
+Sunday,20,Andersonville / Edgewater,982,White Collar Crimes,34900,0.02813753581661891
+Sunday,21,Chinatown / Douglas,404,White Collar Crimes,34900,0.01157593123209169
+Sunday,22,Auburn Gresham / Beverly,1146,White Collar Crimes,34900,0.032836676217765044
+Sunday,23,Boystown / Lake View,693,White Collar Crimes,34900,0.0198567335243553
+Sunday,24,Edgewater / Rogers Park,1172,White Collar Crimes,34900,0.03358166189111748
+Sunday,25,Austin / Avondale,1650,White Collar Crimes,34900,0.04727793696275072
+Thursday,1,Douglas / Loop,5087,White Collar Crimes,55709,0.09131379130840618
+Thursday,2,Douglas / Englewood,1831,White Collar Crimes,55709,0.032867220736326266
+Thursday,3,Grand Crossing / Jackson Park,1988,White Collar Crimes,55709,0.03568543682349351
+Thursday,4,Avalon Park / Burnside,2436,White Collar Crimes,55709,0.04372722540343571
+Thursday,5,Burnside / Pullman,1558,White Collar Crimes,55709,0.02796675582042399
+Thursday,6,Auburn Gresham / Chatham,2993,White Collar Crimes,55709,0.053725609865551346
+Thursday,7,Englewood / Grand Crossing,1723,White Collar Crimes,55709,0.0309285752750902
+Thursday,8,Archer Heights / Ashburn,3737,White Collar Crimes,55709,0.06708072304295536
+Thursday,9,Armour Square / Bridgeport,2007,White Collar Crimes,55709,0.03602649482130356
+Thursday,10,Little Village / Lower West Side,1372,White Collar Crimes,55709,0.024627977526072986
+Thursday,11,Austin / Garfield Park,2185,White Collar Crimes,55709,0.039221669748155594
+Thursday,12,East Village / Garfield Park,2183,White Collar Crimes,55709,0.03918576890628085
+Thursday,13,East Village / Garfield Park,488,White Collar Crimes,55709,0.008759805417437039
+Thursday,14,Avondale / Bucktown,1990,White Collar Crimes,55709,0.03572133766536825
+Thursday,15,Austin,1334,White Collar Crimes,55709,0.02394586153045289
+Thursday,16,Dunning / Edison Park,3037,White Collar Crimes,55709,0.05451542838679567
+Thursday,17,Albany Park / Avondale,1715,White Collar Crimes,55709,0.030784971907591233
+Thursday,18,Lincoln Park / Magnificent Mile,4788,White Collar Crimes,55709,0.08594661544813226
+Thursday,19,Lake View / Lincoln Park,3276,White Collar Crimes,55709,0.058805578990827334
+Thursday,20,Andersonville / Edgewater,1426,White Collar Crimes,55709,0.02559730025669102
+Thursday,21,Chinatown / Douglas,653,White Collar Crimes,55709,0.01172162487210325
+Thursday,22,Auburn Gresham / Beverly,2104,White Collar Crimes,55709,0.037767685652228544
+Thursday,23,Boystown / Lake View,1011,White Collar Crimes,55709,0.018147875567682062
+Thursday,24,Edgewater / Rogers Park,1953,White Collar Crimes,55709,0.035057172090685526
+Thursday,25,Austin / Avondale,2834,White Collar Crimes,55709,0.05087149293650936
+Tuesday,1,Douglas / Loop,5227,White Collar Crimes,57027,0.09165833727883284
+Tuesday,2,Douglas / Englewood,1817,White Collar Crimes,57027,0.03186210040857839
+Tuesday,3,Grand Crossing / Jackson Park,2027,White Collar Crimes,57027,0.035544566608799344
+Tuesday,4,Avalon Park / Burnside,2590,White Collar Crimes,57027,0.045417083136058356
+Tuesday,5,Burnside / Pullman,1587,White Collar Crimes,57027,0.027828923141669737
+Tuesday,6,Auburn Gresham / Chatham,3224,White Collar Crimes,57027,0.056534623950058746
+Tuesday,7,Englewood / Grand Crossing,1701,White Collar Crimes,57027,0.02982797622178968
+Tuesday,8,Archer Heights / Ashburn,3995,White Collar Crimes,57027,0.07005453557086994
+Tuesday,9,Armour Square / Bridgeport,2119,White Collar Crimes,57027,0.03715783751556281
+Tuesday,10,Little Village / Lower West Side,1427,White Collar Crimes,57027,0.02502323460816806
+Tuesday,11,Austin / Garfield Park,2174,White Collar Crimes,57027,0.038122292948954
+Tuesday,12,East Village / Garfield Park,2261,White Collar Crimes,57027,0.03964788608904554
+Tuesday,13,East Village / Garfield Park,482,White Collar Crimes,57027,0.008452136707173794
+Tuesday,14,Avondale / Bucktown,2013,White Collar Crimes,57027,0.03529906886211794
+Tuesday,15,Austin,1388,White Collar Crimes,57027,0.02433934802812703
+Tuesday,16,Dunning / Edison Park,3049,White Collar Crimes,57027,0.053465902116541286
+Tuesday,17,Albany Park / Avondale,1801,White Collar Crimes,57027,0.03158153155522823
+Tuesday,18,Lincoln Park / Magnificent Mile,4776,White Collar Crimes,57027,0.08374980272502498
+Tuesday,19,Lake View / Lincoln Park,3247,White Collar Crimes,57027,0.05693794167674961
+Tuesday,20,Andersonville / Edgewater,1422,White Collar Crimes,57027,0.024935556841496134
+Tuesday,21,Chinatown / Douglas,626,White Collar Crimes,57027,0.010977256387325302
+Tuesday,22,Auburn Gresham / Beverly,2205,White Collar Crimes,57027,0.03866589510231996
+Tuesday,23,Boystown / Lake View,978,White Collar Crimes,57027,0.017149771161028986
+Tuesday,24,Edgewater / Rogers Park,2034,White Collar Crimes,57027,0.03566731548214004
+Tuesday,25,Austin / Avondale,2857,White Collar Crimes,57027,0.05009907587633928
+Wednesday,1,Douglas / Loop,5080,White Collar Crimes,56769,0.0894854586129754
+Wednesday,2,Douglas / Englewood,1892,White Collar Crimes,56769,0.033328048759005795
+Wednesday,3,Grand Crossing / Jackson Park,2059,White Collar Crimes,56769,0.03626979513466857
+Wednesday,4,Avalon Park / Burnside,2558,White Collar Crimes,56769,0.04505980376613997
+Wednesday,5,Burnside / Pullman,1546,White Collar Crimes,56769,0.02723317303457873
+Wednesday,6,Auburn Gresham / Chatham,3084,White Collar Crimes,56769,0.054325424087089784
+Wednesday,7,Englewood / Grand Crossing,1804,White Collar Crimes,56769,0.03177790695626134
+Wednesday,8,Archer Heights / Ashburn,3851,White Collar Crimes,56769,0.06783631911782839
+Wednesday,9,Armour Square / Bridgeport,2080,White Collar Crimes,56769,0.036639715337596225
+Wednesday,10,Little Village / Lower West Side,1375,White Collar Crimes,56769,0.024220965667882118
+Wednesday,11,Austin / Garfield Park,2117,White Collar Crimes,56769,0.03729147950465923
+Wednesday,12,East Village / Garfield Park,2367,White Collar Crimes,56769,0.04169529144427416
+Wednesday,13,East Village / Garfield Park,509,White Collar Crimes,56769,0.008966161109055999
+Wednesday,14,Avondale / Bucktown,2024,White Collar Crimes,56769,0.035653261463122476
+Wednesday,15,Austin,1305,White Collar Crimes,56769,0.022987898324789938
+Wednesday,16,Dunning / Edison Park,3051,White Collar Crimes,56769,0.053744120911060615
+Wednesday,17,Albany Park / Avondale,1772,White Collar Crimes,56769,0.03121421902799063
+Wednesday,18,Lincoln Park / Magnificent Mile,4856,White Collar Crimes,56769,0.08553964311508042
+Wednesday,19,Lake View / Lincoln Park,3330,White Collar Crimes,56769,0.05865877503567088
+Wednesday,20,Andersonville / Edgewater,1375,White Collar Crimes,56769,0.024220965667882118
+Wednesday,21,Chinatown / Douglas,665,White Collar Crimes,56769,0.011714139759375715
+Wednesday,22,Auburn Gresham / Beverly,2169,White Collar Crimes,56769,0.038207472388099135
+Wednesday,23,Boystown / Lake View,1048,White Collar Crimes,56769,0.01846077965086579
+Wednesday,24,Edgewater / Rogers Park,2073,White Collar Crimes,56769,0.036516408603287004
+Wednesday,25,Austin / Avondale,2779,White Collar Crimes,56769,0.04895277352075957
+Friday,1,Douglas / Loop,1524,Drug Offenses,117016,0.013023859984959321
+Friday,2,Douglas / Englewood,4467,Drug Offenses,117016,0.03817426676693785
+Friday,3,Grand Crossing / Jackson Park,5506,Drug Offenses,117016,0.04705339440760238
+Friday,4,Avalon Park / Burnside,5523,Drug Offenses,117016,0.047198673685649825
+Friday,5,Burnside / Pullman,4931,Drug Offenses,117016,0.04213953647364463
+Friday,6,Auburn Gresham / Chatham,6181,Drug Offenses,117016,0.05282183633007452
+Friday,7,Englewood / Grand Crossing,8229,Drug Offenses,117016,0.07032371641484925
+Friday,8,Archer Heights / Ashburn,5445,Drug Offenses,117016,0.0465320981746086
+Friday,9,Armour Square / Bridgeport,5414,Drug Offenses,117016,0.04626717713816914
+Friday,10,Little Village / Lower West Side,7779,Drug Offenses,117016,0.0664780884665345
+Friday,11,Austin / Garfield Park,20328,Drug Offenses,117016,0.17371983318520545
+Friday,12,East Village / Garfield Park,2207,Drug Offenses,117016,0.018860668626512613
+Friday,13,East Village / Garfield Park,1667,Drug Offenses,117016,0.014245915088534901
+Friday,14,Avondale / Bucktown,2551,Drug Offenses,117016,0.02180043754700212
+Friday,15,Austin,12876,Drug Offenses,117016,0.11003623436111301
+Friday,16,Dunning / Edison Park,1788,Drug Offenses,117016,0.015279961714637314
+Friday,17,Albany Park / Avondale,1630,Drug Offenses,117016,0.013929719012784576
+Friday,18,Lincoln Park / Magnificent Mile,2119,Drug Offenses,117016,0.01810863471661995
+Friday,19,Lake View / Lincoln Park,1153,Drug Offenses,117016,0.00985335338757093
+Friday,20,Andersonville / Edgewater,1413,Drug Offenses,117016,0.012075271757708348
+Friday,21,Chinatown / Douglas,1614,Drug Offenses,117016,0.013792985574622274
+Friday,22,Auburn Gresham / Beverly,2990,Drug Offenses,117016,0.025552061256580296
+Friday,23,Boystown / Lake View,1256,Drug Offenses,117016,0.010733574895740753
+Friday,24,Edgewater / Rogers Park,2365,Drug Offenses,117016,0.02021091132836535
+Friday,25,Austin / Avondale,6060,Drug Offenses,117016,0.051787789703972104
+Monday,1,Douglas / Loop,1238,Drug Offenses,102206,0.012112791812613741
+Monday,2,Douglas / Englewood,4050,Drug Offenses,102206,0.039625853668082106
+Monday,3,Grand Crossing / Jackson Park,4723,Drug Offenses,102206,0.04621059428996341
+Monday,4,Avalon Park / Burnside,4691,Drug Offenses,102206,0.04589750112517856
+Monday,5,Burnside / Pullman,4418,Drug Offenses,102206,0.043226425063107844
+Monday,6,Auburn Gresham / Chatham,5549,Drug Offenses,102206,0.054292311605972254
+Monday,7,Englewood / Grand Crossing,6858,Drug Offenses,102206,0.06709977887795238
+Monday,8,Archer Heights / Ashburn,5063,Drug Offenses,102206,0.0495372091658024
+Monday,9,Armour Square / Bridgeport,4671,Drug Offenses,102206,0.04570181789718803
+Monday,10,Little Village / Lower West Side,6223,Drug Offenses,102206,0.060886836389253074
+Monday,11,Austin / Garfield Park,17486,Drug Offenses,102206,0.17108584623211945
+Monday,12,East Village / Garfield Park,2055,Drug Offenses,102206,0.020106451676026846
+Monday,13,East Village / Garfield Park,1801,Drug Offenses,102206,0.017621274680547132
+Monday,14,Avondale / Bucktown,2170,Drug Offenses,102206,0.021231630236972387
+Monday,15,Austin,10656,Drug Offenses,102206,0.10426002387335381
+Monday,16,Dunning / Edison Park,1839,Drug Offenses,102206,0.017993072813729135
+Monday,17,Albany Park / Avondale,1558,Drug Offenses,102206,0.015243723460462204
+Monday,18,Lincoln Park / Magnificent Mile,1857,Drug Offenses,102206,0.01816918771892061
+Monday,19,Lake View / Lincoln Park,1027,Drug Offenses,102206,0.010048333757313661
+Monday,20,Andersonville / Edgewater,1161,Drug Offenses,102206,0.011359411384850205
+Monday,21,Chinatown / Douglas,1571,Drug Offenses,102206,0.015370917558656048
+Monday,22,Auburn Gresham / Beverly,2754,Drug Offenses,102206,0.026945580494295834
+Monday,23,Boystown / Lake View,1239,Drug Offenses,102206,0.012122575974013268
+Monday,24,Edgewater / Rogers Park,2202,Drug Offenses,102206,0.021544723401757237
+Monday,25,Austin / Avondale,5346,Drug Offenses,102206,0.05230612684186838
+Saturday,1,Douglas / Loop,1136,Drug Offenses,102570,0.011075363166617919
+Saturday,2,Douglas / Englewood,3959,Drug Offenses,102570,0.03859803061323974
+Saturday,3,Grand Crossing / Jackson Park,4708,Drug Offenses,102570,0.045900360729258065
+Saturday,4,Avalon Park / Burnside,4738,Drug Offenses,102570,0.04619284391147509
+Saturday,5,Burnside / Pullman,4737,Drug Offenses,102570,0.04618309447206786
+Saturday,6,Auburn Gresham / Chatham,5537,Drug Offenses,102570,0.05398264599785512
+Saturday,7,Englewood / Grand Crossing,7277,Drug Offenses,102570,0.07094667056644242
+Saturday,8,Archer Heights / Ashburn,4848,Drug Offenses,102570,0.04726528224627084
+Saturday,9,Armour Square / Bridgeport,4904,Drug Offenses,102570,0.04781125085307595
+Saturday,10,Little Village / Lower West Side,6637,Drug Offenses,102570,0.06470702934581261
+Saturday,11,Austin / Garfield Park,18548,Drug Offenses,102570,0.1808326021253778
+Saturday,12,East Village / Garfield Park,1899,Drug Offenses,102570,0.018514185434337527
+Saturday,13,East Village / Garfield Park,1470,Drug Offenses,102570,0.014331675928634104
+Saturday,14,Avondale / Bucktown,2188,Drug Offenses,102570,0.021331773423028177
+Saturday,15,Austin,10918,Drug Offenses,102570,0.10644437944818173
+Saturday,16,Dunning / Edison Park,1296,Drug Offenses,102570,0.012635273471775373
+Saturday,17,Albany Park / Avondale,1342,Drug Offenses,102570,0.013083747684508141
+Saturday,18,Lincoln Park / Magnificent Mile,1942,Drug Offenses,102570,0.01893341132884859
+Saturday,19,Lake View / Lincoln Park,981,Drug Offenses,102570,0.009564200058496636
+Saturday,20,Andersonville / Edgewater,1061,Drug Offenses,102570,0.010344155211075363
+Saturday,21,Chinatown / Douglas,1281,Drug Offenses,102570,0.012489031880666862
+Saturday,22,Auburn Gresham / Beverly,2498,Drug Offenses,102570,0.02435409963927074
+Saturday,23,Boystown / Lake View,1148,Drug Offenses,102570,0.011192356439504728
+Saturday,24,Edgewater / Rogers Park,2157,Drug Offenses,102570,0.02102954080140392
+Saturday,25,Austin / Avondale,5360,Drug Offenses,102570,0.05225699522277469
+Sunday,1,Douglas / Loop,860,Drug Offenses,89519,0.009606899094047074
+Sunday,2,Douglas / Englewood,3429,Drug Offenses,89519,0.03830471743428769
+Sunday,3,Grand Crossing / Jackson Park,4268,Drug Offenses,89519,0.047677029457433615
+Sunday,4,Avalon Park / Burnside,4350,Drug Offenses,89519,0.0485930361152381
+Sunday,5,Burnside / Pullman,4158,Drug Offenses,89519,0.046448240038427596
+Sunday,6,Auburn Gresham / Chatham,4885,Drug Offenses,89519,0.05456942101676739
+Sunday,7,Englewood / Grand Crossing,6421,Drug Offenses,89519,0.07172778963125147
+Sunday,8,Archer Heights / Ashburn,4336,Drug Offenses,89519,0.04843664473463734
+Sunday,9,Armour Square / Bridgeport,4349,Drug Offenses,89519,0.04858186530233805
+Sunday,10,Little Village / Lower West Side,5753,Drug Offenses,89519,0.0642656866140149
+Sunday,11,Austin / Garfield Park,15232,Drug Offenses,89519,0.17015382209363375
+Sunday,12,East Village / Garfield Park,1735,Drug Offenses,89519,0.019381360381594968
+Sunday,13,East Village / Garfield Park,1344,Drug Offenses,89519,0.015013572537673566
+Sunday,14,Avondale / Bucktown,1755,Drug Offenses,89519,0.019604776639596064
+Sunday,15,Austin,9844,Drug Offenses,89519,0.10996548218813883
+Sunday,16,Dunning / Edison Park,1204,Drug Offenses,89519,0.013449658731665903
+Sunday,17,Albany Park / Avondale,1285,Drug Offenses,89519,0.014354494576570337
+Sunday,18,Lincoln Park / Magnificent Mile,1575,Drug Offenses,89519,0.01759403031758621
+Sunday,19,Lake View / Lincoln Park,845,Drug Offenses,89519,0.009439336900546253
+Sunday,20,Andersonville / Edgewater,909,Drug Offenses,89519,0.010154268926149755
+Sunday,21,Chinatown / Douglas,1183,Drug Offenses,89519,0.013215071660764754
+Sunday,22,Auburn Gresham / Beverly,2269,Drug Offenses,89519,0.025346574470224197
+Sunday,23,Boystown / Lake View,971,Drug Offenses,89519,0.01084685932595315
+Sunday,24,Edgewater / Rogers Park,1889,Drug Offenses,89519,0.0211016655682034
+Sunday,25,Austin / Avondale,4670,Drug Offenses,89519,0.052167696243255623
+Thursday,1,Douglas / Loop,1548,Drug Offenses,114962,0.013465318974965642
+Thursday,2,Douglas / Englewood,4268,Drug Offenses,114962,0.03712531097232129
+Thursday,3,Grand Crossing / Jackson Park,5301,Drug Offenses,114962,0.04611088881543467
+Thursday,4,Avalon Park / Burnside,5381,Drug Offenses,114962,0.04680677093300395
+Thursday,5,Burnside / Pullman,4913,Drug Offenses,114962,0.04273586054522364
+Thursday,6,Auburn Gresham / Chatham,5868,Drug Offenses,114962,0.051042953323706966
+Thursday,7,Englewood / Grand Crossing,7827,Drug Offenses,114962,0.0680833666776848
+Thursday,8,Archer Heights / Ashburn,5378,Drug Offenses,114962,0.0467806753535951
+Thursday,9,Armour Square / Bridgeport,5276,Drug Offenses,114962,0.04589342565369427
+Thursday,10,Little Village / Lower West Side,6879,Drug Offenses,114962,0.05983716358448879
+Thursday,11,Austin / Garfield Park,21642,Drug Offenses,114962,0.1882535098554305
+Thursday,12,East Village / Garfield Park,2122,Drug Offenses,114962,0.018458273168525254
+Thursday,13,East Village / Garfield Park,1619,Drug Offenses,114962,0.01408291435430838
+Thursday,14,Avondale / Bucktown,2360,Drug Offenses,114962,0.02052852246829387
+Thursday,15,Austin,12368,Drug Offenses,114962,0.10758337537621127
+Thursday,16,Dunning / Edison Park,1929,Drug Offenses,114962,0.016779457559889355
+Thursday,17,Albany Park / Avondale,1553,Drug Offenses,114962,0.013508811607313721
+Thursday,18,Lincoln Park / Magnificent Mile,2138,Drug Offenses,114962,0.018597449592039107
+Thursday,19,Lake View / Lincoln Park,1094,Drug Offenses,114962,0.009516187957759955
+Thursday,20,Andersonville / Edgewater,1221,Drug Offenses,114962,0.010620900819401194
+Thursday,21,Chinatown / Douglas,1607,Drug Offenses,114962,0.013978532036672988
+Thursday,22,Auburn Gresham / Beverly,2910,Drug Offenses,114962,0.025312712026582695
+Thursday,23,Boystown / Lake View,1324,Drug Offenses,114962,0.011516849045771646
+Thursday,24,Edgewater / Rogers Park,2361,Drug Offenses,114962,0.02053722099476349
+Thursday,25,Austin / Avondale,6075,Drug Offenses,114962,0.05284354830291749
+Tuesday,1,Douglas / Loop,1506,Drug Offenses,112977,0.013330146844047904
+Tuesday,2,Douglas / Englewood,4309,Drug Offenses,112977,0.0381405064747692
+Tuesday,3,Grand Crossing / Jackson Park,5217,Drug Offenses,112977,0.046177540561353196
+Tuesday,4,Avalon Park / Burnside,5144,Drug Offenses,112977,0.045531391345141045
+Tuesday,5,Burnside / Pullman,4665,Drug Offenses,112977,0.041291590323694206
+Tuesday,6,Auburn Gresham / Chatham,5893,Drug Offenses,112977,0.052161059330660224
+Tuesday,7,Englewood / Grand Crossing,7626,Drug Offenses,112977,0.06750046469635412
+Tuesday,8,Archer Heights / Ashburn,5320,Drug Offenses,112977,0.04708923055135116
+Tuesday,9,Armour Square / Bridgeport,5103,Drug Offenses,112977,0.0451684856209671
+Tuesday,10,Little Village / Lower West Side,7025,Drug Offenses,112977,0.062180797861511636
+Tuesday,11,Austin / Garfield Park,20371,Drug Offenses,112977,0.18031103675969445
+Tuesday,12,East Village / Garfield Park,2140,Drug Offenses,112977,0.01894190853005479
+Tuesday,13,East Village / Garfield Park,1739,Drug Offenses,112977,0.015392513520451066
+Tuesday,14,Avondale / Bucktown,2260,Drug Offenses,112977,0.020004071625198048
+Tuesday,15,Austin,11966,Drug Offenses,112977,0.10591536330403534
+Tuesday,16,Dunning / Edison Park,1969,Drug Offenses,112977,0.017428326119475646
+Tuesday,17,Albany Park / Avondale,1700,Drug Offenses,112977,0.015047310514529505
+Tuesday,18,Lincoln Park / Magnificent Mile,2081,Drug Offenses,112977,0.018419678341609354
+Tuesday,19,Lake View / Lincoln Park,1182,Drug Offenses,112977,0.010462306487161104
+Tuesday,20,Andersonville / Edgewater,1292,Drug Offenses,112977,0.011435955991042425
+Tuesday,21,Chinatown / Douglas,1677,Drug Offenses,112977,0.014843729254627049
+Tuesday,22,Auburn Gresham / Beverly,2982,Drug Offenses,112977,0.026394752914309993
+Tuesday,23,Boystown / Lake View,1362,Drug Offenses,112977,0.012055551129875993
+Tuesday,24,Edgewater / Rogers Park,2513,Drug Offenses,112977,0.022243465484125088
+Tuesday,25,Austin / Avondale,5935,Drug Offenses,112977,0.05253281641396036
+Wednesday,1,Douglas / Loop,1582,Drug Offenses,114853,0.013774128668820143
+Wednesday,2,Douglas / Englewood,4726,Drug Offenses,114853,0.041148250372214916
+Wednesday,3,Grand Crossing / Jackson Park,5125,Drug Offenses,114853,0.04462225627541292
+Wednesday,4,Avalon Park / Burnside,5271,Drug Offenses,114853,0.04589344640540517
+Wednesday,5,Burnside / Pullman,4685,Drug Offenses,114853,0.040791272322011615
+Wednesday,6,Auburn Gresham / Chatham,6222,Drug Offenses,114853,0.054173595813779354
+Wednesday,7,Englewood / Grand Crossing,7799,Drug Offenses,114853,0.06790419057403811
+Wednesday,8,Archer Heights / Ashburn,5353,Drug Offenses,114853,0.046607402505811774
+Wednesday,9,Armour Square / Bridgeport,5075,Drug Offenses,114853,0.044186917189799134
+Wednesday,10,Little Village / Lower West Side,7022,Drug Offenses,114853,0.06113902118359991
+Wednesday,11,Austin / Garfield Park,20994,Drug Offenses,114853,0.18279017526751587
+Wednesday,12,East Village / Garfield Park,2100,Drug Offenses,114853,0.018284241595778954
+Wednesday,13,East Village / Garfield Park,1763,Drug Offenses,114853,0.015350056158742045
+Wednesday,14,Avondale / Bucktown,2392,Drug Offenses,114853,0.020826621855763453
+Wednesday,15,Austin,12048,Drug Offenses,114853,0.10489930606949753
+Wednesday,16,Dunning / Edison Park,1998,Drug Offenses,114853,0.017396149861126833
+Wednesday,17,Albany Park / Avondale,1659,Drug Offenses,114853,0.014444550860665373
+Wednesday,18,Lincoln Park / Magnificent Mile,2152,Drug Offenses,114853,0.018736994244817288
+Wednesday,19,Lake View / Lincoln Park,1165,Drug Offenses,114853,0.01014340069480118
+Wednesday,20,Andersonville / Edgewater,1295,Drug Offenses,114853,0.011275282317397021
+Wednesday,21,Chinatown / Douglas,1678,Drug Offenses,114853,0.01460997971319861
+Wednesday,22,Auburn Gresham / Beverly,3027,Drug Offenses,114853,0.026355428243058518
+Wednesday,23,Boystown / Lake View,1226,Drug Offenses,114853,0.010674514379249997
+Wednesday,24,Edgewater / Rogers Park,2435,Drug Offenses,114853,0.021201013469391308
+Wednesday,25,Austin / Avondale,6061,Drug Offenses,114853,0.052771803958102964
+Friday,1,Douglas / Loop,50118,All Crimes,1212800,0.04132420844327177
+Friday,2,Douglas / Englewood,43739,All Crimes,1212800,0.03606447889182058
+Friday,3,Grand Crossing / Jackson Park,60544,All Crimes,1212800,0.04992084432717678
+Friday,4,Avalon Park / Burnside,68119,All Crimes,1212800,0.056166721635883904
+Friday,5,Burnside / Pullman,52493,All Crimes,1212800,0.04328248680738786
+Friday,6,Auburn Gresham / Chatham,69893,All Crimes,1212800,0.057629452506596304
+Friday,7,Englewood / Grand Crossing,68359,All Crimes,1212800,0.05636461081794195
+Friday,8,Archer Heights / Ashburn,81000,All Crimes,1212800,0.06678759894459103
+Friday,9,Armour Square / Bridgeport,57475,All Crimes,1212800,0.0473903364116095
+Friday,10,Little Village / Lower West Side,51519,All Crimes,1212800,0.04247938654353562
+Friday,11,Austin / Garfield Park,76788,All Crimes,1212800,0.0633146437994723
+Friday,12,East Village / Garfield Park,43203,All Crimes,1212800,0.03562252638522428
+Friday,13,East Village / Garfield Park,19153,All Crimes,1212800,0.015792381266490765
+Friday,14,Avondale / Bucktown,47014,All Crimes,1212800,0.03876484168865435
+Friday,15,Austin,51199,All Crimes,1212800,0.04221553430079156
+Friday,16,Dunning / Edison Park,41245,All Crimes,1212800,0.03400808047493404
+Friday,17,Albany Park / Avondale,34960,All Crimes,1212800,0.028825857519788917
+Friday,18,Lincoln Park / Magnificent Mile,57129,All Crimes,1212800,0.04710504617414248
+Friday,19,Lake View / Lincoln Park,41172,All Crimes,1212800,0.033947889182058044
+Friday,20,Andersonville / Edgewater,21843,All Crimes,1212800,0.018010389182058047
+Friday,21,Chinatown / Douglas,17305,All Crimes,1212800,0.0142686345646438
+Friday,22,Auburn Gresham / Beverly,39946,All Crimes,1212800,0.03293700527704486
+Friday,23,Boystown / Lake View,14221,All Crimes,1212800,0.011725758575197889
+Friday,24,Edgewater / Rogers Park,36247,All Crimes,1212800,0.029887038258575197
+Friday,25,Austin / Avondale,68116,All Crimes,1212800,0.05616424802110818
+Monday,1,Douglas / Loop,44762,All Crimes,1141824,0.0392021887786559
+Monday,2,Douglas / Englewood,42796,All Crimes,1141824,0.037480382265568074
+Monday,3,Grand Crossing / Jackson Park,59492,All Crimes,1141824,0.052102600751078976
+Monday,4,Avalon Park / Burnside,65852,All Crimes,1141824,0.05767263606300095
+Monday,5,Burnside / Pullman,51692,All Crimes,1141824,0.04527142536853315
+Monday,6,Auburn Gresham / Chatham,67855,All Crimes,1141824,0.05942684686957009
+Monday,7,Englewood / Grand Crossing,65426,All Crimes,1141824,0.057299548792108065
+Monday,8,Archer Heights / Ashburn,77921,All Crimes,1141824,0.06824256627991704
+Monday,9,Armour Square / Bridgeport,54073,All Crimes,1141824,0.04735668544364105
+Monday,10,Little Village / Lower West Side,48438,All Crimes,1141824,0.04242159912560955
+Monday,11,Austin / Garfield Park,70498,All Crimes,1141824,0.06174156437419427
+Monday,12,East Village / Garfield Park,38663,All Crimes,1141824,0.0338607351045345
+Monday,13,East Village / Garfield Park,17449,All Crimes,1141824,0.015281689647441287
+Monday,14,Avondale / Bucktown,42857,All Crimes,1141824,0.037533805560226445
+Monday,15,Austin,47839,All Crimes,1141824,0.04189699988789866
+Monday,16,Dunning / Edison Park,38526,All Crimes,1141824,0.03374075163948209
+Monday,17,Albany Park / Avondale,33970,All Crimes,1141824,0.029750644582702764
+Monday,18,Lincoln Park / Magnificent Mile,46687,All Crimes,1141824,0.040888087831399585
+Monday,19,Lake View / Lincoln Park,36950,All Crimes,1141824,0.03236050389552155
+Monday,20,Andersonville / Edgewater,20860,All Crimes,1141824,0.018269015189731518
+Monday,21,Chinatown / Douglas,16457,All Crimes,1141824,0.014412904265455972
+Monday,22,Auburn Gresham / Beverly,38269,All Crimes,1141824,0.03351567316854436
+Monday,23,Boystown / Lake View,13430,All Crimes,1141824,0.011761882741998768
+Monday,24,Edgewater / Rogers Park,35904,All Crimes,1141824,0.031444425760887844
+Monday,25,Austin / Avondale,65158,All Crimes,1141824,0.05706483661229752
+Saturday,1,Douglas / Loop,42826,All Crimes,1157910,0.03698560337159192
+Saturday,2,Douglas / Englewood,40561,All Crimes,1157910,0.035029492793049545
+Saturday,3,Grand Crossing / Jackson Park,56862,All Crimes,1157910,0.049107443583698215
+Saturday,4,Avalon Park / Burnside,63074,All Crimes,1157910,0.05447228195628331
+Saturday,5,Burnside / Pullman,49783,All Crimes,1157910,0.04299384235389624
+Saturday,6,Auburn Gresham / Chatham,66500,All Crimes,1157910,0.0574310611360123
+Saturday,7,Englewood / Grand Crossing,65124,All Crimes,1157910,0.05624271316423556
+Saturday,8,Archer Heights / Ashburn,77136,All Crimes,1157910,0.06661657641785632
+Saturday,9,Armour Square / Bridgeport,56056,All Crimes,1157910,0.04841136185023016
+Saturday,10,Little Village / Lower West Side,51615,All Crimes,1157910,0.044576003316319925
+Saturday,11,Austin / Garfield Park,73364,All Crimes,1157910,0.06335898299522415
+Saturday,12,East Village / Garfield Park,39933,All Crimes,1157910,0.03448713630593051
+Saturday,13,East Village / Garfield Park,17820,All Crimes,1157910,0.015389797134492319
+Saturday,14,Avondale / Bucktown,47663,All Crimes,1157910,0.04116295739737976
+Saturday,15,Austin,48985,All Crimes,1157910,0.04230466962026409
+Saturday,16,Dunning / Edison Park,38375,All Crimes,1157910,0.0331416085878868
+Saturday,17,Albany Park / Avondale,32498,All Crimes,1157910,0.02806608458343049
+Saturday,18,Lincoln Park / Magnificent Mile,61736,All Crimes,1157910,0.053316751733727144
+Saturday,19,Lake View / Lincoln Park,42064,All Crimes,1157910,0.036327521137221375
+Saturday,20,Andersonville / Edgewater,19804,All Crimes,1157910,0.01710322909379831
+Saturday,21,Chinatown / Douglas,15014,All Crimes,1157910,0.012966465442046446
+Saturday,22,Auburn Gresham / Beverly,35679,All Crimes,1157910,0.030813275643184704
+Saturday,23,Boystown / Lake View,14575,All Crimes,1157910,0.012587334076050815
+Saturday,24,Edgewater / Rogers Park,34654,All Crimes,1157910,0.029928060039208573
+Saturday,25,Austin / Avondale,66209,All Crimes,1157910,0.057179746266981024
+Sunday,1,Douglas / Loop,35877,All Crimes,1100673,0.03259551201855592
+Sunday,2,Douglas / Englewood,38610,All Crimes,1100673,0.03507853831246883
+Sunday,3,Grand Crossing / Jackson Park,54982,All Crimes,1100673,0.04995307416462474
+Sunday,4,Avalon Park / Burnside,61720,All Crimes,1100673,0.05607478333710375
+Sunday,5,Burnside / Pullman,48575,All Crimes,1100673,0.04413209009396978
+Sunday,6,Auburn Gresham / Chatham,63313,All Crimes,1100673,0.05752207967307275
+Sunday,7,Englewood / Grand Crossing,63048,All Crimes,1100673,0.057281317884603326
+Sunday,8,Archer Heights / Ashburn,74643,All Crimes,1100673,0.06781578179895391
+Sunday,9,Armour Square / Bridgeport,54903,All Crimes,1100673,0.04988129989560932
+Sunday,10,Little Village / Lower West Side,50233,All Crimes,1100673,0.04563844120824259
+Sunday,11,Austin / Garfield Park,67268,All Crimes,1100673,0.06111533579909746
+Sunday,12,East Village / Garfield Park,37992,All Crimes,1100673,0.034517063651057125
+Sunday,13,East Village / Garfield Park,16453,All Crimes,1100673,0.014948127191272975
+Sunday,14,Avondale / Bucktown,44893,All Crimes,1100673,0.04078686403682111
+Sunday,15,Austin,46923,All Crimes,1100673,0.04263119019000194
+Sunday,16,Dunning / Edison Park,37512,All Crimes,1100673,0.03408096682665969
+Sunday,17,Albany Park / Avondale,31848,All Crimes,1100673,0.028935024298769936
+Sunday,18,Lincoln Park / Magnificent Mile,53820,All Crimes,1100673,0.0488973564355626
+Sunday,19,Lake View / Lincoln Park,38798,All Crimes,1100673,0.035249342902024486
+Sunday,20,Andersonville / Edgewater,18895,All Crimes,1100673,0.017166769785394935
+Sunday,21,Chinatown / Douglas,14119,All Crimes,1100673,0.012827606382640439
+Sunday,22,Auburn Gresham / Beverly,34783,All Crimes,1100673,0.03160157467295009
+Sunday,23,Boystown / Lake View,13483,All Crimes,1100673,0.012249778090313836
+Sunday,24,Edgewater / Rogers Park,33653,All Crimes,1100673,0.030574930065514462
+Sunday,25,Austin / Avondale,64329,All Crimes,1100673,0.05844515128471399
+Thursday,1,Douglas / Loop,46779,All Crimes,1150084,0.04067442030321264
+Thursday,2,Douglas / Englewood,42664,All Crimes,1150084,0.037096420783177576
+Thursday,3,Grand Crossing / Jackson Park,58559,All Crimes,1150084,0.050917150399449086
+Thursday,4,Avalon Park / Burnside,65919,All Crimes,1150084,0.05731668295533196
+Thursday,5,Burnside / Pullman,51239,All Crimes,1150084,0.0445523979118047
+Thursday,6,Auburn Gresham / Chatham,67379,All Crimes,1150084,0.058586155446036986
+Thursday,7,Englewood / Grand Crossing,65669,All Crimes,1150084,0.05709930752884137
+Thursday,8,Archer Heights / Ashburn,77031,All Crimes,1150084,0.06697858591198556
+Thursday,9,Armour Square / Bridgeport,54098,All Crimes,1150084,0.047038303289151054
+Thursday,10,Little Village / Lower West Side,48400,All Crimes,1150084,0.0420838825685776
+Thursday,11,Austin / Garfield Park,75799,All Crimes,1150084,0.06590735981023994
+Thursday,12,East Village / Garfield Park,39624,All Crimes,1150084,0.03445313559705204
+Thursday,13,East Village / Garfield Park,17718,All Crimes,1150084,0.015405831226240866
+Thursday,14,Avondale / Bucktown,43285,All Crimes,1150084,0.0376363813425802
+Thursday,15,Austin,49125,All Crimes,1150084,0.0427142713054003
+Thursday,16,Dunning / Edison Park,38544,All Crimes,1150084,0.033514073754612704
+Thursday,17,Albany Park / Avondale,33189,All Crimes,1150084,0.02885789211918434
+Thursday,18,Lincoln Park / Magnificent Mile,49461,All Crimes,1150084,0.04300642387860365
+Thursday,19,Lake View / Lincoln Park,37076,All Crimes,1150084,0.03223764525025998
+Thursday,20,Andersonville / Edgewater,20715,All Crimes,1150084,0.01801172783901002
+Thursday,21,Chinatown / Douglas,16545,All Crimes,1150084,0.014385905725147032
+Thursday,22,Auburn Gresham / Beverly,38205,All Crimes,1150084,0.03321931267629147
+Thursday,23,Boystown / Lake View,13499,All Crimes,1150084,0.011737403528785724
+Thursday,24,Edgewater / Rogers Park,34671,All Crimes,1150084,0.030146493647420537
+Thursday,25,Austin / Avondale,64891,All Crimes,1150084,0.05642283520160266
+Tuesday,1,Douglas / Loop,46438,All Crimes,1154394,0.04022716680786629
+Tuesday,2,Douglas / Englewood,43610,All Crimes,1154394,0.037777396625415585
+Tuesday,3,Grand Crossing / Jackson Park,59945,All Crimes,1154394,0.05192767807178485
+Tuesday,4,Avalon Park / Burnside,66601,All Crimes,1154394,0.05769347380530391
+Tuesday,5,Burnside / Pullman,51301,All Crimes,1154394,0.044439766665453906
+Tuesday,6,Auburn Gresham / Chatham,68937,All Crimes,1154394,0.059717046346394735
+Tuesday,7,Englewood / Grand Crossing,67304,All Crimes,1154394,0.05830245132944212
+Tuesday,8,Archer Heights / Ashburn,76998,All Crimes,1154394,0.06669993087282158
+Tuesday,9,Armour Square / Bridgeport,54437,All Crimes,1154394,0.04715634350143885
+Tuesday,10,Little Village / Lower West Side,48856,All Crimes,1154394,0.04232177228918376
+Tuesday,11,Austin / Garfield Park,75659,All Crimes,1154394,0.06554001493424255
+Tuesday,12,East Village / Garfield Park,39287,All Crimes,1154394,0.0340325746668815
+Tuesday,13,East Village / Garfield Park,17915,All Crimes,1154394,0.015518964928785146
+Tuesday,14,Avondale / Bucktown,42753,All Crimes,1154394,0.037035015774510266
+Tuesday,15,Austin,49569,All Crimes,1154394,0.04293941236700814
+Tuesday,16,Dunning / Edison Park,38473,All Crimes,1154394,0.033327442796826735
+Tuesday,17,Albany Park / Avondale,33823,All Crimes,1154394,0.029299355332754674
+Tuesday,18,Lincoln Park / Magnificent Mile,46738,All Crimes,1154394,0.040487043418451586
+Tuesday,19,Lake View / Lincoln Park,35979,All Crimes,1154394,0.031167001907494322
+Tuesday,20,Andersonville / Edgewater,20766,All Crimes,1154394,0.017988658984714058
+Tuesday,21,Chinatown / Douglas,16736,All Crimes,1154394,0.01449764984918494
+Tuesday,22,Auburn Gresham / Beverly,38506,All Crimes,1154394,0.03335602922399111
+Tuesday,23,Boystown / Lake View,13451,All Crimes,1154394,0.01165200096327597
+Tuesday,24,Edgewater / Rogers Park,35374,All Crimes,1154394,0.030642917409480646
+Tuesday,25,Austin / Avondale,64938,All Crimes,1154394,0.05625289112729276
+Wednesday,1,Douglas / Loop,46554,All Crimes,1161757,0.040072063262799364
+Wednesday,2,Douglas / Englewood,43876,All Crimes,1161757,0.037766934049030906
+Wednesday,3,Grand Crossing / Jackson Park,59598,All Crimes,1161757,0.05129988457138627
+Wednesday,4,Avalon Park / Burnside,67081,All Crimes,1161757,0.057740990585810975
+Wednesday,5,Burnside / Pullman,51825,All Crimes,1161757,0.044609156648077006
+Wednesday,6,Auburn Gresham / Chatham,68781,All Crimes,1161757,0.05920429143099633
+Wednesday,7,Englewood / Grand Crossing,67276,All Crimes,1161757,0.057908839800405766
+Wednesday,8,Archer Heights / Ashburn,77664,All Crimes,1161757,0.06685046872969132
+Wednesday,9,Armour Square / Bridgeport,54444,All Crimes,1161757,0.0468635007148655
+Wednesday,10,Little Village / Lower West Side,48801,All Crimes,1161757,0.04200620267405318
+Wednesday,11,Austin / Garfield Park,76520,All Crimes,1161757,0.06586575333740188
+Wednesday,12,East Village / Garfield Park,39623,All Crimes,1161757,0.034106099640458375
+Wednesday,13,East Village / Garfield Park,18346,All Crimes,1161757,0.01579159841515911
+Wednesday,14,Avondale / Bucktown,43533,All Crimes,1161757,0.03747169158438469
+Wednesday,15,Austin,49637,All Crimes,1161757,0.042725802383803156
+Wednesday,16,Dunning / Edison Park,38749,All Crimes,1161757,0.03335379085299249
+Wednesday,17,Albany Park / Avondale,33416,All Crimes,1161757,0.028763330025125735
+Wednesday,18,Lincoln Park / Magnificent Mile,48670,All Crimes,1161757,0.041893442432453604
+Wednesday,19,Lake View / Lincoln Park,36769,All Crimes,1161757,0.03164947575095308
+Wednesday,20,Andersonville / Edgewater,21080,All Crimes,1161757,0.018144930480298374
+Wednesday,21,Chinatown / Douglas,16813,All Crimes,1161757,0.01447204535888314
+Wednesday,22,Auburn Gresham / Beverly,38790,All Crimes,1161757,0.03338908222631755
+Wednesday,23,Boystown / Lake View,13539,All Crimes,1161757,0.01165390008409676
+Wednesday,24,Edgewater / Rogers Park,35503,All Crimes,1161757,0.03055974700389152
+Wednesday,25,Austin / Avondale,64869,All Crimes,1161757,0.05583697795666392

@@ -1,0 +1,306 @@
+beat,crime_category,primary_type,neighborhood,count
+111,Property Crimes,THEFT,Douglas / Loop,18684
+112,Property Crimes,THEFT,Douglas / Loop,16989
+113,Property Crimes,THEFT,Douglas / Loop,10237
+114,Property Crimes,THEFT,Douglas / Loop,5966
+121,Property Crimes,THEFT,Douglas / Loop,3853
+122,Property Crimes,THEFT,Douglas / Loop,23508
+123,Property Crimes,THEFT,Douglas / Loop,16034
+124,Property Crimes,THEFT,Douglas / Loop,10867
+131,Property Crimes,THEFT,Douglas / Loop,11563
+132,Property Crimes,THEFT,Douglas / Loop,13100
+133,Property Crimes,THEFT,Douglas / Loop,6538
+134,Property Crimes,CRIMINAL TRESPASS,Douglas / Loop,4996
+211,Violent Crimes,BATTERY,Douglas / Englewood,5377
+212,Violent Crimes,BATTERY,Douglas / Englewood,6535
+213,Violent Crimes,BATTERY,Douglas / Englewood,4412
+214,Violent Crimes,BATTERY,Douglas / Englewood,3712
+215,Violent Crimes,BATTERY,Douglas / Englewood,1458
+221,Violent Crimes,BATTERY,Douglas / Englewood,4218
+222,Property Crimes,THEFT,Douglas / Englewood,5696
+223,Property Crimes,THEFT,Douglas / Englewood,4534
+224,Violent Crimes,BATTERY,Douglas / Englewood,4495
+225,Violent Crimes,BATTERY,Douglas / Englewood,1682
+231,Violent Crimes,BATTERY,Douglas / Englewood,4471
+232,Violent Crimes,BATTERY,Douglas / Englewood,5280
+233,Violent Crimes,BATTERY,Douglas / Englewood,5358
+234,Property Crimes,THEFT,Douglas / Englewood,6107
+235,Property Crimes,THEFT,Douglas / Englewood,1976
+310,Drug Offenses,NARCOTICS,Grand Crossing / Jackson Park,2
+311,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,5121
+312,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,9710
+313,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,7934
+314,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,5267
+321,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,10354
+322,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,7082
+323,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,7803
+324,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,9377
+331,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,7888
+332,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,7954
+333,Property Crimes,THEFT,Grand Crossing / Jackson Park,6286
+334,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,6853
+411,Property Crimes,THEFT,Avalon Park / Burnside,7349
+412,Property Crimes,THEFT,Avalon Park / Burnside,7796
+413,Violent Crimes,BATTERY,Avalon Park / Burnside,6210
+414,Violent Crimes,BATTERY,Avalon Park / Burnside,10042
+421,Violent Crimes,BATTERY,Avalon Park / Burnside,15468
+422,Violent Crimes,BATTERY,Avalon Park / Burnside,7250
+423,Violent Crimes,BATTERY,Avalon Park / Burnside,13507
+424,Violent Crimes,BATTERY,Avalon Park / Burnside,8780
+430,Property Crimes,THEFT,Avalon Park / Burnside,5
+431,Violent Crimes,BATTERY,Avalon Park / Burnside,6624
+432,Property Crimes,CRIMINAL DAMAGE,Avalon Park / Burnside,6403
+433,Violent Crimes,BATTERY,Avalon Park / Burnside,4655
+434,Violent Crimes,BATTERY,Avalon Park / Burnside,3161
+511,Violent Crimes,BATTERY,Burnside / Pullman,10693
+512,Violent Crimes,BATTERY,Burnside / Pullman,10484
+513,Violent Crimes,BATTERY,Burnside / Pullman,9250
+522,Violent Crimes,BATTERY,Burnside / Pullman,10383
+523,Violent Crimes,BATTERY,Burnside / Pullman,8635
+524,Violent Crimes,BATTERY,Burnside / Pullman,7662
+531,Violent Crimes,BATTERY,Burnside / Pullman,6346
+532,Violent Crimes,BATTERY,Burnside / Pullman,6227
+533,Violent Crimes,BATTERY,Burnside / Pullman,10685
+611,Violent Crimes,BATTERY,Auburn Gresham / Chatham,8516
+612,Violent Crimes,BATTERY,Auburn Gresham / Chatham,11156
+613,Violent Crimes,BATTERY,Auburn Gresham / Chatham,7487
+614,Violent Crimes,BATTERY,Auburn Gresham / Chatham,5896
+621,Violent Crimes,BATTERY,Auburn Gresham / Chatham,11439
+622,Property Crimes,THEFT,Auburn Gresham / Chatham,9455
+623,Property Crimes,THEFT,Auburn Gresham / Chatham,8052
+624,Violent Crimes,BATTERY,Auburn Gresham / Chatham,12894
+631,Violent Crimes,BATTERY,Auburn Gresham / Chatham,10634
+632,Property Crimes,THEFT,Auburn Gresham / Chatham,10283
+633,Violent Crimes,BATTERY,Auburn Gresham / Chatham,4744
+634,Property Crimes,THEFT,Auburn Gresham / Chatham,6591
+711,Violent Crimes,BATTERY,Englewood / Grand Crossing,8131
+712,Violent Crimes,BATTERY,Englewood / Grand Crossing,9996
+713,Violent Crimes,BATTERY,Englewood / Grand Crossing,9930
+714,Violent Crimes,BATTERY,Englewood / Grand Crossing,5518
+715,Violent Crimes,BATTERY,Englewood / Grand Crossing,5840
+722,Violent Crimes,BATTERY,Englewood / Grand Crossing,6874
+723,Violent Crimes,BATTERY,Englewood / Grand Crossing,8159
+724,Violent Crimes,BATTERY,Englewood / Grand Crossing,6726
+725,Violent Crimes,BATTERY,Englewood / Grand Crossing,9178
+726,Violent Crimes,BATTERY,Englewood / Grand Crossing,7090
+731,Violent Crimes,BATTERY,Englewood / Grand Crossing,6665
+732,Violent Crimes,BATTERY,Englewood / Grand Crossing,6988
+733,Violent Crimes,BATTERY,Englewood / Grand Crossing,8192
+734,Violent Crimes,BATTERY,Englewood / Grand Crossing,6070
+735,Violent Crimes,BATTERY,Englewood / Grand Crossing,7761
+811,Property Crimes,THEFT,Archer Heights / Ashburn,5562
+812,Property Crimes,THEFT,Archer Heights / Ashburn,3980
+813,Property Crimes,THEFT,Archer Heights / Ashburn,8904
+814,Violent Crimes,BATTERY,Archer Heights / Ashburn,4483
+815,Property Crimes,THEFT,Archer Heights / Ashburn,8363
+821,Property Crimes,THEFT,Archer Heights / Ashburn,7703
+822,Property Crimes,CRIMINAL DAMAGE,Archer Heights / Ashburn,5351
+823,Violent Crimes,BATTERY,Archer Heights / Ashburn,10077
+824,Violent Crimes,BATTERY,Archer Heights / Ashburn,6677
+825,Violent Crimes,BATTERY,Archer Heights / Ashburn,9267
+831,Violent Crimes,BATTERY,Archer Heights / Ashburn,8991
+832,Violent Crimes,BATTERY,Archer Heights / Ashburn,8612
+833,Property Crimes,THEFT,Archer Heights / Ashburn,14674
+834,Property Crimes,THEFT,Archer Heights / Ashburn,7492
+835,Property Crimes,THEFT,Archer Heights / Ashburn,7069
+911,Violent Crimes,BATTERY,Armour Square / Bridgeport,4056
+912,Property Crimes,THEFT,Armour Square / Bridgeport,6000
+913,Property Crimes,THEFT,Armour Square / Bridgeport,5347
+914,Property Crimes,THEFT,Armour Square / Bridgeport,8162
+915,Violent Crimes,BATTERY,Armour Square / Bridgeport,5837
+921,Property Crimes,THEFT,Armour Square / Bridgeport,3575
+922,Property Crimes,THEFT,Armour Square / Bridgeport,5954
+923,Property Crimes,THEFT,Armour Square / Bridgeport,4880
+924,Property Crimes,THEFT,Armour Square / Bridgeport,5991
+925,Property Crimes,THEFT,Armour Square / Bridgeport,3660
+931,Violent Crimes,BATTERY,Armour Square / Bridgeport,4875
+932,Violent Crimes,BATTERY,Armour Square / Bridgeport,6213
+933,Violent Crimes,BATTERY,Armour Square / Bridgeport,5333
+934,Violent Crimes,BATTERY,Armour Square / Bridgeport,6660
+935,Violent Crimes,BATTERY,Armour Square / Bridgeport,5478
+1011,Drug Offenses,NARCOTICS,Little Village / Lower West Side,10980
+1012,Violent Crimes,BATTERY,Little Village / Lower West Side,6155
+1013,Violent Crimes,BATTERY,Little Village / Lower West Side,5728
+1014,Violent Crimes,BATTERY,Little Village / Lower West Side,6769
+1021,Violent Crimes,BATTERY,Little Village / Lower West Side,8543
+1022,Violent Crimes,BATTERY,Little Village / Lower West Side,8066
+1023,Violent Crimes,BATTERY,Little Village / Lower West Side,4231
+1024,Violent Crimes,BATTERY,Little Village / Lower West Side,6855
+1031,Violent Crimes,BATTERY,Little Village / Lower West Side,5731
+1032,Violent Crimes,BATTERY,Little Village / Lower West Side,3739
+1033,Violent Crimes,BATTERY,Little Village / Lower West Side,4772
+1034,Property Crimes,THEFT,Little Village / Lower West Side,6438
+1111,Violent Crimes,BATTERY,Austin / Garfield Park,7679
+1112,Drug Offenses,NARCOTICS,Austin / Garfield Park,19542
+1113,Drug Offenses,NARCOTICS,Austin / Garfield Park,7138
+1114,Drug Offenses,NARCOTICS,Austin / Garfield Park,5594
+1115,Drug Offenses,NARCOTICS,Austin / Garfield Park,8830
+1121,Drug Offenses,NARCOTICS,Austin / Garfield Park,13733
+1122,Drug Offenses,NARCOTICS,Austin / Garfield Park,12000
+1123,Violent Crimes,BATTERY,Austin / Garfield Park,7280
+1124,Drug Offenses,NARCOTICS,Austin / Garfield Park,7216
+1125,Drug Offenses,NARCOTICS,Austin / Garfield Park,3620
+1131,Drug Offenses,NARCOTICS,Austin / Garfield Park,8226
+1132,Drug Offenses,NARCOTICS,Austin / Garfield Park,11435
+1133,Violent Crimes,BATTERY,Austin / Garfield Park,9085
+1134,Drug Offenses,NARCOTICS,Austin / Garfield Park,8972
+1135,Drug Offenses,NARCOTICS,Austin / Garfield Park,8152
+1211,Property Crimes,THEFT,East Village / Garfield Park,7559
+1212,Property Crimes,THEFT,East Village / Garfield Park,10160
+1213,Property Crimes,THEFT,East Village / Garfield Park,7838
+1214,Property Crimes,THEFT,East Village / Garfield Park,6531
+1215,Property Crimes,THEFT,East Village / Garfield Park,3713
+1221,Property Crimes,THEFT,East Village / Garfield Park,3125
+1222,Property Crimes,THEFT,East Village / Garfield Park,4249
+1223,Property Crimes,THEFT,East Village / Garfield Park,5166
+1224,Property Crimes,THEFT,East Village / Garfield Park,10346
+1225,Property Crimes,THEFT,East Village / Garfield Park,2093
+1231,Violent Crimes,BATTERY,East Village / Garfield Park,5357
+1232,Property Crimes,THEFT,East Village / Garfield Park,6619
+1233,Property Crimes,THEFT,East Village / Garfield Park,5402
+1234,Violent Crimes,BATTERY,East Village / Garfield Park,1911
+1235,Property Crimes,THEFT,East Village / Garfield Park,2059
+1311,Violent Crimes,BATTERY,East Village / Garfield Park,2945
+1312,Property Crimes,THEFT,East Village / Garfield Park,3803
+1313,Property Crimes,THEFT,East Village / Garfield Park,4406
+1322,Property Crimes,THEFT,East Village / Garfield Park,3217
+1323,Property Crimes,THEFT,East Village / Garfield Park,7836
+1324,Property Crimes,THEFT,East Village / Garfield Park,4169
+1331,Drug Offenses,NARCOTICS,East Village / Garfield Park,3539
+1332,Property Crimes,THEFT,East Village / Garfield Park,2977
+1333,Property Crimes,THEFT,East Village / Garfield Park,2328
+1411,Property Crimes,THEFT,Avondale / Bucktown,5415
+1412,Property Crimes,THEFT,Avondale / Bucktown,5071
+1413,Property Crimes,THEFT,Avondale / Bucktown,4412
+1414,Property Crimes,THEFT,Avondale / Bucktown,6317
+1421,Property Crimes,THEFT,Avondale / Bucktown,5032
+1422,Violent Crimes,BATTERY,Avondale / Bucktown,6824
+1423,Violent Crimes,BATTERY,Avondale / Bucktown,5761
+1424,Property Crimes,THEFT,Avondale / Bucktown,13200
+1431,Property Crimes,THEFT,Avondale / Bucktown,6806
+1432,Property Crimes,THEFT,Avondale / Bucktown,12735
+1433,Property Crimes,THEFT,Avondale / Bucktown,11359
+1434,Property Crimes,THEFT,Avondale / Bucktown,10910
+1511,Violent Crimes,BATTERY,Austin,6763
+1512,Violent Crimes,BATTERY,Austin,6274
+1513,Violent Crimes,BATTERY,Austin,5970
+1522,Drug Offenses,NARCOTICS,Austin,11794
+1523,Drug Offenses,NARCOTICS,Austin,9717
+1524,Drug Offenses,NARCOTICS,Austin,7992
+1531,Drug Offenses,NARCOTICS,Austin,13370
+1532,Drug Offenses,NARCOTICS,Austin,13409
+1533,Drug Offenses,NARCOTICS,Austin,14113
+1611,Property Crimes,THEFT,Dunning / Edison Park,3456
+1612,Property Crimes,THEFT,Dunning / Edison Park,2908
+1613,Property Crimes,THEFT,Dunning / Edison Park,3361
+1614,Property Crimes,THEFT,Dunning / Edison Park,4779
+1621,Property Crimes,THEFT,Dunning / Edison Park,2354
+1622,Property Crimes,THEFT,Dunning / Edison Park,6302
+1623,Property Crimes,THEFT,Dunning / Edison Park,6243
+1624,Property Crimes,THEFT,Dunning / Edison Park,5376
+1631,Property Crimes,THEFT,Dunning / Edison Park,3500
+1632,Property Crimes,THEFT,Dunning / Edison Park,4885
+1633,Property Crimes,THEFT,Dunning / Edison Park,6860
+1634,Violent Crimes,BATTERY,Dunning / Edison Park,4801
+1650,Property Crimes,THEFT,Dunning / Edison Park,101
+1651,Property Crimes,THEFT,Dunning / Edison Park,7957
+1652,Miscellaneous Crimes,OTHER OFFENSE,Dunning / Edison Park,440
+1653,Miscellaneous Crimes,OTHER OFFENSE,Dunning / Edison Park,1154
+1654,Drug Offenses,NARCOTICS,Dunning / Edison Park,1495
+1655,Property Crimes,THEFT,Dunning / Edison Park,424
+1711,Property Crimes,THEFT,Albany Park / Avondale,5788
+1712,Property Crimes,THEFT,Albany Park / Avondale,8038
+1713,Property Crimes,THEFT,Albany Park / Avondale,4015
+1722,Property Crimes,THEFT,Albany Park / Avondale,8598
+1723,Violent Crimes,BATTERY,Albany Park / Avondale,7000
+1724,Property Crimes,THEFT,Albany Park / Avondale,5179
+1731,Property Crimes,THEFT,Albany Park / Avondale,5973
+1732,Property Crimes,THEFT,Albany Park / Avondale,7726
+1733,Property Crimes,THEFT,Albany Park / Avondale,6974
+1811,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,10435
+1812,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,8967
+1813,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,5370
+1814,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,9753
+1821,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,11369
+1822,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,10091
+1823,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,5112
+1824,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,12195
+1831,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,18492
+1832,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,9823
+1833,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,20768
+1834,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,30249
+1911,Property Crimes,THEFT,Lake View / Lincoln Park,5580
+1912,Property Crimes,THEFT,Lake View / Lincoln Park,5500
+1913,Property Crimes,THEFT,Lake View / Lincoln Park,6681
+1914,Property Crimes,THEFT,Lake View / Lincoln Park,2918
+1915,Property Crimes,THEFT,Lake View / Lincoln Park,2825
+1921,Property Crimes,THEFT,Lake View / Lincoln Park,2782
+1922,Property Crimes,THEFT,Lake View / Lincoln Park,6583
+1923,Property Crimes,THEFT,Lake View / Lincoln Park,8783
+1924,Property Crimes,THEFT,Lake View / Lincoln Park,10821
+1925,Property Crimes,THEFT,Lake View / Lincoln Park,5106
+1931,Property Crimes,THEFT,Lake View / Lincoln Park,8901
+1932,Property Crimes,THEFT,Lake View / Lincoln Park,8489
+1933,Property Crimes,THEFT,Lake View / Lincoln Park,10374
+1934,Property Crimes,THEFT,Lake View / Lincoln Park,5015
+1935,Property Crimes,THEFT,Lake View / Lincoln Park,5223
+2011,Property Crimes,THEFT,Andersonville / Edgewater,6104
+2012,Property Crimes,THEFT,Andersonville / Edgewater,4007
+2013,Property Crimes,THEFT,Andersonville / Edgewater,4493
+2022,Violent Crimes,BATTERY,Andersonville / Edgewater,2724
+2023,Property Crimes,THEFT,Andersonville / Edgewater,5721
+2024,Property Crimes,THEFT,Andersonville / Edgewater,3548
+2031,Property Crimes,THEFT,Andersonville / Edgewater,3679
+2032,Property Crimes,THEFT,Andersonville / Edgewater,4143
+2033,Property Crimes,THEFT,Andersonville / Edgewater,3032
+2111,Property Crimes,THEFT,Chinatown / Douglas,2568
+2112,Property Crimes,THEFT,Chinatown / Douglas,2759
+2113,Drug Offenses,NARCOTICS,Chinatown / Douglas,5054
+2122,Property Crimes,THEFT,Chinatown / Douglas,4213
+2123,Violent Crimes,BATTERY,Chinatown / Douglas,3650
+2124,Property Crimes,THEFT,Chinatown / Douglas,2896
+2131,Property Crimes,THEFT,Chinatown / Douglas,2478
+2132,Property Crimes,THEFT,Chinatown / Douglas,5284
+2133,Property Crimes,THEFT,Chinatown / Douglas,2905
+2211,Property Crimes,THEFT,Auburn Gresham / Beverly,5432
+2212,Property Crimes,THEFT,Auburn Gresham / Beverly,7624
+2213,Property Crimes,THEFT,Auburn Gresham / Beverly,5140
+2221,Property Crimes,THEFT,Auburn Gresham / Beverly,6186
+2222,Violent Crimes,BATTERY,Auburn Gresham / Beverly,6044
+2223,Violent Crimes,BATTERY,Auburn Gresham / Beverly,5900
+2232,Violent Crimes,BATTERY,Auburn Gresham / Beverly,6211
+2233,Violent Crimes,BATTERY,Auburn Gresham / Beverly,5722
+2234,Violent Crimes,BATTERY,Auburn Gresham / Beverly,6351
+2311,Violent Crimes,BATTERY,Boystown / Lake View,2869
+2312,Property Crimes,THEFT,Boystown / Lake View,2022
+2313,Violent Crimes,BATTERY,Boystown / Lake View,1989
+2322,Property Crimes,THEFT,Boystown / Lake View,2999
+2323,Property Crimes,THEFT,Boystown / Lake View,2653
+2324,Property Crimes,THEFT,Boystown / Lake View,2941
+2331,Property Crimes,THEFT,Boystown / Lake View,4265
+2332,Property Crimes,THEFT,Boystown / Lake View,3979
+2333,Property Crimes,THEFT,Boystown / Lake View,4952
+2411,Property Crimes,THEFT,Edgewater / Rogers Park,7655
+2412,Property Crimes,THEFT,Edgewater / Rogers Park,6418
+2413,Property Crimes,THEFT,Edgewater / Rogers Park,8265
+2422,Property Crimes,THEFT,Edgewater / Rogers Park,8562
+2423,Property Crimes,THEFT,Edgewater / Rogers Park,4596
+2424,Property Crimes,THEFT,Edgewater / Rogers Park,4479
+2431,Property Crimes,THEFT,Edgewater / Rogers Park,3774
+2432,Property Crimes,THEFT,Edgewater / Rogers Park,6756
+2433,Property Crimes,THEFT,Edgewater / Rogers Park,8349
+2511,Violent Crimes,BATTERY,Austin / Avondale,3929
+2512,Property Crimes,THEFT,Austin / Avondale,11058
+2513,Property Crimes,THEFT,Austin / Avondale,4155
+2514,Property Crimes,THEFT,Austin / Avondale,5159
+2515,Violent Crimes,BATTERY,Austin / Avondale,6659
+2521,Property Crimes,THEFT,Austin / Avondale,6932
+2522,Violent Crimes,BATTERY,Austin / Avondale,5153
+2523,Property Crimes,THEFT,Austin / Avondale,4631
+2524,Violent Crimes,BATTERY,Austin / Avondale,4649
+2525,Violent Crimes,BATTERY,Austin / Avondale,4122
+2531,Violent Crimes,BATTERY,Austin / Avondale,5598
+2532,Violent Crimes,BATTERY,Austin / Avondale,7542
+2533,Property Crimes,THEFT,Austin / Avondale,14181
+2534,Violent Crimes,BATTERY,Austin / Avondale,8384
+2535,Violent Crimes,BATTERY,Austin / Avondale,5778
