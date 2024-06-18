@@ -1,48 +1,90 @@
 body {
-    font-family: 'Arial', 'sans-serif';
-    font-size: 16px;
-    color: #362023;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
+  font-family: "Arial", "sans-serif";
+  font-size: 16px;
+  color: #362023;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 header {
-    padding: 25px 100px;
-    text-align: center;
+  padding: 25px 100px;
+  text-align: center;
 }
 
 main {
-    height: 100%;
-    padding-right: 25px;
+  height: 100%;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 .viz-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .xy {
-    cursor: default;
+  cursor: default;
 }
 
 h1 {
-    font-family: 'Times', 'serif';
-    font-size: 56px;
-    margin: 0;
-    font-weight: normal;
+  font-family: "Times", "serif";
+  font-size: 56px;
+  margin: 0;
+  font-weight: normal;
 }
 
 h2 {
-    font-weight: normal;
+  font-weight: normal;
+}
+
+/* Multiline chart */
+
+.multiline-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+}
+
+.multiline-graph {
+  width: 75%;
+  height: 100%;
+}
+
+.multiline-params {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  border-left: #362023 1px solid;
+  margin: 20px;
+  padding: 20px;
+}
+
+.multiline-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.multiline-mode {
+  width: 100%;
+}
+
+.multiline-checklist {
+  width: 100%;
 }
