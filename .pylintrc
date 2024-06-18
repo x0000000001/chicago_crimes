@@ -1,0 +1,9 @@
+[MASTER]
+disable=
+    C0116, # missing-function-docstring
+
+    W1201, # logging-not-lazy
+    W1203, # logging-fstring-interpolation
+           # this is stupid
+           # see https://stackoverflow.com/questions/34619790/pylint-message-logging-format-interpolation
+           # and https://github.com/pylint-dev/pylint/issues/2395
