@@ -12,10 +12,10 @@ import importlib
 import os
 
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
 import pandas as pd
-from dash.dependencies import Input, Output
+from dash import html
+
+# from viz import map_crime_rate, beat_crime_type
 
 app = dash.Dash(__name__)
 app.title = "Chicago Crimes | INF8808"
@@ -26,17 +26,29 @@ DATA_PATH = "assets/data/crimes_reduced.csv"  # 1000 times reduced dataset
 with open(DATA_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
 
+# non_visualization_files = ["viz_template.py", "paths.py", "__init__.py"]
+
+# # Load figures
+# figures_files = [
+#     os.path.splitext(f)[0]
+#     for f in os.listdir("viz")
+#     if f.endswith(".py") and f not in non_visualization_files
+# ]
+
+visualization_files = ["multiline.py", "histogram.py"]
+
 # Load figures
 figures_files = [
-    os.path.splitext(f)[0]
-    for f in os.listdir("viz")
-    if f.endswith(".py") and not f.startswith("viz_template")
+    os.path.splitext(f)[0] for f in os.listdir("viz") if f in visualization_files
 ]
+
 figures = {}
+html_elements = []
 
 for figure_file in figures_files:
     module = importlib.import_module(f"viz.{figure_file}")
-    figures[figure_file] = module.get_figure(data)
+    figures[figure_file] = figure = module.get_figure(data)
+    html_elements.append(module.get_html(figure))
 
 app.layout = html.Div(
     className="content",
@@ -47,120 +59,65 @@ app.layout = html.Div(
                     "Spatial and temporal analyses of Chicago criminals trends since 2001"
                 ),
                 html.H2("How did crime evolve since 2001 in Chicago ?"),
+                html.Main(
+                    className="viz-container",
+                    # Our visualizations will be displayed here
+                    children=html_elements,
+                ),
             ]
         ),
-        html.Main(
-            className="viz-container",
-            # Our visualizations will be displayed here
-            children=[
-                # ------ Multiline graph ------
-                html.Div(
-                    className="multiline-container",
-                    children=[
-                        dcc.Graph(
-                            className="multiline-graph",
-                            id="multiline-graph",
-                            figure=figures["multiline"],
-                            config={"displayModeBar": False},
-                        ),
-                        html.Div(
-                            className="multiline-params",
-                            children=[
-                                html.H2("Parameters"),
-                                html.Div(
-                                    className="multiline-buttons",
-                                    children=[
-                                        html.H4("Display mode"),
-                                        dcc.Dropdown(
-                                            className="multiline-mode",
-                                            id="multiline-mode",
-                                            options=[
-                                                {"label": "Annual", "value": "Annual"},
-                                                {
-                                                    "label": "Cumulative",
-                                                    "value": "Cumulative",
-                                                },
-                                            ],
-                                            value="Annual",
-                                            clearable=False,
-                                            style={"width": "100%"},
-                                        ),
-                                        html.H4("Crisis"),
-                                        dcc.Checklist(
-                                            className="multiline-checklist",
-                                            id="multiline-checklist",
-                                            options=[
-                                                {
-                                                    "label": "2008 crisis",
-                                                    "value": "2008",
-                                                },
-                                                {
-                                                    "label": "Covid crisis",
-                                                    "value": "covid",
-                                                },
-                                            ],
-                                            value=[],
-                                            labelStyle={
-                                                "display": "flex",
-                                                "align-items": "center",
-                                                "justify-content": "center",
-                                                "flex-direction": "row",
-                                                "width": "100%",
-                                            },
-                                        ),
-                                    ],
-                                ),
-                            ],
-                        ),
-                    ],
-                ),
-                # ------ End of Multiline graph ------
-            ],
-        ),
     ],
 )
 
 
-# ------ Multiline graph callback ------
-@app.callback(
-    Output("multiline-graph", "figure"),
-    [
-        Input("multiline-graph", "figure"),
-        Input("multiline-mode", "value"),
-        Input("multiline-checklist", "value"),
-    ],
-)
-def multiline_update_mode(multiline_graph, display_mode, checklist_values):
-    max_y = 0
-    # Update the traces visibility
-    for trace in multiline_graph["data"]:
-        if trace.get("customdata")[0][0] == display_mode:
-            # max_y = max(max_y, max(trace["y"]))
-            max_y = max(max_y, trace["y"])
-            trace["visible"] = True
-        else:
-            trace["visible"] = False
+############################################
+# CALLBACKS
+############################################
 
-    # Update the 2008 crisis shape and annotation
-    if "2008" in checklist_values:
-        multiline_graph["layout"]["shapes"][0]["visible"] = True
-        multiline_graph["layout"]["annotations"][0]["visible"] = True
-    else:
-        multiline_graph["layout"]["shapes"][0]["visible"] = False
-        multiline_graph["layout"]["annotations"][0]["visible"] = False
 
-    # Update the covid crisis shape
-    if "covid" in checklist_values:
-        multiline_graph["layout"]["shapes"][1]["visible"] = True
-        multiline_graph["layout"]["annotations"][1]["visible"] = True
-    else:
-        multiline_graph["layout"]["shapes"][1]["visible"] = False
-        multiline_graph["layout"]["annotations"][1]["visible"] = False
+# ------ Multiline graph callbacks ------
 
-    # Update the max y value
-    multiline_graph["layout"]["shapes"][0]["y1"] = max_y
-    multiline_graph["layout"]["annotations"][0]["y"] = max_y
-    multiline_graph["layout"]["shapes"][1]["y1"] = max_y
-    multiline_graph["layout"]["annotations"][1]["y"] = max_y
 
-    return multiline_graph
+# # ------ Map callbacks ------
+
+
+# @app.callback(
+#     Output("choropleth", "figure"),
+#     [
+#         Input("crime-category-dropdown", "value"),
+#         Input("time-slider", "value"),
+#         Input("time-filter-dropdown", "value"),
+#         Input("geo-level-dropdown", "value"),
+#     ],
+# )
+# def update_map(**kwargs):
+#     return map_crime_rate.create_choropleth(**kwargs)
+
+
+# @app.callback(
+#     [
+#         Output("time-slider", "max"),
+#         Output("time-slider", "marks"),
+#         Output("time-slider", "value"),
+#         Output("interval-component", "disabled"),
+#     ],
+#     [
+#         Input("time-filter-dropdown", "value"),
+#         Input("geo-level-dropdown", "value"),
+#         Input("play-button", "n_clicks"),
+#         Input("pause-button", "n_clicks"),
+#         Input("interval-component", "n_intervals"),
+#     ],
+#     [State("interval-component", "disabled"), State("time-slider", "value")],
+# )
+# def update_time_slider_and_control_animation_callback(**kwargs):
+#     return map_crime_rate.update_time_slider_and_control_animation(**kwargs)
+
+
+# # ------ Beat crime type callbacks ------
+
+
+# # Callback to update the plot based on the selected year
+# @app.callback(Output("cluster-plot", "figure"), [Input("year-slider", "value")])
+# def update_beat_crime_type(selected_year):
+#     return beat_crime_type.update_figure(selected_year)

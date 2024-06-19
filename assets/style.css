@@ -29,6 +29,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .xy {
@@ -47,7 +48,7 @@ h2 {
 }
 
 /* Multiline chart */
-
+.histogram-container,
 .multiline-container {
   display: flex;
   justify-content: center;
@@ -56,11 +57,13 @@ h2 {
   height: max-content;
 }
 
+.histogram,
 .multiline-graph {
-  width: 75%;
+  width: 60%;
   height: 100%;
 }
 
+.histogram-params,
 .multiline-params {
   display: flex;
   flex-direction: column;
@@ -73,6 +76,7 @@ h2 {
   padding: 20px;
 }
 
+.histogram-dropdowns,
 .multiline-buttons {
   display: flex;
   align-items: center;
