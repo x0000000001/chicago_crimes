@@ -9,3 +9,4 @@ DATA_REDUCED_PATH = f"{DATA_FOLDER}/crimes_reduced.csv"  # 1000 times reduced da
 DATA_HISTOGRAM_FOLDER = f"{DATA_FOLDER}/histogram"
 DATA_MAP_FOLDER = f"{DATA_FOLDER}/map"
 DATA_STACKEDBC_FOLDER = f"{DATA_FOLDER}/stacked_bar_chart"
+DATA_CLUSTER_FOLDER = f"{DATA_FOLDER}/cluster"

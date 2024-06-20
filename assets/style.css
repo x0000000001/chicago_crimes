@@ -48,6 +48,7 @@ h2 {
 }
 
 /* Multiline chart */
+.cluster-plot-container,
 .map-container,
 .histogram-container,
 .multiline-container {
@@ -58,13 +59,14 @@ h2 {
   height: max-content;
 }
 
-.map,
+.cluster-plot .map,
 .histogram,
 .multiline-graph {
   width: 60%;
   height: 100%;
 }
 
+.cluster-plot-params,
 .map-params,
 .histogram-params,
 .multiline-params {

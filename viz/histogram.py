@@ -10,7 +10,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 
 from app import app
-from viz.paths import DATA_HISTOGRAM_FOLDER
+from paths import DATA_HISTOGRAM_FOLDER
 
 
 class TimeFilter:

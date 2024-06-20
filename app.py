@@ -16,9 +16,13 @@ from dash import html
 
 # from viz import map_crime_rate, beat_crime_type
 
+# TODO make functions in paths for files
+# TODO unify categories of crimes, maybe choose
+
 app = dash.Dash(__name__)
 app.title = "Chicago Crimes | INF8808"
 
+# TODO test delays with real dataset
 # DATA_PATH = "assets/data/crimes.csv" # full dataset
 DATA_PATH = "assets/data/crimes_reduced.csv"  # 1000 times reduced dataset
 
@@ -26,7 +30,7 @@ with open(DATA_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
 
 # Load figures
-figures_files = ["multiline", "histogram", "map"]
+figures_files = ["multiline", "histogram", "map", "cluster"]
 
 figures = {}
 html_elements = []
@@ -54,16 +58,3 @@ app.layout = html.Div(
         ),
     ],
 )
-
-
-############################################
-# CALLBACKS
-############################################
-
-# ------ Beat crime type callbacks ------
-
-
-# # Callback to update the plot based on the selected year
-# @app.callback(Output("cluster-plot", "figure"), [Input("year-slider", "value")])
-# def update_beat_crime_type(selected_year):
-#     return beat_crime_type.update_figure(selected_year)

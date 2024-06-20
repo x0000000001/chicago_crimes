@@ -1,20 +1,15 @@
 """
-Preprocess data to avoid repetitve computing and 
+Preprocess data to avoid repetitve computing and
 allow faster diplay of figures.
 """
 
 import datetime
 
 import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn.manifold import TSNE
 
-DATA_FOLDER = "assets/data"
-DATA_PATH = f"{DATA_FOLDER}/crimes.csv"
-DATA_REDUCED_PATH = f"{DATA_FOLDER}/crimes_reduced.csv"  # 1000 times reduced dataset
-
-HISTOGRAM_MONTHS_PATH = f"{DATA_FOLDER}/histogram_months.csv"
-HISTOGRAM_DAYS_PATH = f"{DATA_FOLDER}/histogram_days.csv"
-HISTOGRAM_TIME_OF_DAY_PATH = f"{DATA_FOLDER}/histogram_times_of_day.csv"
-
+import paths
 
 ############################################
 # DATA REDUCTION
@@ -27,9 +22,9 @@ def reduce_data():
     by taking randomly 1 record out of 1000.
     """
 
-    data = pd.read_csv(DATA_PATH)
+    data = pd.read_csv(paths.DATA_PATH)
     data = data.sample(frac=0.001)
-    data.to_csv(DATA_REDUCED_PATH, index=False)
+    data.to_csv(paths.DATA_REDUCED_PATH, index=False)
 
 
 ############################################
@@ -47,12 +42,14 @@ def time_of_day(date):
     hour = date.hour
     if 0 <= hour < 6:
         return "Night"
-    elif 6 <= hour < 12:
+    if 6 <= hour < 12:
         return "Morning"
-    elif 12 <= hour < 18:
+    if 12 <= hour < 18:
         return "Afternoon"
-    else:
+    if 18 <= hour < 24:
         return "Evening"
+
+    raise ValueError(f"Invalid hour: {hour}")
 
 
 def month(date):
@@ -70,43 +67,89 @@ def preprocess_histogram():
         - months according to the "Date" field
     """
 
-    data = pd.read_csv(DATA_PATH)
+    data = pd.read_csv(paths.DATA_PATH)
 
-    # Extract the date column from the data
-    data["Weekday"] = data["Date"].apply(weekday)
-    data["Time of Day"] = data["Date"].apply(time_of_day)
-    data["Month"] = data["Date"].apply(month)
-
-    # Time of the day
-    crime_counts = data.groupby(["Time of Day", "Primary Type"]).size().unstack()
-    # Save the processed data
-    crime_counts.to_csv(HISTOGRAM_TIME_OF_DAY_PATH)
-
-    # Days of the week
-    crime_counts = data.groupby(["Weekday", "Primary Type"]).size().unstack()
-    # Save the processed data
-    crime_counts.to_csv(HISTOGRAM_DAYS_PATH)
-
-    # Months
-    crime_counts = data.groupby(["Month", "Primary Type"]).size().unstack()
-    # Save the processed data
-    crime_counts.to_csv(HISTOGRAM_MONTHS_PATH)
+    for field, name, function in [
+        ("Weekday", "day", weekday),
+        ("Month", "month", time_of_day),
+        ("Time of Day", "time_of_day", month),
+    ]:
+        data[field] = data["Date"].apply(function)
+        crime_counts = data.groupby([field, "Primary Type"]).size().unstack()
+        crime_counts["Total"] = crime_counts.iloc[:, 1:].sum(axis=1)
+        crime_counts.to_csv(
+            f"{paths.DATA_HISTOGRAM_FOLDER}/histogram_{name}.csv", index=False
+        )
 
 
-def compute_totals():
-    # Total
-    histogram_months = pd.read_csv(HISTOGRAM_MONTHS_PATH)
-    histogram_days = pd.read_csv(HISTOGRAM_DAYS_PATH)
-    histogram_time_of_day = pd.read_csv(HISTOGRAM_TIME_OF_DAY_PATH)
+############################################
+# MAP
+############################################
 
-    histogram_months["Total"] = histogram_months.iloc[:, 1:].sum(axis=1)
-    histogram_days["Total"] = histogram_days.iloc[:, 1:].sum(axis=1)
-    histogram_time_of_day["Total"] = histogram_time_of_day.iloc[:, 1:].sum(axis=1)
+# TODO include map preprocessing
 
-    histogram_months.to_csv(HISTOGRAM_MONTHS_PATH, index=False)
-    histogram_days.to_csv(HISTOGRAM_DAYS_PATH, index=False)
-    histogram_time_of_day.to_csv(HISTOGRAM_TIME_OF_DAY_PATH, index=False)
+
+############################################
+# CLUSTER PLOT
+############################################
+
+
+def preprocess_year(df, year):
+    df_year = df[df["Year"] == year]
+
+    # Group by 'Beat' and 'Primary Type' to get arrest counts
+    grouped = (
+        df_year.groupby(["Beat", "Primary Type"])
+        .size()
+        .reset_index(name="Arrest Count")
+    )
+
+    # Pivot table to create a matrix for clustering
+    pivot_df = grouped.pivot(
+        index="Beat", columns="Primary Type", values="Arrest Count"
+    ).fillna(0)
+
+    # Perform t-SNE for dimensionality reduction
+    tsne = TSNE(n_components=2, random_state=0)
+    tsne_result = tsne.fit_transform(pivot_df)
+
+    # Perform KMeans clustering
+    kmeans = KMeans(n_clusters=5, random_state=0)
+    pivot_df["cluster"] = kmeans.fit_predict(pivot_df)
+
+    # Create a DataFrame with t-SNE results and cluster labels
+    tsne_df = pd.DataFrame(
+        tsne_result, columns=["TSNE Component 1", "TSNE Component 2"]
+    )
+    tsne_df["cluster"] = pivot_df["cluster"].values
+    tsne_df["Beat"] = pivot_df.index
+
+    # Save the results
+    tsne_df.to_csv(f"{paths.DATA_CLUSTER_FOLDER}/cluster_{year}.csv", index=False)
+
+
+def preprocess_cluster():
+    df = pd.read_csv(paths.DATA_PATH)
+
+    # Convert 'Date' to datetime and extract the year
+    df["Date"] = pd.to_datetime(df["Date"])
+    df["Year"] = df["Date"].dt.year
+
+    years = df["Year"].unique()
+
+    for year in years:
+        preprocess_year(df, year)
+
+    # min and max years for the slider
+    min_year = df["Year"].min()
+    max_year = df["Year"].max()
+
+    # save in file
+    with open(f"{paths.DATA_CLUSTER_FOLDER}/min_max_years", "w", encoding="utf-8") as f:
+        f.write(str(int(min_year)))
+        f.write("\n")
+        f.write(str(int(max_year)))
 
 
 if __name__ == "__main__":
-    compute_totals()
+    preprocess_cluster()

@@ -1,4 +1,4 @@
-day_of_week,district,neighborhood,specific_count,crime_category,total_count,crime_rate
+weekday,district,neighborhood,specific_count,crime_category,total_count,crime_rate
 Friday,1,Douglas / Loop,8676,Violent Crimes,340060,0.025513144739163676
 Friday,2,Douglas / Englewood,14183,Violent Crimes,340060,0.0417073457625125
 Friday,3,Grand Crossing / Jackson Park,20589,Violent Crimes,340060,0.06054519790625184

@@ -8,3 +8,4 @@ disable=
            # see https://stackoverflow.com/questions/34619790/pylint-message-logging-format-interpolation
            # and https://github.com/pylint-dev/pylint/issues/2395
     W3301, # nested maxs : proposed solution doesn't work
+    W0511, # why are FIXME anb TODO errors ???

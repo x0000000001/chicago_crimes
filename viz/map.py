@@ -12,7 +12,10 @@ from dash import dcc, html
 from dash.dependencies import Input, Output, State
 
 from app import app
-from viz.paths import DATA_MAP_FOLDER
+from paths import DATA_MAP_FOLDER
+
+# TODO fix slider on first load
+# TODO make animation smoother
 
 
 class GeoLevel(Enum):
@@ -30,6 +33,14 @@ class GeoLevel(Enum):
         ) as f:
             return json.load(f)
 
+    @staticmethod
+    def from_str(geo_level_str):
+        for geo_level in GeoLevel:
+            if geo_level_str.lower() == geo_level.value:
+                return geo_level
+
+        raise ValueError(f"Invalid geo level: {geo_level_str}")
+
 
 class TimeFilter(Enum):
     """
@@ -40,6 +51,14 @@ class TimeFilter(Enum):
     DAILY = "weekday"
     MONTHLY = "month"
     YEARLY = "year"
+
+    @staticmethod
+    def from_str(time_filter_str):
+        for time_filter in TimeFilter:
+            if time_filter_str.lower() == time_filter.value:
+                return time_filter
+
+        raise ValueError(f"Invalid time filter: {time_filter_str}")
 
 
 DEFAULT_GEOLEVEL = GeoLevel.DISTRICT
@@ -128,15 +147,6 @@ def convert_to_12_hour(hour):
         return f"{hour} AM"
 
 
-time_filter_str_to_filter = {
-    "Hourly": TimeFilter.HOURLY,
-    "Daily": TimeFilter.DAILY,
-    "Monthly": TimeFilter.MONTHLY,
-    "Yearly": TimeFilter.YEARLY,
-}
-
-geolevel_str_to_level = {"District": GeoLevel.DISTRICT, "Beat": GeoLevel.BEAT}
-
 time_filter_values = {
     TimeFilter.HOURLY: HOURS,
     TimeFilter.DAILY: WEEKDAYS,
@@ -158,8 +168,8 @@ def create_choropleth(crime_category, selected_time_idx, time_filter_str, geolev
     Returns:
         The choropleth map.
     """
-    time_filter = time_filter_str_to_filter[time_filter_str]
-    geolevel = geolevel_str_to_level[geolevel_str]
+    time_filter = TimeFilter.from_str(time_filter_str)
+    geolevel = GeoLevel.from_str(geolevel_str)
     time_value = time_filter_values[time_filter][selected_time_idx]
     aggregation = AGGREGATIONS[(geolevel, time_filter)]
     filtered_data = aggregation.csv[
@@ -250,10 +260,10 @@ def get_html(figure):
                             dcc.Dropdown(
                                 id="geo-level-dropdown",
                                 options=[
-                                    {"label": "District", "value": "District"},
-                                    {"label": "Beat", "value": "Beat"},
+                                    {"label": "Beat", "value": "beat"},
+                                    {"label": "District", "value": "district"},
                                 ],
-                                value="District",
+                                value="district",
                                 clearable=False,
                                 style={"width": "100%"},
                             ),
@@ -266,12 +276,12 @@ def get_html(figure):
                             dcc.Dropdown(
                                 id="time-filter-dropdown",
                                 options=[
-                                    {"label": "Yearly", "value": "Yearly"},
-                                    {"label": "Monthly", "value": "Monthly"},
-                                    {"label": "Daily", "value": "Daily"},
-                                    {"label": "Hourly", "value": "Hourly"},
+                                    {"label": "Hourly", "value": "hour"},
+                                    {"label": "Daily", "value": "weekday"},
+                                    {"label": "Monthly", "value": "month"},
+                                    {"label": "Yearly", "value": "year"},
                                 ],
-                                value="Yearly",
+                                value="year",
                                 clearable=False,
                                 style={"width": "100%"},
                             ),
@@ -327,8 +337,9 @@ def get_html(figure):
 
 
 def get_figure(_data):
-    fig = go.Figure()
-    return fig
+    return create_choropleth(
+        CRIMES[0], 0, DEFAULT_TIME_FILTER.value, DEFAULT_GEOLEVEL.value
+    )
 
 
 def get_hover_template():
@@ -351,17 +362,17 @@ def update_map(crime_category, selected_time_idx, time_filter_str, geolevel_str)
 
 
 SCALES_LENGTHS = {
-    "Hourly": len(HOURS),
-    "Daily": len(WEEKDAYS),
-    "Monthly": len(MONTHS),
-    "Yearly": len(YEARS),
+    "hour": len(HOURS),
+    "weekday": len(WEEKDAYS),
+    "month": len(MONTHS),
+    "year": len(YEARS),
 }
 
 SCALES_MARKS = {
-    "Hourly": {i: convert_to_12_hour(hour) for i, hour in enumerate(HOURS)},
-    "Daily": {i: day for i, day in enumerate(WEEKDAYS)},
-    "Monthly": {i: month for i, month in enumerate(MONTHS)},
-    "Yearly": {i: str(year) for i, year in enumerate(YEARS)},
+    "hour": {i: convert_to_12_hour(hour) for i, hour in enumerate(HOURS)},
+    "weekday": {i: day for i, day in enumerate(WEEKDAYS)},
+    "month": {i: month for i, month in enumerate(MONTHS)},
+    "year": {i: str(year) for i, year in enumerate(YEARS)},
 }
 
 
