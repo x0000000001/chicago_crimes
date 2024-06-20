@@ -6,6 +6,7 @@ dash-table
 flask
 flask-compress
 flask-failsafe
+geopandas
 importlib-metadata
 itsdangerous
 jinja2

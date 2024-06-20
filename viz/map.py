@@ -14,7 +14,7 @@ from dash.dependencies import Input, Output, State
 from app import app
 from paths import DATA_MAP_FOLDER
 
-# TODO fix slider on first load
+# FIXME slider doesn't show correctly on first load
 # TODO make animation smoother
 
 

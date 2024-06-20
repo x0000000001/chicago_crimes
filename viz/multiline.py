@@ -23,7 +23,7 @@ def process_data(data):
     """
     total_crimes = data.shape[0]
     # Convert data to datetime, get year and group by year and primary type
-    data["Date"] = pd.to_datetime(data["Date"])
+    data["Date"] = pd.to_datetime(data["Date"], format="%m/%d/%Y %I:%M:%S %p")
     data["Year"] = data["Date"].dt.year
     data = data.groupby(["Year", "Primary Type"]).size().reset_index(name="Annual")
 
