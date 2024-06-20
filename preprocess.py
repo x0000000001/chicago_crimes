@@ -3,8 +3,9 @@ Preprocess data to avoid repetitve computing and
 allow faster diplay of figures.
 """
 
-import pandas as pd
 import datetime
+
+import pandas as pd
 
 DATA_FOLDER = "assets/data"
 DATA_PATH = f"{DATA_FOLDER}/crimes.csv"
@@ -16,7 +17,7 @@ HISTOGRAM_TIME_OF_DAY_PATH = f"{DATA_FOLDER}/histogram_times_of_day.csv"
 
 
 ############################################
-# DAT REDUCTION
+# DATA REDUCTION
 ############################################
 
 

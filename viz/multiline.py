@@ -210,6 +210,9 @@ def get_figure(data):
     return fig
 
 
+# TODO create premade components for buttons and containers, to unify all visualization
+
+
 def get_html(figure):
     return html.Div(
         className="multiline-container",

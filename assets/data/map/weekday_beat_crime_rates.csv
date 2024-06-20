@@ -1,4 +1,4 @@
-day_of_week,beat,neighborhood,specific_count,crime_category,total_count,crime_rate
+weekday,beat,neighborhood,specific_count,crime_category,total_count,crime_rate
 Friday,111,Douglas / Loop,822,Violent Crimes,340060,0.002417220490501676
 Friday,112,Douglas / Loop,682,Violent Crimes,340060,0.002005528436158325
 Friday,113,Douglas / Loop,775,Violent Crimes,340060,0.002279009586543551

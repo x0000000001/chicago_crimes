@@ -113,7 +113,7 @@ def get_html(figure):
                         children=[
                             html.H4("Time scale"),
                             dcc.Dropdown(
-                                id="time-filter-dropdown",
+                                id="histogram-time-filter-dropdown",
                                 options=[
                                     {"label": "Times of day", "value": "time_of_day"},
                                     {"label": "Days", "value": "day"},
@@ -145,7 +145,7 @@ def get_html(figure):
 @app.callback(
     Output("histogram", "figure"),
     [
-        Input("time-filter-dropdown", "value"),
+        Input("histogram-time-filter-dropdown", "value"),
         Input("crime-type-dropdown", "value"),
     ],
 )

@@ -48,6 +48,7 @@ h2 {
 }
 
 /* Multiline chart */
+.map-container,
 .histogram-container,
 .multiline-container {
   display: flex;
@@ -57,12 +58,14 @@ h2 {
   height: max-content;
 }
 
+.map,
 .histogram,
 .multiline-graph {
   width: 60%;
   height: 100%;
 }
 
+.map-params,
 .histogram-params,
 .multiline-params {
   display: flex;
@@ -76,6 +79,7 @@ h2 {
   padding: 20px;
 }
 
+.map-dropdowns,
 .histogram-dropdowns,
 .multiline-buttons {
   display: flex;
