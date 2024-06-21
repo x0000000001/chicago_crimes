@@ -67,10 +67,14 @@ def create_figure(selected_year):
     )
 
     fig.update_layout(
-        title=f"Cluster Analysis for Year {selected_year}",
-        xaxis_title="t-SNE Component 1",
-        yaxis_title="t-SNE Component 2",
+        title=dict(text=f"Cluster Analysis for Year {selected_year}", font=dict(color="white")),
+        xaxis_title=dict(text="t-SNE Component 1", font=dict(color="white")),
+        yaxis_title=dict(text="t-SNE Component 2", font=dict(color="white")),
+        xaxis=dict(fixedrange=True, tickfont=dict(color="white")),
+        yaxis=dict(fixedrange=True, tickfont=dict(color="white")),
         title_x=0.5,
+        paper_bgcolor="rgba(0,0,0,0)",
+        font=dict(color="white"),
     )
 
     return fig

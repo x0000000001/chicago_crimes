@@ -64,11 +64,16 @@ def create_histogram(time_filter: TimeFilters, crime_type):
 
     # Set layout
     fig.update_layout(
-        title="Crimes in time",
-        xaxis_title=f"{time_filter.name.capitalize()}s",
-        yaxis_title=f"{crime_type} count",
+        title=dict(text="Crimes in time", font=dict(color="white")),
+        xaxis_title=dict(text=f"{time_filter.name.capitalize()}s", font=dict(color="white")),
+        yaxis_title=dict(text=f"{crime_type} count", font=dict(color="white")),
+
         barmode="group",
         title_x=0.5,
+        xaxis=dict(fixedrange=True, tickfont=dict(color="white")),
+        yaxis=dict(fixedrange=True, tickfont= dict(color="white")),
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
     )
 
     return fig
@@ -121,7 +126,7 @@ def get_html(figure):
                                 ],
                                 value="time_of_day",
                                 clearable=False,
-                                style={"width": "100%"},
+                                style={"width": "100%", 'color': 'black'},
                             ),
                             html.H4("Crime type"),
                             dcc.Dropdown(
@@ -132,7 +137,7 @@ def get_html(figure):
                                 ],
                                 value=DEFAULT_CRIME_TYPE,
                                 clearable=False,
-                                style={"width": "100%"},
+                                style={"width": "100%", "color": "black"},
                             ),
                         ],
                     ),

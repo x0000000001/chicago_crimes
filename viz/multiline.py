@@ -8,6 +8,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash import dcc, html
 from dash.dependencies import Input, Output
+import os
+from paths import DATA_MULTILINE_FOLDER
 
 from app import app
 
@@ -72,6 +74,9 @@ def process_data(data):
 
     assert total_crimes == data["Annual"].sum()
 
+    # Save the data in csv
+    data.to_csv("assets/data/multiline/multiline.csv", index=False)
+
     return data
 
 
@@ -97,7 +102,7 @@ def get_figure(data):
     Returns:
         The figure to be displayed.
     """
-    data = process_data(data)
+    data = pd.read_csv(DATA_MULTILINE_FOLDER + "/multiline.csv")
 
     # Add traces for Annual
     fig = px.line(

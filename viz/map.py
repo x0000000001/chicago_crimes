@@ -234,7 +234,11 @@ def create_choropleth(crime_category, selected_time_idx, time_filter_str, geolev
         margin={"r": 0, "t": 30, "l": 0, "b": 0},
         height=600,
         font={"family": "Oswald"},
+        plot_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="rgba(0,0,0,0)",
     )
+
+    fig.update_geos(bgcolor="rgba(0,0,0,0)")
 
     return fig
 
