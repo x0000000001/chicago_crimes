@@ -1,0 +1,26 @@
+district,crime_category,primary_type,neighborhood,count
+1,Property Crimes,THEFT,Douglas / Loop,139427
+2,Violent Crimes,BATTERY,Douglas / Englewood,61695
+3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,90376
+4,Violent Crimes,BATTERY,Avalon Park / Burnside,94601
+5,Violent Crimes,BATTERY,Burnside / Pullman,80365
+6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,96601
+7,Violent Crimes,BATTERY,Englewood / Grand Crossing,113118
+8,Property Crimes,THEFT,Archer Heights / Ashburn,105516
+9,Violent Crimes,BATTERY,Armour Square / Bridgeport,73736
+10,Violent Crimes,BATTERY,Little Village / Lower West Side,75860
+11,Drug Offenses,NARCOTICS,Austin / Garfield Park,134597
+12,Property Crimes,THEFT,East Village / Garfield Park,81315
+13,Property Crimes,THEFT,East Village / Garfield Park,34055
+14,Property Crimes,THEFT,Avondale / Bucktown,90418
+15,Drug Offenses,NARCOTICS,Austin,80674
+16,Property Crimes,THEFT,Dunning / Edison Park,64614
+17,Property Crimes,THEFT,Albany Park / Avondale,58478
+18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,152624
+19,Property Crimes,THEFT,Lake View / Lincoln Park,95581
+20,Property Crimes,THEFT,Andersonville / Edgewater,37406
+21,Property Crimes,THEFT,Chinatown / Douglas,28913
+22,Property Crimes,THEFT,Auburn Gresham / Beverly,50891
+23,Property Crimes,THEFT,Boystown / Lake View,28482
+24,Property Crimes,THEFT,Edgewater / Rogers Park,58854
+25,Property Crimes,THEFT,Austin / Avondale,85324

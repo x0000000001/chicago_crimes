@@ -1,0 +1,565 @@
+year,district,crime_category,primary_type,neighborhood,count
+2001,1,Property Crimes,THEFT,Douglas / Loop,7537
+2001,2,Violent Crimes,BATTERY,Douglas / Englewood,5237
+2001,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,5829
+2001,4,Violent Crimes,BATTERY,Avalon Park / Burnside,5591
+2001,5,Violent Crimes,BATTERY,Burnside / Pullman,5279
+2001,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,5194
+2001,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,7625
+2001,8,Property Crimes,THEFT,Archer Heights / Ashburn,6661
+2001,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,4648
+2001,10,Violent Crimes,BATTERY,Little Village / Lower West Side,4555
+2001,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,7979
+2001,12,Property Crimes,THEFT,East Village / Garfield Park,3074
+2001,13,Property Crimes,THEFT,East Village / Garfield Park,2470
+2001,14,Property Crimes,THEFT,Avondale / Bucktown,5465
+2001,15,Drug Offenses,NARCOTICS,Austin,5941
+2001,16,Property Crimes,THEFT,Dunning / Edison Park,3912
+2001,17,Property Crimes,THEFT,Albany Park / Avondale,3399
+2001,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,8995
+2001,19,Property Crimes,THEFT,Lake View / Lincoln Park,3918
+2001,20,Property Crimes,THEFT,Andersonville / Edgewater,2201
+2001,21,Property Crimes,THEFT,Chinatown / Douglas,3751
+2001,22,Property Crimes,THEFT,Auburn Gresham / Beverly,2766
+2001,23,Property Crimes,THEFT,Boystown / Lake View,2841
+2001,24,Property Crimes,THEFT,Edgewater / Rogers Park,3270
+2001,25,Property Crimes,THEFT,Austin / Avondale,5121
+2002,1,Property Crimes,THEFT,Douglas / Loop,6997
+2002,2,Violent Crimes,BATTERY,Douglas / Englewood,4561
+2002,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,5671
+2002,4,Violent Crimes,BATTERY,Avalon Park / Burnside,5695
+2002,5,Violent Crimes,BATTERY,Burnside / Pullman,5622
+2002,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,5376
+2002,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,8081
+2002,8,Property Crimes,THEFT,Archer Heights / Ashburn,6577
+2002,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,4911
+2002,10,Violent Crimes,BATTERY,Little Village / Lower West Side,4594
+2002,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,9236
+2002,12,Property Crimes,THEFT,East Village / Garfield Park,3099
+2002,13,Property Crimes,THEFT,East Village / Garfield Park,3165
+2002,14,Property Crimes,THEFT,Avondale / Bucktown,5717
+2002,15,Drug Offenses,NARCOTICS,Austin,5738
+2002,16,Property Crimes,THEFT,Dunning / Edison Park,3962
+2002,17,Property Crimes,THEFT,Albany Park / Avondale,3430
+2002,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,8781
+2002,19,Property Crimes,THEFT,Lake View / Lincoln Park,4114
+2002,20,Property Crimes,THEFT,Andersonville / Edgewater,2196
+2002,21,Property Crimes,THEFT,Chinatown / Douglas,3084
+2002,22,Property Crimes,THEFT,Auburn Gresham / Beverly,3028
+2002,23,Property Crimes,THEFT,Boystown / Lake View,2883
+2002,24,Property Crimes,THEFT,Edgewater / Rogers Park,3377
+2002,25,Property Crimes,THEFT,Austin / Avondale,5206
+2003,1,Property Crimes,THEFT,Douglas / Loop,6659
+2003,2,Violent Crimes,BATTERY,Douglas / Englewood,3951
+2003,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,5402
+2003,4,Violent Crimes,BATTERY,Avalon Park / Burnside,5335
+2003,5,Violent Crimes,BATTERY,Burnside / Pullman,5281
+2003,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,5107
+2003,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,7303
+2003,8,Property Crimes,THEFT,Archer Heights / Ashburn,6445
+2003,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,4546
+2003,10,Violent Crimes,BATTERY,Little Village / Lower West Side,4315
+2003,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,9562
+2003,12,Property Crimes,THEFT,East Village / Garfield Park,3425
+2003,13,Property Crimes,THEFT,East Village / Garfield Park,3407
+2003,14,Property Crimes,THEFT,Avondale / Bucktown,5528
+2003,15,Drug Offenses,NARCOTICS,Austin,6653
+2003,16,Property Crimes,THEFT,Dunning / Edison Park,3891
+2003,17,Property Crimes,THEFT,Albany Park / Avondale,3548
+2003,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,8126
+2003,19,Property Crimes,THEFT,Lake View / Lincoln Park,4084
+2003,20,Property Crimes,THEFT,Andersonville / Edgewater,2055
+2003,21,Property Crimes,THEFT,Chinatown / Douglas,2928
+2003,22,Violent Crimes,BATTERY,Auburn Gresham / Beverly,2841
+2003,23,Property Crimes,THEFT,Boystown / Lake View,2662
+2003,24,Property Crimes,THEFT,Edgewater / Rogers Park,3097
+2003,25,Property Crimes,THEFT,Austin / Avondale,5699
+2004,1,Property Crimes,THEFT,Douglas / Loop,6751
+2004,2,Violent Crimes,BATTERY,Douglas / Englewood,3492
+2004,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,5503
+2004,4,Violent Crimes,BATTERY,Avalon Park / Burnside,5402
+2004,5,Violent Crimes,BATTERY,Burnside / Pullman,5156
+2004,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,5310
+2004,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,7391
+2004,8,Property Crimes,THEFT,Archer Heights / Ashburn,6353
+2004,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,4318
+2004,10,Violent Crimes,BATTERY,Little Village / Lower West Side,4182
+2004,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,9084
+2004,12,Property Crimes,THEFT,East Village / Garfield Park,3650
+2004,13,Property Crimes,THEFT,East Village / Garfield Park,3231
+2004,14,Property Crimes,THEFT,Avondale / Bucktown,5003
+2004,15,Drug Offenses,NARCOTICS,Austin,5718
+2004,16,Property Crimes,THEFT,Dunning / Edison Park,3469
+2004,17,Property Crimes,THEFT,Albany Park / Avondale,3339
+2004,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,7406
+2004,19,Property Crimes,THEFT,Lake View / Lincoln Park,3635
+2004,20,Property Crimes,THEFT,Andersonville / Edgewater,2049
+2004,21,Property Crimes,THEFT,Chinatown / Douglas,3002
+2004,22,Property Crimes,THEFT,Auburn Gresham / Beverly,3064
+2004,23,Property Crimes,THEFT,Boystown / Lake View,2805
+2004,24,Property Crimes,THEFT,Edgewater / Rogers Park,3359
+2004,25,Property Crimes,THEFT,Austin / Avondale,5217
+2005,1,Property Crimes,THEFT,Douglas / Loop,6139
+2005,2,Violent Crimes,BATTERY,Douglas / Englewood,3123
+2005,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,5184
+2005,4,Violent Crimes,BATTERY,Avalon Park / Burnside,5277
+2005,5,Violent Crimes,BATTERY,Burnside / Pullman,4710
+2005,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,5334
+2005,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,6992
+2005,8,Property Crimes,THEFT,Archer Heights / Ashburn,5824
+2005,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,4380
+2005,10,Violent Crimes,BATTERY,Little Village / Lower West Side,4079
+2005,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,9722
+2005,12,Property Crimes,THEFT,East Village / Garfield Park,2829
+2005,13,Property Crimes,THEFT,East Village / Garfield Park,2713
+2005,14,Property Crimes,THEFT,Avondale / Bucktown,4143
+2005,15,Drug Offenses,NARCOTICS,Austin,5251
+2005,16,Property Crimes,THEFT,Dunning / Edison Park,3336
+2005,17,Property Crimes,THEFT,Albany Park / Avondale,2996
+2005,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,6509
+2005,19,Property Crimes,THEFT,Lake View / Lincoln Park,3071
+2005,20,Property Crimes,THEFT,Andersonville / Edgewater,2037
+2005,21,Property Crimes,THEFT,Chinatown / Douglas,2780
+2005,22,Violent Crimes,BATTERY,Auburn Gresham / Beverly,2784
+2005,23,Property Crimes,THEFT,Boystown / Lake View,2429
+2005,24,Property Crimes,THEFT,Edgewater / Rogers Park,3200
+2005,25,Property Crimes,THEFT,Austin / Avondale,4613
+2006,1,Property Crimes,THEFT,Douglas / Loop,6210
+2006,2,Violent Crimes,BATTERY,Douglas / Englewood,2964
+2006,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,4986
+2006,4,Violent Crimes,BATTERY,Avalon Park / Burnside,5159
+2006,5,Violent Crimes,BATTERY,Burnside / Pullman,4374
+2006,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,5203
+2006,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,6785
+2006,8,Property Crimes,THEFT,Archer Heights / Ashburn,5854
+2006,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,4129
+2006,10,Violent Crimes,BATTERY,Little Village / Lower West Side,3726
+2006,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,8255
+2006,12,Property Crimes,THEFT,East Village / Garfield Park,2995
+2006,13,Property Crimes,THEFT,East Village / Garfield Park,2832
+2006,14,Property Crimes,THEFT,Avondale / Bucktown,4354
+2006,15,Drug Offenses,NARCOTICS,Austin,6457
+2006,16,Property Crimes,THEFT,Dunning / Edison Park,3322
+2006,17,Property Crimes,THEFT,Albany Park / Avondale,2973
+2006,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,6698
+2006,19,Property Crimes,THEFT,Lake View / Lincoln Park,3255
+2006,20,Property Crimes,THEFT,Andersonville / Edgewater,2059
+2006,21,Property Crimes,THEFT,Chinatown / Douglas,2310
+2006,22,Violent Crimes,BATTERY,Auburn Gresham / Beverly,2738
+2006,23,Property Crimes,THEFT,Boystown / Lake View,2455
+2006,24,Property Crimes,THEFT,Edgewater / Rogers Park,3344
+2006,25,Property Crimes,THEFT,Austin / Avondale,4391
+2007,1,Property Crimes,THEFT,Douglas / Loop,6107
+2007,2,Violent Crimes,BATTERY,Douglas / Englewood,2644
+2007,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,4979
+2007,4,Violent Crimes,BATTERY,Avalon Park / Burnside,5252
+2007,5,Violent Crimes,BATTERY,Burnside / Pullman,4371
+2007,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,5388
+2007,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,6740
+2007,8,Property Crimes,THEFT,Archer Heights / Ashburn,5710
+2007,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,3978
+2007,10,Violent Crimes,BATTERY,Little Village / Lower West Side,3785
+2007,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,7407
+2007,12,Property Crimes,THEFT,East Village / Garfield Park,2859
+2007,13,Property Crimes,THEFT,East Village / Garfield Park,2775
+2007,14,Property Crimes,THEFT,Avondale / Bucktown,4333
+2007,15,Drug Offenses,NARCOTICS,Austin,6413
+2007,16,Property Crimes,THEFT,Dunning / Edison Park,3189
+2007,17,Property Crimes,THEFT,Albany Park / Avondale,2653
+2007,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,7087
+2007,19,Property Crimes,THEFT,Lake View / Lincoln Park,3657
+2007,20,Property Crimes,THEFT,Andersonville / Edgewater,1794
+2007,21,Property Crimes,THEFT,Chinatown / Douglas,2269
+2007,22,Property Crimes,THEFT,Auburn Gresham / Beverly,2837
+2007,23,Property Crimes,THEFT,Boystown / Lake View,2318
+2007,24,Property Crimes,THEFT,Edgewater / Rogers Park,2975
+2007,25,Violent Crimes,BATTERY,Austin / Avondale,4526
+2008,1,Property Crimes,THEFT,Douglas / Loop,6292
+2008,2,Violent Crimes,BATTERY,Douglas / Englewood,2336
+2008,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,4653
+2008,4,Violent Crimes,BATTERY,Avalon Park / Burnside,4887
+2008,5,Violent Crimes,BATTERY,Burnside / Pullman,4101
+2008,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,5117
+2008,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,6444
+2008,8,Property Crimes,THEFT,Archer Heights / Ashburn,5836
+2008,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,3818
+2008,10,Violent Crimes,BATTERY,Little Village / Lower West Side,3648
+2008,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,5963
+2008,12,Property Crimes,THEFT,East Village / Garfield Park,2886
+2008,13,Property Crimes,THEFT,East Village / Garfield Park,3300
+2008,14,Property Crimes,THEFT,Avondale / Bucktown,4556
+2008,15,Drug Offenses,NARCOTICS,Austin,5397
+2008,16,Property Crimes,THEFT,Dunning / Edison Park,3794
+2008,17,Property Crimes,THEFT,Albany Park / Avondale,3074
+2008,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,7575
+2008,19,Property Crimes,THEFT,Lake View / Lincoln Park,3902
+2008,20,Property Crimes,THEFT,Andersonville / Edgewater,1821
+2008,21,Property Crimes,THEFT,Chinatown / Douglas,2192
+2008,22,Property Crimes,THEFT,Auburn Gresham / Beverly,2760
+2008,23,Property Crimes,THEFT,Boystown / Lake View,2667
+2008,24,Property Crimes,THEFT,Edgewater / Rogers Park,2830
+2008,25,Property Crimes,THEFT,Austin / Avondale,4506
+2009,1,Property Crimes,THEFT,Douglas / Loop,5749
+2009,2,Violent Crimes,BATTERY,Douglas / Englewood,2120
+2009,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,4241
+2009,4,Violent Crimes,BATTERY,Avalon Park / Burnside,4290
+2009,5,Violent Crimes,BATTERY,Burnside / Pullman,3918
+2009,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,4382
+2009,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,5193
+2009,8,Property Crimes,THEFT,Archer Heights / Ashburn,5488
+2009,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,3397
+2009,10,Violent Crimes,BATTERY,Little Village / Lower West Side,3383
+2009,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,5994
+2009,12,Property Crimes,THEFT,East Village / Garfield Park,2574
+2009,13,Property Crimes,THEFT,East Village / Garfield Park,2682
+2009,14,Property Crimes,THEFT,Avondale / Bucktown,4318
+2009,15,Drug Offenses,NARCOTICS,Austin,4803
+2009,16,Property Crimes,THEFT,Dunning / Edison Park,3201
+2009,17,Property Crimes,THEFT,Albany Park / Avondale,2851
+2009,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,6962
+2009,19,Property Crimes,THEFT,Lake View / Lincoln Park,3846
+2009,20,Property Crimes,THEFT,Andersonville / Edgewater,1674
+2009,21,Property Crimes,THEFT,Chinatown / Douglas,2116
+2009,22,Property Crimes,THEFT,Auburn Gresham / Beverly,2429
+2009,23,Property Crimes,THEFT,Boystown / Lake View,2418
+2009,24,Property Crimes,THEFT,Edgewater / Rogers Park,2547
+2009,25,Property Crimes,THEFT,Austin / Avondale,4724
+2010,1,Property Crimes,THEFT,Douglas / Loop,5757
+2010,2,Violent Crimes,BATTERY,Douglas / Englewood,2093
+2010,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,4157
+2010,4,Violent Crimes,BATTERY,Avalon Park / Burnside,4227
+2010,5,Violent Crimes,BATTERY,Burnside / Pullman,3640
+2010,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,4216
+2010,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,5097
+2010,8,Property Crimes,THEFT,Archer Heights / Ashburn,4584
+2010,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,3334
+2010,10,Violent Crimes,BATTERY,Little Village / Lower West Side,3449
+2010,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,5869
+2010,12,Property Crimes,THEFT,East Village / Garfield Park,2482
+2010,13,Property Crimes,THEFT,East Village / Garfield Park,2792
+2010,14,Property Crimes,THEFT,Avondale / Bucktown,4383
+2010,15,Drug Offenses,NARCOTICS,Austin,4974
+2010,16,Property Crimes,THEFT,Dunning / Edison Park,2649
+2010,17,Property Crimes,THEFT,Albany Park / Avondale,2728
+2010,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,6874
+2010,19,Property Crimes,THEFT,Lake View / Lincoln Park,3614
+2010,20,Property Crimes,THEFT,Andersonville / Edgewater,1468
+2010,21,Property Crimes,THEFT,Chinatown / Douglas,2195
+2010,22,Property Crimes,THEFT,Auburn Gresham / Beverly,2431
+2010,23,Property Crimes,THEFT,Boystown / Lake View,2362
+2010,24,Property Crimes,THEFT,Edgewater / Rogers Park,2576
+2010,25,Property Crimes,THEFT,Austin / Avondale,4063
+2011,1,Property Crimes,THEFT,Douglas / Loop,5446
+2011,2,Violent Crimes,BATTERY,Douglas / Englewood,1960
+2011,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,3714
+2011,4,Violent Crimes,BATTERY,Avalon Park / Burnside,4230
+2011,5,Violent Crimes,BATTERY,Burnside / Pullman,3330
+2011,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3837
+2011,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,4634
+2011,8,Property Crimes,THEFT,Archer Heights / Ashburn,4764
+2011,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,3196
+2011,10,Violent Crimes,BATTERY,Little Village / Lower West Side,3178
+2011,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,5304
+2011,12,Property Crimes,THEFT,East Village / Garfield Park,2538
+2011,13,Property Crimes,THEFT,East Village / Garfield Park,2444
+2011,14,Property Crimes,THEFT,Avondale / Bucktown,3813
+2011,15,Drug Offenses,NARCOTICS,Austin,4240
+2011,16,Property Crimes,THEFT,Dunning / Edison Park,2632
+2011,17,Property Crimes,THEFT,Albany Park / Avondale,2372
+2011,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,6643
+2011,19,Property Crimes,THEFT,Lake View / Lincoln Park,3264
+2011,20,Property Crimes,THEFT,Andersonville / Edgewater,1502
+2011,21,Property Crimes,THEFT,Chinatown / Douglas,2024
+2011,22,Property Crimes,THEFT,Auburn Gresham / Beverly,2371
+2011,23,Property Crimes,THEFT,Boystown / Lake View,2341
+2011,24,Property Crimes,THEFT,Edgewater / Rogers Park,2461
+2011,25,Property Crimes,THEFT,Austin / Avondale,3665
+2012,1,Property Crimes,THEFT,Douglas / Loop,6002
+2012,2,Property Crimes,THEFT,Douglas / Englewood,2807
+2012,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,3657
+2012,4,Violent Crimes,BATTERY,Avalon Park / Burnside,4025
+2012,5,Violent Crimes,BATTERY,Burnside / Pullman,3250
+2012,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3836
+2012,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,4581
+2012,8,Property Crimes,THEFT,Archer Heights / Ashburn,4575
+2012,9,Property Crimes,THEFT,Armour Square / Bridgeport,3215
+2012,10,Violent Crimes,BATTERY,Little Village / Lower West Side,3352
+2012,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,5600
+2012,12,Property Crimes,THEFT,East Village / Garfield Park,2540
+2012,13,Property Crimes,THEFT,East Village / Garfield Park,2244
+2012,14,Property Crimes,THEFT,Avondale / Bucktown,3593
+2012,15,Drug Offenses,NARCOTICS,Austin,3614
+2012,16,Property Crimes,THEFT,Dunning / Edison Park,2832
+2012,17,Property Crimes,THEFT,Albany Park / Avondale,2423
+2012,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,6956
+2012,19,Property Crimes,THEFT,Lake View / Lincoln Park,5324
+2012,20,Property Crimes,THEFT,Andersonville / Edgewater,1601
+2012,21,Property Crimes,THEFT,Chinatown / Douglas,262
+2012,22,Property Crimes,THEFT,Auburn Gresham / Beverly,2341
+2012,23,Property Crimes,THEFT,Boystown / Lake View,301
+2012,24,Property Crimes,THEFT,Edgewater / Rogers Park,2252
+2012,25,Property Crimes,THEFT,Austin / Avondale,3786
+2013,1,Property Crimes,THEFT,Douglas / Loop,5718
+2013,2,Property Crimes,THEFT,Douglas / Englewood,2908
+2013,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,3390
+2013,4,Violent Crimes,BATTERY,Avalon Park / Burnside,3532
+2013,5,Violent Crimes,BATTERY,Burnside / Pullman,3001
+2013,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3725
+2013,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,4213
+2013,8,Property Crimes,THEFT,Archer Heights / Ashburn,4535
+2013,9,Property Crimes,THEFT,Armour Square / Bridgeport,3101
+2013,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2824
+2013,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,7249
+2013,12,Property Crimes,THEFT,East Village / Garfield Park,4301
+2013,14,Property Crimes,THEFT,Avondale / Bucktown,3366
+2013,15,Drug Offenses,NARCOTICS,Austin,3762
+2013,16,Property Crimes,THEFT,Dunning / Edison Park,2618
+2013,17,Property Crimes,THEFT,Albany Park / Avondale,2269
+2013,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,6267
+2013,19,Property Crimes,THEFT,Lake View / Lincoln Park,5197
+2013,20,Property Crimes,THEFT,Andersonville / Edgewater,1400
+2013,22,Property Crimes,THEFT,Auburn Gresham / Beverly,2347
+2013,24,Property Crimes,THEFT,Edgewater / Rogers Park,2201
+2013,25,Property Crimes,THEFT,Austin / Avondale,3798
+2014,1,Property Crimes,THEFT,Douglas / Loop,5377
+2014,2,Property Crimes,THEFT,Douglas / Englewood,2513
+2014,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,2917
+2014,4,Violent Crimes,BATTERY,Avalon Park / Burnside,3331
+2014,5,Violent Crimes,BATTERY,Burnside / Pullman,2654
+2014,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3499
+2014,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,3688
+2014,8,Property Crimes,THEFT,Archer Heights / Ashburn,3938
+2014,9,Property Crimes,THEFT,Armour Square / Bridgeport,2783
+2014,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2674
+2014,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,6804
+2014,12,Property Crimes,THEFT,East Village / Garfield Park,3839
+2014,14,Property Crimes,THEFT,Avondale / Bucktown,3150
+2014,15,Drug Offenses,NARCOTICS,Austin,3192
+2014,16,Property Crimes,THEFT,Dunning / Edison Park,2148
+2014,17,Property Crimes,THEFT,Albany Park / Avondale,2003
+2014,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,5356
+2014,19,Property Crimes,THEFT,Lake View / Lincoln Park,4366
+2014,20,Property Crimes,THEFT,Andersonville / Edgewater,1172
+2014,22,Property Crimes,THEFT,Auburn Gresham / Beverly,1975
+2014,24,Property Crimes,THEFT,Edgewater / Rogers Park,1746
+2014,25,Property Crimes,THEFT,Austin / Avondale,2935
+2015,1,Property Crimes,THEFT,Douglas / Loop,5654
+2015,2,Property Crimes,THEFT,Douglas / Englewood,2439
+2015,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,3019
+2015,4,Violent Crimes,BATTERY,Avalon Park / Burnside,3355
+2015,5,Violent Crimes,BATTERY,Burnside / Pullman,2535
+2015,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3363
+2015,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,3551
+2015,8,Property Crimes,THEFT,Archer Heights / Ashburn,3379
+2015,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,2478
+2015,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2713
+2015,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,5671
+2015,12,Property Crimes,THEFT,East Village / Garfield Park,3630
+2015,14,Property Crimes,THEFT,Avondale / Bucktown,3150
+2015,15,Violent Crimes,BATTERY,Austin,2590
+2015,16,Property Crimes,THEFT,Dunning / Edison Park,2196
+2015,17,Property Crimes,THEFT,Albany Park / Avondale,2071
+2015,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,5292
+2015,19,Property Crimes,THEFT,Lake View / Lincoln Park,4177
+2015,20,Property Crimes,THEFT,Andersonville / Edgewater,1143
+2015,22,Property Crimes,THEFT,Auburn Gresham / Beverly,1727
+2015,24,Property Crimes,THEFT,Edgewater / Rogers Park,1665
+2015,25,Violent Crimes,BATTERY,Austin / Avondale,2878
+2016,1,Property Crimes,THEFT,Douglas / Loop,6557
+2016,2,Property Crimes,THEFT,Douglas / Englewood,2751
+2016,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,2891
+2016,4,Violent Crimes,BATTERY,Avalon Park / Burnside,3391
+2016,5,Violent Crimes,BATTERY,Burnside / Pullman,2633
+2016,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3599
+2016,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,3471
+2016,8,Property Crimes,THEFT,Archer Heights / Ashburn,3475
+2016,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,2562
+2016,10,Violent Crimes,BATTERY,Little Village / Lower West Side,3041
+2016,11,Violent Crimes,BATTERY,Austin / Garfield Park,3906
+2016,12,Property Crimes,THEFT,East Village / Garfield Park,4801
+2016,14,Property Crimes,THEFT,Avondale / Bucktown,3688
+2016,15,Violent Crimes,BATTERY,Austin,2730
+2016,16,Property Crimes,THEFT,Dunning / Edison Park,2241
+2016,17,Property Crimes,THEFT,Albany Park / Avondale,2020
+2016,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,6181
+2016,19,Property Crimes,THEFT,Lake View / Lincoln Park,4261
+2016,20,Property Crimes,THEFT,Andersonville / Edgewater,1179
+2016,22,Property Crimes,THEFT,Auburn Gresham / Beverly,1627
+2016,24,Property Crimes,THEFT,Edgewater / Rogers Park,1778
+2016,25,Property Crimes,THEFT,Austin / Avondale,2855
+2017,1,Property Crimes,THEFT,Douglas / Loop,7644
+2017,2,Property Crimes,THEFT,Douglas / Englewood,2737
+2017,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,3023
+2017,4,Violent Crimes,BATTERY,Avalon Park / Burnside,3369
+2017,5,Violent Crimes,BATTERY,Burnside / Pullman,2542
+2017,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3545
+2017,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,3323
+2017,8,Property Crimes,THEFT,Archer Heights / Ashburn,3181
+2017,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,2312
+2017,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2778
+2017,11,Violent Crimes,BATTERY,Austin / Garfield Park,3735
+2017,12,Property Crimes,THEFT,East Village / Garfield Park,4190
+2017,14,Property Crimes,THEFT,Avondale / Bucktown,3666
+2017,15,Violent Crimes,BATTERY,Austin,2406
+2017,16,Property Crimes,THEFT,Dunning / Edison Park,2079
+2017,17,Property Crimes,THEFT,Albany Park / Avondale,2387
+2017,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,7336
+2017,19,Property Crimes,THEFT,Lake View / Lincoln Park,4516
+2017,20,Property Crimes,THEFT,Andersonville / Edgewater,1367
+2017,22,Property Crimes,THEFT,Auburn Gresham / Beverly,1769
+2017,24,Property Crimes,THEFT,Edgewater / Rogers Park,2321
+2017,25,Property Crimes,THEFT,Austin / Avondale,2752
+2018,1,Property Crimes,THEFT,Douglas / Loop,7659
+2018,2,Property Crimes,THEFT,Douglas / Englewood,2752
+2018,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,2865
+2018,4,Violent Crimes,BATTERY,Avalon Park / Burnside,3264
+2018,5,Violent Crimes,BATTERY,Burnside / Pullman,2564
+2018,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3545
+2018,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,3445
+2018,8,Property Crimes,THEFT,Archer Heights / Ashburn,3479
+2018,9,Property Crimes,THEFT,Armour Square / Bridgeport,2231
+2018,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2689
+2018,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,4104
+2018,12,Property Crimes,THEFT,East Village / Garfield Park,4367
+2018,14,Property Crimes,THEFT,Avondale / Bucktown,3420
+2018,15,Violent Crimes,BATTERY,Austin,2399
+2018,16,Property Crimes,THEFT,Dunning / Edison Park,2285
+2018,17,Property Crimes,THEFT,Albany Park / Avondale,2130
+2018,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,7775
+2018,19,Property Crimes,THEFT,Lake View / Lincoln Park,4623
+2018,20,Property Crimes,THEFT,Andersonville / Edgewater,1339
+2018,22,Property Crimes,THEFT,Auburn Gresham / Beverly,1858
+2018,24,Property Crimes,THEFT,Edgewater / Rogers Park,2032
+2018,25,Violent Crimes,BATTERY,Austin / Avondale,2713
+2019,1,Property Crimes,THEFT,Douglas / Loop,7348
+2019,2,Property Crimes,THEFT,Douglas / Englewood,2650
+2019,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,3062
+2019,4,Violent Crimes,BATTERY,Avalon Park / Burnside,3033
+2019,5,Violent Crimes,BATTERY,Burnside / Pullman,2532
+2019,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3742
+2019,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,3447
+2019,8,Property Crimes,THEFT,Archer Heights / Ashburn,3183
+2019,9,Property Crimes,THEFT,Armour Square / Bridgeport,2235
+2019,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2644
+2019,11,Drug Offenses,NARCOTICS,Austin / Garfield Park,4785
+2019,12,Property Crimes,THEFT,East Village / Garfield Park,4330
+2019,14,Property Crimes,THEFT,Avondale / Bucktown,3455
+2019,15,Violent Crimes,BATTERY,Austin,2560
+2019,16,Property Crimes,THEFT,Dunning / Edison Park,1967
+2019,17,Property Crimes,THEFT,Albany Park / Avondale,1940
+2019,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,6963
+2019,19,Property Crimes,THEFT,Lake View / Lincoln Park,4555
+2019,20,Property Crimes,THEFT,Andersonville / Edgewater,1285
+2019,22,Property Crimes,THEFT,Auburn Gresham / Beverly,1669
+2019,24,Property Crimes,THEFT,Edgewater / Rogers Park,2329
+2019,25,Violent Crimes,BATTERY,Austin / Avondale,2600
+2020,1,Property Crimes,THEFT,Douglas / Loop,2754
+2020,2,Violent Crimes,BATTERY,Douglas / Englewood,1883
+2020,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,2648
+2020,4,Violent Crimes,BATTERY,Avalon Park / Burnside,2722
+2020,5,Violent Crimes,BATTERY,Burnside / Pullman,2241
+2020,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3132
+2020,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,2899
+2020,8,Violent Crimes,BATTERY,Archer Heights / Ashburn,2476
+2020,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,1940
+2020,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2467
+2020,11,Violent Crimes,BATTERY,Austin / Garfield Park,3231
+2020,12,Property Crimes,THEFT,East Village / Garfield Park,2870
+2020,14,Property Crimes,THEFT,Avondale / Bucktown,2161
+2020,15,Violent Crimes,BATTERY,Austin,2357
+2020,16,Property Crimes,THEFT,Dunning / Edison Park,1610
+2020,17,Property Crimes,THEFT,Albany Park / Avondale,1485
+2020,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,3163
+2020,19,Property Crimes,THEFT,Lake View / Lincoln Park,3343
+2020,20,Property Crimes,THEFT,Andersonville / Edgewater,1181
+2020,22,Violent Crimes,BATTERY,Auburn Gresham / Beverly,1238
+2020,24,Property Crimes,THEFT,Edgewater / Rogers Park,1779
+2020,25,Violent Crimes,BATTERY,Austin / Avondale,2304
+2021,1,Property Crimes,THEFT,Douglas / Loop,3058
+2021,2,Property Crimes,THEFT,Douglas / Englewood,1916
+2021,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,2385
+2021,4,Violent Crimes,BATTERY,Avalon Park / Burnside,2787
+2021,5,Violent Crimes,BATTERY,Burnside / Pullman,1912
+2021,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,2977
+2021,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,2591
+2021,8,Violent Crimes,BATTERY,Archer Heights / Ashburn,2464
+2021,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,1925
+2021,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2116
+2021,11,Violent Crimes,BATTERY,Austin / Garfield Park,2888
+2021,12,Property Crimes,THEFT,East Village / Garfield Park,3228
+2021,14,Property Crimes,THEFT,Avondale / Bucktown,2002
+2021,15,Violent Crimes,BATTERY,Austin,1964
+2021,16,Property Crimes,THEFT,Dunning / Edison Park,1740
+2021,17,Property Crimes,THEFT,Albany Park / Avondale,1410
+2021,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,3485
+2021,19,Property Crimes,THEFT,Lake View / Lincoln Park,3204
+2021,20,Property Crimes,THEFT,Andersonville / Edgewater,1190
+2021,22,Violent Crimes,BATTERY,Auburn Gresham / Beverly,1230
+2021,24,Property Crimes,THEFT,Edgewater / Rogers Park,1810
+2021,25,Violent Crimes,BATTERY,Austin / Avondale,2050
+2022,1,Property Crimes,THEFT,Douglas / Loop,5010
+2022,2,Property Crimes,THEFT,Douglas / Englewood,2555
+2022,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,2349
+2022,4,Violent Crimes,BATTERY,Avalon Park / Burnside,2662
+2022,5,Violent Crimes,BATTERY,Burnside / Pullman,1824
+2022,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,2886
+2022,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,2290
+2022,8,Property Crimes,THEFT,Archer Heights / Ashburn,2984
+2022,9,Property Crimes,THEFT,Armour Square / Bridgeport,2020
+2022,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2247
+2022,11,Violent Crimes,BATTERY,Austin / Garfield Park,2682
+2022,12,Property Crimes,THEFT,East Village / Garfield Park,4682
+2022,14,Property Crimes,THEFT,Avondale / Bucktown,2752
+2022,15,Violent Crimes,BATTERY,Austin,1752
+2022,16,Property Crimes,THEFT,Dunning / Edison Park,2188
+2022,17,Property Crimes,THEFT,Albany Park / Avondale,1864
+2022,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,4994
+2022,19,Property Crimes,THEFT,Lake View / Lincoln Park,4645
+2022,20,Property Crimes,THEFT,Andersonville / Edgewater,1491
+2022,22,Property Crimes,THEFT,Auburn Gresham / Beverly,1441
+2022,24,Property Crimes,THEFT,Edgewater / Rogers Park,2431
+2022,25,Property Crimes,THEFT,Austin / Avondale,2316
+2023,1,Property Crimes,THEFT,Douglas / Loop,5018
+2023,2,Property Crimes,THEFT,Douglas / Englewood,2747
+2023,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,2621
+2023,4,Violent Crimes,BATTERY,Avalon Park / Burnside,2719
+2023,5,Violent Crimes,BATTERY,Burnside / Pullman,2054
+2023,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,3014
+2023,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,2356
+2023,8,Property Crimes,THEFT,Archer Heights / Ashburn,3140
+2023,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,2173
+2023,10,Violent Crimes,BATTERY,Little Village / Lower West Side,2406
+2023,11,Violent Crimes,BATTERY,Austin / Garfield Park,2815
+2023,12,Property Crimes,THEFT,East Village / Garfield Park,4397
+2023,14,Property Crimes,THEFT,Avondale / Bucktown,3058
+2023,15,Violent Crimes,BATTERY,Austin,1876
+2023,16,Property Crimes,THEFT,Dunning / Edison Park,2442
+2023,17,Property Crimes,THEFT,Albany Park / Avondale,2150
+2023,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,5171
+2023,19,Property Crimes,THEFT,Lake View / Lincoln Park,5054
+2023,20,Property Crimes,THEFT,Andersonville / Edgewater,1583
+2023,22,Property Crimes,THEFT,Auburn Gresham / Beverly,1441
+2023,24,Property Crimes,THEFT,Edgewater / Rogers Park,2444
+2023,25,Property Crimes,THEFT,Austin / Avondale,2529
+2024,1,Property Crimes,THEFT,Douglas / Loop,1984
+2024,2,Property Crimes,THEFT,Douglas / Englewood,1024
+2024,3,Violent Crimes,BATTERY,Grand Crossing / Jackson Park,1230
+2024,4,Violent Crimes,BATTERY,Avalon Park / Burnside,1066
+2024,5,Violent Crimes,BATTERY,Burnside / Pullman,841
+2024,6,Violent Crimes,BATTERY,Auburn Gresham / Chatham,1274
+2024,7,Violent Crimes,BATTERY,Englewood / Grand Crossing,978
+2024,8,Violent Crimes,BATTERY,Archer Heights / Ashburn,1170
+2024,9,Violent Crimes,BATTERY,Armour Square / Bridgeport,923
+2024,10,Violent Crimes,BATTERY,Little Village / Lower West Side,1015
+2024,11,Violent Crimes,BATTERY,Austin / Garfield Park,1166
+2024,12,Property Crimes,THEFT,East Village / Garfield Park,1729
+2024,14,Property Crimes,THEFT,Avondale / Bucktown,1344
+2024,15,Violent Crimes,BATTERY,Austin,892
+2024,16,Property Crimes,THEFT,Dunning / Edison Park,911
+2024,17,Property Crimes,THEFT,Albany Park / Avondale,963
+2024,18,Property Crimes,THEFT,Lincoln Park / Magnificent Mile,2029
+2024,19,Property Crimes,THEFT,Lake View / Lincoln Park,1956
+2024,20,Property Crimes,THEFT,Andersonville / Edgewater,619
+2024,22,Property Crimes,THEFT,Auburn Gresham / Beverly,612
+2024,24,Property Crimes,THEFT,Edgewater / Rogers Park,1030
+2024,25,Property Crimes,THEFT,Austin / Avondale,1033
