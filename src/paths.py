@@ -2,7 +2,7 @@
 Data paths.
 """
 
-DATA_FOLDER = "assets/data"
+DATA_FOLDER = "data"
 DATA_PATH = f"{DATA_FOLDER}/crimes.csv"
 DATA_REDUCED_PATH = f"{DATA_FOLDER}/crimes_reduced.csv"  # 1000 times reduced dataset
 

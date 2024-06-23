@@ -11,7 +11,6 @@ import plotly.graph_objects as go
 from dash import dcc, html
 from dash.dependencies import Input, Output, State
 
-from app import app
 from paths import DATA_MAP_FOLDER
 
 # FIXME slider doesn't show correctly on first load
@@ -350,21 +349,6 @@ def get_hover_template():
     return "No data to show"
 
 
-@app.callback(
-    Output("choropleth", "figure"),
-    [
-        Input("crime-category-dropdown", "value"),
-        Input("time-slider", "value"),
-        Input("time-filter-dropdown", "value"),
-        Input("geo-level-dropdown", "value"),
-    ],
-)
-def update_map(crime_category, selected_time_idx, time_filter_str, geolevel_str):
-    return create_choropleth(
-        crime_category, selected_time_idx, time_filter_str, geolevel_str
-    )
-
-
 SCALES_LENGTHS = {
     "hour": len(HOURS),
     "weekday": len(WEEKDAYS),
@@ -380,48 +364,65 @@ SCALES_MARKS = {
 }
 
 
-@app.callback(
-    [
-        Output("time-slider", "max"),
-        Output("time-slider", "marks"),
-        Output("time-slider", "value"),
-        Output("interval-component", "disabled"),
-    ],
-    [
-        Input("time-filter-dropdown", "value"),
-        Input("geo-level-dropdown", "value"),
-        Input("play-button", "n_clicks"),
-        Input("pause-button", "n_clicks"),
-        Input("interval-component", "n_intervals"),
-    ],
-    [State("interval-component", "disabled"), State("time-slider", "value")],
-)
-def update_time_slider_and_control_animation(
-    time_filter,
-    _geo_level,
-    _play_clicks,
-    _pause_clicks,
-    _n_intervals,
-    interval_disabled,
-    current_value,
-):
-    ctx = dash.callback_context
-    trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
-    scale_length = SCALES_LENGTHS[time_filter]
-
-    if trigger_id in ["time-filter-dropdown", "geo-level-dropdown"]:
-        return scale_length - 1, SCALES_MARKS[time_filter], 0, True
-
-    if trigger_id == "play-button":
-        interval_disabled = False
-    elif trigger_id == "pause-button":
-        interval_disabled = True
-    elif trigger_id == "interval-component" and not interval_disabled:
-        current_value = (current_value + 1) % scale_length
-
-    return (
-        (scale_length - 1,),
-        (SCALES_MARKS[time_filter],),
-        current_value,
-        interval_disabled,
+def get_callbacks(app):
+    @app.callback(
+        Output("choropleth", "figure"),
+        [
+            Input("crime-category-dropdown", "value"),
+            Input("time-slider", "value"),
+            Input("time-filter-dropdown", "value"),
+            Input("geo-level-dropdown", "value"),
+        ],
     )
+    def update_map_callback(
+        crime_category, selected_time_idx, time_filter_str, geolevel_str
+    ):
+        return create_choropleth(
+            crime_category, selected_time_idx, time_filter_str, geolevel_str
+        )
+
+    @app.callback(
+        [
+            Output("time-slider", "max"),
+            Output("time-slider", "marks"),
+            Output("time-slider", "value"),
+            Output("interval-component", "disabled"),
+        ],
+        [
+            Input("time-filter-dropdown", "value"),
+            Input("geo-level-dropdown", "value"),
+            Input("play-button", "n_clicks"),
+            Input("pause-button", "n_clicks"),
+            Input("interval-component", "n_intervals"),
+        ],
+        [State("interval-component", "disabled"), State("time-slider", "value")],
+    )
+    def update_time_slider_and_control_animation_callback(
+        time_filter,
+        _geo_level,
+        _play_clicks,
+        _pause_clicks,
+        _n_intervals,
+        interval_disabled,
+        current_value,
+    ):
+        ctx = dash.callback_context
+        trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
+        scale_length = SCALES_LENGTHS[time_filter]
+
+        if trigger_id in ["time-filter-dropdown", "geo-level-dropdown"]:
+            return scale_length - 1, SCALES_MARKS[time_filter], 0, True
+
+        if trigger_id == "play-button":
+            interval_disabled = False
+        elif trigger_id == "pause-button":
+            interval_disabled = True
+        elif trigger_id == "interval-component" and not interval_disabled:
+            current_value = (current_value + 1) % scale_length
+
+        return (
+            scale_length - 1,
+            SCALES_MARKS[time_filter],
+            current_value,
+            interval_disabled,
+        )

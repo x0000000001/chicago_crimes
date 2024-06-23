@@ -7,8 +7,7 @@ import plotly.express as px
 from dash import dcc, html
 from dash.dependencies import Input, Output
 
-import paths
-from app import app
+import paths as paths
 
 # FIXME slider ugly
 
@@ -67,7 +66,9 @@ def create_figure(selected_year):
     )
 
     fig.update_layout(
-        title=dict(text=f"Cluster Analysis for Year {selected_year}", font=dict(color="white")),
+        title=dict(
+            text=f"Cluster Analysis for Year {selected_year}", font=dict(color="white")
+        ),
         xaxis_title=dict(text="t-SNE Component 1", font=dict(color="white")),
         yaxis_title=dict(text="t-SNE Component 2", font=dict(color="white")),
         xaxis=dict(fixedrange=True, tickfont=dict(color="white")),
@@ -102,7 +103,8 @@ def get_hover_template():
     return "Beat: %{hover_data[0]}"
 
 
-# Callback to update the plot based on the selected year
-@app.callback(Output("cluster-plot", "figure"), [Input("year-slider", "value")])
-def update_figure_callback(selected_year):
-    return create_figure(selected_year)
+def get_callbacks(app):
+    # Callback to update the plot based on the selected year
+    @app.callback(Output("cluster-plot", "figure"), [Input("year-slider", "value")])
+    def update_figure_callback(selected_year):
+        return create_figure(selected_year)

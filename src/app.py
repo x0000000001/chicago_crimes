@@ -14,19 +14,19 @@ import dash
 import pandas as pd
 from dash import html
 
+from paths import DATA_REDUCED_PATH
+
 # from viz import map_crime_rate, beat_crime_type
 
 # TODO make functions in paths for files
 # TODO unify categories of crimes, maybe choose
 
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, suppress_callback_exceptions=True)
 app.title = "Chicago Crimes | INF8808"
 
-# TODO test delays with real dataset
-# DATA_PATH = "assets/data/crimes.csv" # full dataset
-DATA_PATH = "assets/data/crimes_reduced.csv"  # 1000 times reduced dataset
+server = app.server
 
-with open(DATA_PATH, encoding="utf-8") as data_file:
+with open(DATA_REDUCED_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
 
 # Load figures
@@ -39,18 +39,13 @@ for figure_file in figures_files:
     module = importlib.import_module(f"viz.{figure_file}")
     figures[figure_file] = figure = module.get_figure(data)
     html_elements[figure_file] = module.get_html(figure)
+    module.get_callbacks(app)
 
 app.layout = html.Div(
     className="content",
     children=[
-        html.Div(
-            className="progress"
-        ),
-        html.Header(
-            children=[
-                
-            ]
-        ),
+        html.Div(className="progress"),
+        html.Header(children=[]),
         html.Main(
             children=[
                 html.A(
@@ -75,8 +70,12 @@ app.layout = html.Div(
                             "Spatial and temporal analyses of Chicago criminals trends since 2001"
                         ),
                         html.H2("How did crimes evolved since 2001 in Chicago ?"),
-                        html.P( "Summer 2024 - INF8808E - Data Visualization - Hellen Dos Santos Vasques"),
-                        html.P(" A project by Lucas Bertinchamp, Leila Rouga, Hélène Genet, Antoine Toussaint, Jeremy Tsatas, Md. Radwan Rahman"),
+                        html.P(
+                            "Summer 2024 - INF8808E - Data Visualization - Hellen Dos Santos Vasques"
+                        ),
+                        html.P(
+                            "A project by Lucas Bertinchamp, Leila Rouga, Hélène Genet, Antoine Toussaint, Jeremy Tsatas, Md. Radwan Rahman"
+                        ),
                         html.A(
                             href="#beginning",
                             children=html.Img(
@@ -104,7 +103,7 @@ app.layout = html.Div(
                                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
                                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
                                                 ),
-                                            ]
+                                            ],
                                         ),
                                         html.Img(
                                             src="assets/img/chicago1.jpg",
@@ -151,7 +150,6 @@ app.layout = html.Div(
                                         ),
                                     ],
                                 ),
-                                
                             ],
                         ),
                         html.Li(
@@ -182,7 +180,6 @@ app.layout = html.Div(
                                         ),
                                     ],
                                 ),
-                                
                             ],
                         ),
                         html.Li(
@@ -213,7 +210,6 @@ app.layout = html.Div(
                                         ),
                                     ],
                                 ),
-                                
                             ],
                         ),
                         html.Li(
@@ -244,7 +240,6 @@ app.layout = html.Div(
                                         ),
                                     ],
                                 ),
-                                
                             ],
                         ),
                     ],
@@ -252,10 +247,10 @@ app.layout = html.Div(
             ]
         ),
     ],
-    
 )
 
-#Use start button to go to the next section
+
+# Use start button to go to the next section
 @app.callback(
     dash.dependencies.Output("button-start", "style"),
     dash.dependencies.Input("button-start", "n_clicks"),
@@ -264,3 +259,7 @@ def start_button(n_clicks):
     if n_clicks:
         return {"display": "none"}
     return {"display": "block"}
+
+
+if __name__ == "__main__":
+    app.run_server(debug=True)

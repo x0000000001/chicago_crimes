@@ -8,10 +8,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash import dcc, html
 from dash.dependencies import Input, Output
-import os
-from paths import DATA_MULTILINE_FOLDER
 
-from app import app
+from paths import DATA_MULTILINE_FOLDER
 
 
 def process_data(data):
@@ -281,44 +279,45 @@ def get_html(figure):
     )
 
 
-@app.callback(
-    Output("multiline-graph", "figure"),
-    [
-        Input("multiline-graph", "figure"),
-        Input("multiline-mode", "value"),
-        Input("multiline-checklist", "value"),
-    ],
-)
-def multiline_update_mode(multiline_graph, display_mode, checklist_values):
-    max_y = 0
-    # Update the traces visibility
-    for trace in multiline_graph["data"]:
-        if trace.get("customdata")[0][0] == display_mode:
-            max_y = max(max_y, max(trace["y"]))
-            trace["visible"] = True
+def get_callbacks(app):
+    @app.callback(
+        Output("multiline-graph", "figure"),
+        [
+            Input("multiline-graph", "figure"),
+            Input("multiline-mode", "value"),
+            Input("multiline-checklist", "value"),
+        ],
+    )
+    def multiline_update_mode_callback(multiline_graph, display_mode, checklist_values):
+        max_y = 0
+        # Update the traces visibility
+        for trace in multiline_graph["data"]:
+            if trace.get("customdata")[0][0] == display_mode:
+                max_y = max(max_y, max(trace["y"]))
+                trace["visible"] = True
+            else:
+                trace["visible"] = False
+
+        # Update the 2008 crisis shape and annotation
+        if "2008" in checklist_values:
+            multiline_graph["layout"]["shapes"][0]["visible"] = True
+            multiline_graph["layout"]["annotations"][0]["visible"] = True
         else:
-            trace["visible"] = False
+            multiline_graph["layout"]["shapes"][0]["visible"] = False
+            multiline_graph["layout"]["annotations"][0]["visible"] = False
 
-    # Update the 2008 crisis shape and annotation
-    if "2008" in checklist_values:
-        multiline_graph["layout"]["shapes"][0]["visible"] = True
-        multiline_graph["layout"]["annotations"][0]["visible"] = True
-    else:
-        multiline_graph["layout"]["shapes"][0]["visible"] = False
-        multiline_graph["layout"]["annotations"][0]["visible"] = False
+        # Update the covid crisis shape
+        if "covid" in checklist_values:
+            multiline_graph["layout"]["shapes"][1]["visible"] = True
+            multiline_graph["layout"]["annotations"][1]["visible"] = True
+        else:
+            multiline_graph["layout"]["shapes"][1]["visible"] = False
+            multiline_graph["layout"]["annotations"][1]["visible"] = False
 
-    # Update the covid crisis shape
-    if "covid" in checklist_values:
-        multiline_graph["layout"]["shapes"][1]["visible"] = True
-        multiline_graph["layout"]["annotations"][1]["visible"] = True
-    else:
-        multiline_graph["layout"]["shapes"][1]["visible"] = False
-        multiline_graph["layout"]["annotations"][1]["visible"] = False
+        # Update the max y value
+        multiline_graph["layout"]["shapes"][0]["y1"] = max_y
+        multiline_graph["layout"]["annotations"][0]["y"] = max_y
+        multiline_graph["layout"]["shapes"][1]["y1"] = max_y
+        multiline_graph["layout"]["annotations"][1]["y"] = max_y
 
-    # Update the max y value
-    multiline_graph["layout"]["shapes"][0]["y1"] = max_y
-    multiline_graph["layout"]["annotations"][0]["y"] = max_y
-    multiline_graph["layout"]["shapes"][1]["y1"] = max_y
-    multiline_graph["layout"]["annotations"][1]["y"] = max_y
-
-    return multiline_graph
+        return multiline_graph

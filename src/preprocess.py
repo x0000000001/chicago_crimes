@@ -9,7 +9,7 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.manifold import TSNE
 
-import paths
+import paths as paths
 
 ############################################
 # DATA REDUCTION
