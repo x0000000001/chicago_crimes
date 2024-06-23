@@ -3,6 +3,7 @@ dash
 dash-core-components
 dash-html-components
 dash-table
+dash-tools
 flask
 flask-compress
 flask-failsafe

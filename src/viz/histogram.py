@@ -9,7 +9,6 @@ import plotly.graph_objects as go
 from dash import dcc, html
 from dash.dependencies import Input, Output
 
-from app import app
 from paths import DATA_HISTOGRAM_FOLDER
 
 
@@ -65,13 +64,14 @@ def create_histogram(time_filter: TimeFilters, crime_type):
     # Set layout
     fig.update_layout(
         title=dict(text="Crimes in time", font=dict(color="white")),
-        xaxis_title=dict(text=f"{time_filter.name.capitalize()}s", font=dict(color="white")),
+        xaxis_title=dict(
+            text=f"{time_filter.name.capitalize()}s", font=dict(color="white")
+        ),
         yaxis_title=dict(text=f"{crime_type} count", font=dict(color="white")),
-
         barmode="group",
         title_x=0.5,
         xaxis=dict(fixedrange=True, tickfont=dict(color="white")),
-        yaxis=dict(fixedrange=True, tickfont= dict(color="white")),
+        yaxis=dict(fixedrange=True, tickfont=dict(color="white")),
         plot_bgcolor="rgba(0,0,0,0)",
         paper_bgcolor="rgba(0,0,0,0)",
     )
@@ -126,7 +126,7 @@ def get_html(figure):
                                 ],
                                 value="time_of_day",
                                 clearable=False,
-                                style={"width": "100%", 'color': 'black'},
+                                style={"width": "100%", "color": "black"},
                             ),
                             html.H4("Crime type"),
                             dcc.Dropdown(
@@ -147,13 +147,14 @@ def get_html(figure):
     )
 
 
-@app.callback(
-    Output("histogram", "figure"),
-    [
-        Input("histogram-time-filter-dropdown", "value"),
-        Input("crime-type-dropdown", "value"),
-    ],
-)
-def histogram_callback(time_filter, crime_type):
-    time_filter = time_filters_from_name(time_filter)
-    return create_histogram(time_filter, crime_type)
+def get_callbacks(app):
+    @app.callback(
+        Output("histogram", "figure"),
+        [
+            Input("histogram-time-filter-dropdown", "value"),
+            Input("crime-type-dropdown", "value"),
+        ],
+    )
+    def histogram_callback(time_filter, crime_type):
+        time_filter = time_filters_from_name(time_filter)
+        return create_histogram(time_filter, crime_type)
