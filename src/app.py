@@ -30,7 +30,7 @@ with open(DATA_REDUCED_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
 
 # Load figures
-figures_files = ["multiline", "histogram", "map", "cluster"]
+figures_files = ["multiline", "histogram", "map", "cluster", "stacked_bar_chart"]
 
 figures = {}
 html_elements = {}
@@ -100,8 +100,11 @@ app.layout = html.Div(
                                             children=[
                                                 html.H2("The city of Chicago"),
                                                 html.P(
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                                                    "Chicago, located on the shores of Lake Michigan, is the third-largest city in the United States, renowned for its iconic architecture, vibrant cultural scene, and historic sports teams."
+                                                ),
+                                                html.Br(),
+                                                html.P(
+                                                    "However, the city faces ongoing challenges with crime, impacting the daily lives of its residents."
                                                 ),
                                             ],
                                         ),
@@ -139,8 +142,7 @@ app.layout = html.Div(
                                             className="viz-text-content",
                                             children=[
                                                 html.P(
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                                                    "Chicago is a city with a high crime rate. Let's see with a general visualisation how the number of crimes has evolved since 2001 for several types of crimes. Here are shown the types of crimes that are representative of 95% of crimes in Chicago."
                                                 ),
                                             ],
                                         ),
@@ -192,16 +194,19 @@ app.layout = html.Div(
                                         html.Div(
                                             className="viz-text-title",
                                             children=[
-                                                "What about crimes in Chicago ?",
+                                                "A spatial analysis",
                                             ],
                                         ),
                                         html.Div(
                                             className="viz-text-content",
                                             children=[
-                                                html.P(
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                                                ),
+                                                html.P("This chloropleth map shows the distribution of crimes in Chicago. The color intensity denounces the number of crime reported according to the search parameters configurations."),
+                                                html.Br(),
+                                                html.P("The following visualization addresses these spatial analysis points:"),
+                                                html.P("• The regions where crimes are more frequent."),
+                                                html.P("• Patterns or trends linking districts to specific criminal activities."),
+                                                html.P("• Do certain police beats handle more crimes than others?"),
+                                                html.P("• Types of crimes are most commonly associated with specific beats"),
                                             ],
                                         ),
                                         html.Div(
@@ -213,7 +218,7 @@ app.layout = html.Div(
                             ],
                         ),
                         html.Li(
-                            className="section-viz black-background final-viz",
+                            className="section-viz black-background",
                             id="viz_4",
                             children=[
                                 html.Div(
@@ -237,6 +242,36 @@ app.layout = html.Div(
                                         html.Div(
                                             className="viz-container",
                                             children=html_elements["cluster"],
+                                        ),
+                                    ],
+                                ),
+                            ],
+                        ),
+                        html.Li(
+                            className="section-viz final-viz",
+                            id="viz_5",
+                            children=[
+                                html.Div(
+                                    className="viz-content",
+                                    children=[
+                                        html.Div(
+                                            className="viz-text-title",
+                                            children=[
+                                                "What about crimes in Chicago ?",
+                                            ],
+                                        ),
+                                        html.Div(
+                                            className="viz-text-content",
+                                            children=[
+                                                html.P(
+                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                                                ),
+                                            ],
+                                        ),
+                                        html.Div(
+                                            className="viz-container",
+                                            children=html_elements["stacked_bar_chart"],
                                         ),
                                     ],
                                 ),
