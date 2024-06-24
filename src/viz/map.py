@@ -195,6 +195,7 @@ def create_choropleth(crime_category, selected_time_idx, time_filter_str, geolev
         )
         + " %{customdata[4]}<br>"
         + "<b>Crime Rate:</b> %{z}%<br>"
+        + "<extra></extra>"
     )
 
     custom_data = filtered_data[
