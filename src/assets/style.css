@@ -128,7 +128,7 @@ main {
 
 .up-button {
   position: fixed;
-  bottom: 110px;
+  bottom: 35px;
   right: 35px;
   cursor: pointer;
   z-index: 2;
