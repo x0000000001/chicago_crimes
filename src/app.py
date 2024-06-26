@@ -227,15 +227,15 @@ app.layout = html.Div(
                                         html.Div(
                                             className="viz-text-title",
                                             children=[
-                                                "What about crimes in Chicago ?",
+                                                "Do some police beats arrest more people for specific types of crimes?",
                                             ],
                                         ),
                                         html.Div(
                                             className="viz-text-content",
                                             children=[
                                                 html.P(
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                                                    "Analysis of the arrest patterns for different types of crimes across various police beats in Chicago."
+                                                    ""
                                                 ),
                                             ],
                                         ),
