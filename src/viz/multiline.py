@@ -109,6 +109,7 @@ def get_figure(data):
         y="Annual",
         color="Primary Type",
         title="Number of crimes per year",
+        color_discrete_sequence=px.colors.qualitative.Light24,
     )
     fig.update_traces(hovertemplate=get_hover_template("Annual"))
     for trace in fig.data:
@@ -118,7 +119,7 @@ def get_figure(data):
         )
 
     # Add traces for Cumulative
-    for primary_type in data["Primary Type"].unique():
+    for i, primary_type in enumerate(data["Primary Type"].unique()):
         df = data[data["Primary Type"] == primary_type]
         customdata = np.stack(
             [np.full(len(df), "Cumulative"), np.full(len(df), primary_type)], axis=-1
@@ -133,6 +134,7 @@ def get_figure(data):
                 hovertemplate=get_hover_template("Cumulative"),
                 customdata=customdata,
                 legendgroup=primary_type,
+                line=dict(color=px.colors.qualitative.Light24[i])
             )
         )
 
