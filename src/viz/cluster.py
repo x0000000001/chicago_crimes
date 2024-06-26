@@ -1,7 +1,3 @@
-"""
-Crime rate per crime type and beat visualization.
-"""
-
 import pandas as pd
 import plotly.express as px
 from dash import dcc, html
@@ -25,7 +21,11 @@ def get_html(figure):
                 className="cluster-plot",
                 id="cluster-plot",
                 figure=figure,
-                config={"displayModeBar": False},
+                config={
+                    "displayModeBar": True,
+                    "scrollZoom": True,
+                    "modeBarButtonsToAdd": ["zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "autoScale2d", "resetScale2d"],
+                },
             ),
             html.Div(
                 className="cluster-plot-params",
@@ -71,10 +71,11 @@ def create_figure(selected_year):
         ),
         xaxis_title=dict(text="t-SNE Component 1", font=dict(color="white")),
         yaxis_title=dict(text="t-SNE Component 2", font=dict(color="white")),
-        xaxis=dict(fixedrange=True, tickfont=dict(color="white")),
-        yaxis=dict(fixedrange=True, tickfont=dict(color="white")),
+        xaxis=dict(tickfont=dict(color="white")),
+        yaxis=dict(tickfont=dict(color="white")),
         title_x=0.5,
-        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",  # Transparent background
+        paper_bgcolor="rgba(0,0,0,0)",  # Transparent background
         font=dict(color="white"),
     )
 
