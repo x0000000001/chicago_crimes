@@ -185,11 +185,12 @@ app.layout = html.Div(
                             ],
                         ),
                         html.Li(
-                            className="section-viz",
+                            className="map-section-viz",
                             id="viz_3",
                             children=[
                                 html.Div(
                                     className="viz-content",
+                                    id="map-text",
                                     children=[
                                         html.Div(
                                             className="viz-text-title",
@@ -203,10 +204,8 @@ app.layout = html.Div(
                                                 html.P("This chloropleth map shows the distribution of crimes in Chicago. The color intensity denounces the number of crime reported according to the search parameters configurations."),
                                                 html.Br(),
                                                 html.P("The following visualization addresses these spatial analysis points:"),
-                                                html.P("• The regions where crimes are more frequent."),
-                                                html.P("• Patterns or trends linking districts to specific criminal activities."),
-                                                html.P("• Do certain police beats handle more crimes than others?"),
-                                                html.P("• Types of crimes are most commonly associated with specific beats"),
+                                                html.P("• The regions where crimes are more frequent. | • Patterns or trends linking districts to specific criminal activities."),
+                                                html.P("• Do certain police beats handle more crimes than others? | • Types of crimes are most commonly associated with specific beats"),
                                             ],
                                         ),
                                         html.Div(
@@ -283,7 +282,6 @@ app.layout = html.Div(
         ),
     ],
 )
-
 
 # Use start button to go to the next section
 @app.callback(

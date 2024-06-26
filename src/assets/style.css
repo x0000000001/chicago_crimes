@@ -322,6 +322,22 @@ ul {
   height: max-content;
 }
 
+.map-section-viz {
+  --index0: calc(var(--index) - 1);
+  --reverse-index: calc(var(--num-viz) - var(--index0));
+  --reverse-index0: calc(var(--reverse-index) - 1);
+
+  position: sticky;
+  top: 0;
+
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200vh;
+}
+
 .black-background {
   background-color: #3c3c3d;
   color: #f4f4f4;
@@ -334,7 +350,6 @@ ul {
 /* Multiline chart */
 
 .cluster-plot-container,
-.map-container,
 .histogram-container,
 .multiline-container {
   display: flex;
@@ -348,11 +363,28 @@ ul {
   top: 40vh;
 }
 
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+  height: max-content;
+  margin-bottom: 5vh;
+
+  position: sticky;
+  top: 40vh;
+}
+
+#map-text {
+  font-size: 14px;
+}
+
 .map,
 .histogram,
 .multiline-graph {
   width: 60%;
-  height: 100%;
+  height: 60%;
 }
 
 .histogram-params,
@@ -395,8 +427,8 @@ ul {
   width: 50%;
   height: 100%;
   border-left: #362023 1px solid;
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .cluster-plot-params,
@@ -406,5 +438,18 @@ ul {
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  margin-bottom: 3vh;
+  margin-bottom: 0vh;
+}
+
+.map-params h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.map-dropdowns h4 {
+  margin-bottom: 0.5em;
+}
+
+#time-slider {
+  margin-top: 10px;
 }

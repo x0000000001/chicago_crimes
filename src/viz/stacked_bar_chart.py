@@ -71,6 +71,7 @@ def create_stacked_bar(mode="district"):
         title=f"Arrest rate for each {mode.capitalize()}",
         barmode="stack",
         title_x=0.5,
+        xaxis=dict(fixedrange=True),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
     )

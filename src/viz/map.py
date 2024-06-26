@@ -232,7 +232,6 @@ def create_choropleth(crime_category, selected_time_idx, time_filter_str, geolev
         geo={"fitbounds": "locations", "visible": False},
         coloraxis_colorbar={"title": "Crime Rate (%)"},
         margin={"r": 0, "t": 30, "l": 0, "b": 0},
-        height=600,
         font={"family": "Oswald"},
         plot_bgcolor="rgba(0,0,0,0)",
         paper_bgcolor="rgba(0,0,0,0)",
@@ -257,6 +256,22 @@ def get_html(figure):
                 className="map-params",
                 children=[
                     html.H2("Parameters"),
+                    html.Div(
+                        className="map-dropdowns",
+                        children=[
+                            html.H4("Crime Category"),
+                            dcc.Dropdown(
+                                id="crime-category-dropdown",
+                                options=[
+                                    {"label": category, "value": category}
+                                    for category in CRIMES
+                                ],
+                                value=CRIMES[0],
+                                clearable=False,
+                                style={"width": "100%"},
+                            ),
+                        ],
+                    ),
                     html.Div(
                         className="map-dropdowns",
                         children=[
@@ -286,22 +301,6 @@ def get_html(figure):
                                     {"label": "Yearly", "value": "year"},
                                 ],
                                 value="year",
-                                clearable=False,
-                                style={"width": "100%"},
-                            ),
-                        ],
-                    ),
-                    html.Div(
-                        className="map-dropdowns",
-                        children=[
-                            html.H4("Crime Category"),
-                            dcc.Dropdown(
-                                id="crime-category-dropdown",
-                                options=[
-                                    {"label": category, "value": category}
-                                    for category in CRIMES
-                                ],
-                                value=CRIMES[0],
                                 clearable=False,
                                 style={"width": "100%"},
                             ),
