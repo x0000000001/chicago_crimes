@@ -26,6 +26,72 @@ def reduce_data():
     data = data.sample(frac=0.1)
     data.to_csv("reduced10.csv", index=False)
 
+############################################
+# MULTILINE
+############################################
+
+def process_multiline(data):
+    """
+    Process the data for the visualization.
+
+    Args:
+        data: The data to process.
+    Returns:
+        The processed data.
+    """
+    total_crimes = data.shape[0]
+    # Convert data to datetime, get year and group by year and primary type
+    data["Date"] = pd.to_datetime(data["Date"], format="%m/%d/%Y %I:%M:%S %p")
+    data["Year"] = data["Date"].dt.year
+    data = data.groupby(["Year", "Primary Type"]).size().reset_index(name="Annual")
+
+    # Complete with 0 for the years that don't have data
+    for year in data["Year"].unique():
+        for primary_type in data["Primary Type"].unique():
+            if primary_type not in data[data["Year"] == year]["Primary Type"].values:
+                data = pd.concat(
+                    [
+                        data,
+                        pd.DataFrame(
+                            {
+                                "Year": [year],
+                                "Primary Type": [primary_type],
+                                "Annual": [0],
+                            }
+                        ),
+                    ]
+                )
+
+    # Annual the number of crimes per primary type
+    annual_crimes = data.groupby(["Primary Type"]).sum().reset_index()
+    annual_crimes = annual_crimes.sort_values(by="Annual", ascending=False)
+    annual_crimes = annual_crimes.drop(columns=["Year"])
+
+    # Get the crimes that represent 95% of the total
+    annual_crimes["Cumulative"] = annual_crimes["Annual"].cumsum() / total_crimes
+    annual_crimes = annual_crimes[annual_crimes["Cumulative"] <= 0.95]
+
+    # Calculate the number of crimes that are not in the top 95%
+    other_offense = data[~data["Primary Type"].isin(annual_crimes["Primary Type"])]
+    other_offense = other_offense.groupby("Year").sum().reset_index()
+    other_offense["Primary Type"] = "OTHER OFFENSE"
+
+    # Append the other offenses to the data
+    data = data[data["Primary Type"].isin(annual_crimes["Primary Type"])]
+    if "OTHER OFFENSE" in data["Primary Type"].unique():
+        data.loc[data["Primary Type"] == "OTHER OFFENSE", "Annual"] += other_offense[
+            "Annual"
+        ].values
+    else:
+        data = data.append(other_offense, ignore_index=True)
+
+    # Get the cumulative sum
+    data["Cumulative"] = data.groupby("Primary Type")["Annual"].cumsum()
+
+    assert total_crimes == data["Annual"].sum()
+
+    # Save the data in csv
+    data.to_csv("f{paths.DATA_MULTILINE_FOLDER}/multiline.csv", index=False)
 
 ############################################
 # HISTOGRAM

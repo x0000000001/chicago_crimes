@@ -18,9 +18,6 @@ from paths import DATA_REDUCED_PATH
 
 # from viz import map_crime_rate, beat_crime_type
 
-# TODO make functions in paths for files
-# TODO unify categories of crimes, maybe choose
-
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
 app.title = "Chicago Crimes | INF8808"
 
