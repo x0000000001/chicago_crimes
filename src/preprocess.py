@@ -23,13 +23,59 @@ def reduce_data():
     """
 
     data = pd.read_csv(paths.DATA_PATH)
-    data = data.sample(frac=0.001)
-    data.to_csv(paths.DATA_REDUCED_PATH, index=False)
+    data = data.sample(frac=0.1)
+    data.to_csv("reduced10.csv", index=False)
 
 
 ############################################
 # HISTOGRAM
 ############################################
+
+CRIMES_CATEGORIES = {
+    "Violent": [
+        "BATTERY",
+        "ROBBERY",
+        "ASSAULT",
+        "CRIMINAL SEXUAL ASSAULT",
+        "CRIM SEXUAL ASSAULT",
+        "STALKING",
+        "HOMICIDE",
+        "KIDNAPPING",
+        "SEX OFFENSE",
+        "INTIMIDATION",
+        "DOMESTIC VIOLENCE",
+    ],
+    "Property": [
+        "THEFT",
+        "CRIMINAL DAMAGE",
+        "BURGLARY",
+        "MOTOR VEHICLE THEFT",
+        "CRIMINAL TRESPASS",
+        "ARSON",
+    ],
+    "Crimes Against Children": ["OFFENSE INVOLVING CHILDREN"],
+    "Miscellaneous": [
+        "OTHER OFFENSE",
+        "INTERFERENCE WITH PUBLIC OFFICER",
+        "NON-CRIMINAL",
+        "HUMAN TRAFFICKING",
+        "NON-CRIMINAL (SUBJECT SPECIFIED)",
+        "NON - CRIMINAL",
+        "RITUALISM",
+    ],
+    "Public Order": [
+        "WEAPONS VIOLATION",
+        "PROSTITUTION",
+        "PUBLIC PEACE VIOLATION",
+        "CONCEALED CARRY LICENSE VIOLATION",
+        "LIQUOR LAW VIOLATION",
+        "OBSCENITY",
+        "GAMBLING",
+        "PUBLIC INDECENCY",
+    ],
+    "Drug Offenses": ["NARCOTICS", "OTHER NARCOTIC VIOLATION"],
+    "White Collar": ["DECEPTIVE PRACTICE"],
+}
 
 
 CRIMES_CATEGORIES = {
@@ -141,7 +187,11 @@ def preprocess_histogram():
         - months according to the "Date" field
     """
 
-    data = pd.read_csv(paths.DATA_PATH)
+    data = pd.read_csv(paths.DATA_REDUCED_PATH)
+
+    # change data "Primary Type" field according to the CRIMES_CATEGORIES
+    # for category, crimes in CRIMES_CATEGORIES.items():
+    #     data.loc[data["Primary Type"].isin(crimes), "Primary Type"] = category
 
     # change data "Primary Type" field according to the CRIMES_CATEGORIES
     # for category, crimes in CRIMES_CATEGORIES.items():
@@ -226,7 +276,8 @@ def preprocess_cluster():
 
 
 if __name__ == "__main__":
-    preprocess_cluster()
+    # preprocess_histogram()
+    reduce_data()
 
 
 ############################################

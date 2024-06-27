@@ -43,7 +43,11 @@ def time_filters_from_name(name) -> TimeFilters:
     raise ValueError(f"Unknown time filter: {name}")
 
 
-CRIME_TYPES = [ct.capitalize() for ct in TimeFilters.TIME_OF_DAY.value.csv.columns[1:]]
+CRIME_TYPES = [
+    ct
+    for ct in TimeFilters.TIME_OF_DAY.value.csv.columns[1:]
+    if ct not in ["NON-CRIMINAL", "NON-CRIMINAL (SUBJECT SPECIFIED)", "NON - CRIMINAL"]
+]
 DEFAULT_CRIME_TYPE = "Total"
 
 
@@ -55,7 +59,7 @@ def create_histogram(time_filter: TimeFilters, crime_type):
     fig.add_trace(
         go.Bar(
             x=time_filter.value.csv[time_filter.name.lower()],
-            y=time_filter.value.csv[crime_type.upper()],
+            y=time_filter.value.csv[crime_type],
             name="main",
             visible=True,
         )
