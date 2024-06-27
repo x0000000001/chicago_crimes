@@ -30,7 +30,7 @@ with open(DATA_REDUCED_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
 
 # Load figures
-figures_files = ["multiline", "map", "cluster", "stacked_bar_chart"]
+figures_files = ["multiline", "histogram", "map", "cluster", "stacked_bar_chart"]
 
 figures = {}
 html_elements = {}
@@ -181,7 +181,7 @@ app.layout = html.Div(
                                         ),
                                         html.Div(
                                             className="viz-container",
-                                            children=[],
+                                            children=html_elements["histogram"],
                                         ),
                                     ],
                                 ),
