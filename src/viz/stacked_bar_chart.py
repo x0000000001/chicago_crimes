@@ -128,7 +128,7 @@ def get_html(figure):
                     html.Div(
                         className="histogram-dropdowns",
                         children=[
-                            html.H4("Category:"),
+                            html.H4("Category"),
                             dcc.Dropdown(
                                 id="stacked-bar-chart-dropdown",
                                 options=[
