@@ -78,7 +78,6 @@ CRIMES_CATEGORIES = {
     "White Collar": ["DECEPTIVE PRACTICE"],
 }
 
-
 def weekday(date):
     date = datetime.datetime.strptime(date, "%m/%d/%Y %I:%M:%S %p")
     return date.strftime("%A")
@@ -104,6 +103,34 @@ def month(date):
     return date.strftime("%B")
 
 
+TIME_ORDERS = {
+    "Weekday": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+    ],
+    "Month": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ],
+    "Time of Day": ["Morning", "Afternoon", "Evening", "Night"],
+}
+
+
 def preprocess_histogram():
     """
     Aggregates crimes count by :
@@ -117,8 +144,8 @@ def preprocess_histogram():
     data = pd.read_csv(paths.DATA_PATH)
 
     # change data "Primary Type" field according to the CRIMES_CATEGORIES
-    for category, crimes in CRIMES_CATEGORIES.items():
-        data.loc[data["Primary Type"].isin(crimes), "Primary Type"] = category
+    # for category, crimes in CRIMES_CATEGORIES.items():
+    #     data.loc[data["Primary Type"].isin(crimes), "Primary Type"] = category
 
     for field, name, function in [
         ("Weekday", "day", weekday),
@@ -129,9 +156,11 @@ def preprocess_histogram():
         crime_counts = data.groupby([field, "Primary Type"]).size().unstack()
         crime_counts.insert(0, name, crime_counts.index)
         crime_counts["Total"] = crime_counts.iloc[:, 1:].sum(axis=1)
+        crime_counts = crime_counts.reindex(TIME_ORDERS[field])
         crime_counts.to_csv(
             f"{paths.DATA_HISTOGRAM_FOLDER}/histogram_{name}.csv", index=False
         )
+
 
 
 ############################################

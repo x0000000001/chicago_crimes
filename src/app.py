@@ -370,6 +370,5 @@ def start_button(n_clicks):
         return {"display": "none"}
     return {"display": "block"}
 
-
 if __name__ == "__main__":
     app.run_server(debug=True)

@@ -22,16 +22,16 @@ type_count = pd.read_csv(DATA_STACKEDBC_FOLDER + "/type_count.csv")
 
 #find a way to split data set in 2
 
-district_false = district_count[district_count['Arrest']].sort_values(by='arrest_rate_district', ascending=False)
-district_true = district_count[district_count['Arrest'] == False].sort_values(by='arrest_rate_district', ascending=False)
+district_true = district_count[district_count['Arrest']].sort_values(by='arrest_rate_district', ascending=False)
+district_false = district_count[district_count['Arrest'] == False].sort_values(by='arrest_rate_district', ascending=False)
 
-beat_false = beat_count[beat_count['Arrest']].sort_values(by='arrest_rate_beat', ascending=False)
-beat_true = beat_count[beat_count['Arrest'] == False].sort_values(by='arrest_rate_beat', ascending=False)
+beat_true = beat_count[beat_count['Arrest']].sort_values(by='arrest_rate_beat', ascending=False)
+beat_false = beat_count[beat_count['Arrest'] == False].sort_values(by='arrest_rate_beat', ascending=False)
 
-type_false = type_count[type_count['Arrest']].sort_values(by='arrest_rate_type', ascending=False)
-type_true = type_count[type_count['Arrest'] == False].sort_values(by='arrest_rate_type', ascending=False)
+type_true = type_count[type_count['Arrest']].sort_values(by='arrest_rate_type', ascending=False)
+type_false = type_count[type_count['Arrest'] == False].sort_values(by='arrest_rate_type', ascending=False)
 
-all_data = {"district": {"x" : [district_false["arrest_rate_district"], district_true["arrest_rate_district"]], "y" : [district_false['District'], district_true['District']]},
+all_data = {"district": {"x" : [district_false["arrest_rate_district"], district_true["arrest_rate_district"]], "y" : [district_false['District'].apply(lambda x : str(int(x))), district_true['District'].apply(lambda x : str(int(x)))]},
         "beat": {"x" : [beat_false["arrest_rate_beat"], beat_true["arrest_rate_beat"]], "y" : [beat_false['Beat'].apply(lambda x : str(x)), beat_true['Beat'].apply(lambda x : str(x))]},
         "type": {"x" : [type_false["arrest_rate_type"], type_true["arrest_rate_type"]], "y" : [type_false['Primary.Type'], type_true['Primary.Type']]}}
 
@@ -128,7 +128,7 @@ def get_html(figure):
                     html.Div(
                         className="histogram-dropdowns",
                         children=[
-                            html.H4("Time scale"),
+                            html.H4("Category:"),
                             dcc.Dropdown(
                                 id="stacked-bar-chart-dropdown",
                                 options=[
