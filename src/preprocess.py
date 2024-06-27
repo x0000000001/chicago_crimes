@@ -158,7 +158,7 @@ geojson_path_neighborhoods = 'src/data/map/district_neighborhoods.json'
 
 # Load the reduces data with the required columns 
 columns_to_load = ['Date', 'Block', 'Primary Type', 'Description', 'Location Description', 'Arrest', 'Beat', 'Year', 'Updated On', 'Latitude', 'Longitude']
-df_map = pd.read_csv(paths.DATA_PATH, usecols=columns_to_load)
+df_map = pd.read_csv('src/data/crimes_reduced.csv', usecols=columns_to_load)
 new_column_names = ['date', 'block', 'primary_type', 'description', 'location_description', 'arrest', 'beat', 'year', 'updated_on', 'latitude', 'longitude']
 df_map.columns = new_column_names
 
@@ -298,11 +298,11 @@ yearly_beat_agg = calculate_crime_rates(gdf, 'year', 'beat')
 yearly_district_agg = calculate_crime_rates(gdf, 'year', 'district')
 
 # Save the aggregated data to CSV files
-daily_beat_agg.to_csv('daily_beat_crime_rates.csv', index=False)
-daily_district_agg.to_csv('daily_district_crime_rates.csv', index=False)
-monthly_beat_agg.to_csv('monthly_beat_crime_rates.csv', index=False)
-monthly_district_agg.to_csv('monthly_district_crime_rates.csv', index=False)
-hourly_beat_agg.to_csv('hourly_beat_crime_rates.csv', index=False)
-hourly_district_agg.to_csv('hourly_district_crime_rates.csv', index=False)
-yearly_beat_agg.to_csv('yearly_beat_crime_rates.csv', index=False)
-yearly_district_agg.to_csv('yearly_district_crime_rates.csv', index=False)
+daily_beat_agg.to_csv(f"{paths.DATA_MAP_FOLDER}/daily_beat_crime_rates.csv", index=False)
+daily_district_agg.to_csv(f"{paths.DATA_MAP_FOLDER}/daily_district_crime_rates.csv", index=False)
+monthly_beat_agg.to_csv(f"{paths.DATA_MAP_FOLDER}/monthly_beat_crime_rates.csv", index=False)
+monthly_district_agg.to_csv(f"{paths.DATA_MAP_FOLDER}/monthly_district_crime_rates.csv", index=False)
+hourly_beat_agg.to_csv(f"{paths.DATA_MAP_FOLDER}/hourly_beat_crime_rates.csv", index=False)
+monthly_district_agg.to_csv(f"{paths.DATA_MAP_FOLDER}/hourly_district_crime_rates.csv", index=False)
+yearly_beat_agg.to_csv(f"{paths.DATA_MAP_FOLDER}/yearly_beat_crime_rates.csv", index=False)
+yearly_district_agg.to_csv(f"{paths.DATA_MAP_FOLDER}/yearly_district_crime_rates.csv", index=False)
