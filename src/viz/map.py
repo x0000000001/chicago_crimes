@@ -9,12 +9,10 @@ import dash
 import pandas as pd
 import plotly.graph_objects as go
 from dash import dcc, html
-from dash.dependencies import Input, Output, State
+from dash.dependencies import Input, Output
 
 from paths import DATA_MAP_FOLDER
 
-# FIXME slider doesn't show correctly on first load
-# TODO make animation smoother
 
 
 class GeoLevel(Enum):
@@ -195,6 +193,7 @@ def create_choropleth(crime_category, selected_time_idx, time_filter_str, geolev
         )
         + " %{customdata[4]}<br>"
         + "<b>Crime Rate:</b> %{z}%<br>"
+        + "<extra></extra>"
     )
 
     custom_data = filtered_data[
@@ -231,7 +230,6 @@ def create_choropleth(crime_category, selected_time_idx, time_filter_str, geolev
         geo={"fitbounds": "locations", "visible": False},
         coloraxis_colorbar={"title": "Crime Rate (%)"},
         margin={"r": 0, "t": 30, "l": 0, "b": 0},
-        height=600,
         font={"family": "Oswald"},
         plot_bgcolor="rgba(0,0,0,0)",
         paper_bgcolor="rgba(0,0,0,0)",
@@ -256,6 +254,22 @@ def get_html(figure):
                 className="map-params",
                 children=[
                     html.H2("Parameters"),
+                    html.Div(
+                        className="map-dropdowns",
+                        children=[
+                            html.H4("Crime Category"),
+                            dcc.Dropdown(
+                                id="crime-category-dropdown",
+                                options=[
+                                    {"label": category, "value": category}
+                                    for category in CRIMES
+                                ],
+                                value=CRIMES[0],
+                                clearable=False,
+                                style={"width": "100%"},
+                            ),
+                        ],
+                    ),
                     html.Div(
                         className="map-dropdowns",
                         children=[
@@ -291,22 +305,6 @@ def get_html(figure):
                         ],
                     ),
                     html.Div(
-                        className="map-dropdowns",
-                        children=[
-                            html.H4("Crime Category"),
-                            dcc.Dropdown(
-                                id="crime-category-dropdown",
-                                options=[
-                                    {"label": category, "value": category}
-                                    for category in CRIMES
-                                ],
-                                value=CRIMES[0],
-                                clearable=False,
-                                style={"width": "100%"},
-                            ),
-                        ],
-                    ),
-                    html.Div(
                         [
                             dcc.Slider(
                                 id="time-slider",
@@ -319,19 +317,6 @@ def get_html(figure):
                             )
                         ],
                         style={"width": "100%", "padding": "0px 20px 20px 20px"},
-                    ),
-                    html.Div(
-                        [
-                            dcc.Interval(
-                                id="interval-component",
-                                interval=2000,  # in milliseconds
-                                n_intervals=0,
-                                disabled=True,  # start with the interval component disabled
-                            ),
-                            html.Button("Play", id="play-button", n_clicks=0),
-                            html.Button("Pause", id="pause-button", n_clicks=0),
-                        ],
-                        style={"textAlign": "center"},
                     ),
                 ],
             ),
@@ -386,43 +371,12 @@ def get_callbacks(app):
             Output("time-slider", "max"),
             Output("time-slider", "marks"),
             Output("time-slider", "value"),
-            Output("interval-component", "disabled"),
         ],
         [
             Input("time-filter-dropdown", "value"),
             Input("geo-level-dropdown", "value"),
-            Input("play-button", "n_clicks"),
-            Input("pause-button", "n_clicks"),
-            Input("interval-component", "n_intervals"),
         ],
-        [State("interval-component", "disabled"), State("time-slider", "value")],
     )
-    def update_time_slider_and_control_animation_callback(
-        time_filter,
-        _geo_level,
-        _play_clicks,
-        _pause_clicks,
-        _n_intervals,
-        interval_disabled,
-        current_value,
-    ):
-        ctx = dash.callback_context
-        trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
+    def update_time_slider_callback(time_filter, _geo_level):
         scale_length = SCALES_LENGTHS[time_filter]
-
-        if trigger_id in ["time-filter-dropdown", "geo-level-dropdown"]:
-            return scale_length - 1, SCALES_MARKS[time_filter], 0, True
-
-        if trigger_id == "play-button":
-            interval_disabled = False
-        elif trigger_id == "pause-button":
-            interval_disabled = True
-        elif trigger_id == "interval-component" and not interval_disabled:
-            current_value = (current_value + 1) % scale_length
-
-        return (
-            scale_length - 1,
-            SCALES_MARKS[time_filter],
-            current_value,
-            interval_disabled,
-        )
+        return scale_length - 1, SCALES_MARKS[time_filter], 0
