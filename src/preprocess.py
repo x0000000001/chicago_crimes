@@ -32,9 +32,56 @@ def reduce_data():
 ############################################
 
 
+CRIMES_CATEGORIES = {
+    "Violent": [
+        "BATTERY",
+        "ROBBERY",
+        "ASSAULT",
+        "CRIMINAL SEXUAL ASSAULT",
+        "CRIM SEXUAL ASSAULT",
+        "STALKING",
+        "HOMICIDE",
+        "KIDNAPPING",
+        "SEX OFFENSE",
+        "INTIMIDATION",
+        "DOMESTIC VIOLENCE",
+    ],
+    "Property": [
+        "THEFT",
+        "CRIMINAL DAMAGE",
+        "BURGLARY",
+        "MOTOR VEHICLE THEFT",
+        "CRIMINAL TRESPASS",
+        "ARSON",
+    ],
+    "Crimes Against Children": ["OFFENSE INVOLVING CHILDREN"],
+    "Miscellaneous": [
+        "OTHER OFFENSE",
+        "INTERFERENCE WITH PUBLIC OFFICER",
+        "NON-CRIMINAL",
+        "HUMAN TRAFFICKING",
+        "NON-CRIMINAL (SUBJECT SPECIFIED)",
+        "NON - CRIMINAL",
+        "RITUALISM",
+    ],
+    "Public Order": [
+        "WEAPONS VIOLATION",
+        "PROSTITUTION",
+        "PUBLIC PEACE VIOLATION",
+        "CONCEALED CARRY LICENSE VIOLATION",
+        "LIQUOR LAW VIOLATION",
+        "OBSCENITY",
+        "GAMBLING",
+        "PUBLIC INDECENCY",
+    ],
+    "Drug Offenses": ["NARCOTICS", "OTHER NARCOTIC VIOLATION"],
+    "White Collar": ["DECEPTIVE PRACTICE"],
+}
+
+
 def weekday(date):
     date = datetime.datetime.strptime(date, "%m/%d/%Y %I:%M:%S %p")
-    return date.weekday()
+    return date.strftime("%A")
 
 
 def time_of_day(date):
@@ -54,7 +101,7 @@ def time_of_day(date):
 
 def month(date):
     date = datetime.datetime.strptime(date, "%m/%d/%Y %I:%M:%S %p")
-    return date.month
+    return date.strftime("%B")
 
 
 def preprocess_histogram():
@@ -69,13 +116,18 @@ def preprocess_histogram():
 
     data = pd.read_csv(paths.DATA_PATH)
 
+    # change data "Primary Type" field according to the CRIMES_CATEGORIES
+    for category, crimes in CRIMES_CATEGORIES.items():
+        data.loc[data["Primary Type"].isin(crimes), "Primary Type"] = category
+
     for field, name, function in [
         ("Weekday", "day", weekday),
-        ("Month", "month", time_of_day),
-        ("Time of Day", "time_of_day", month),
+        ("Month", "month", month),
+        ("Time of Day", "time_of_day", time_of_day),
     ]:
         data[field] = data["Date"].apply(function)
         crime_counts = data.groupby([field, "Primary Type"]).size().unstack()
+        crime_counts.insert(0, name, crime_counts.index)
         crime_counts["Total"] = crime_counts.iloc[:, 1:].sum(axis=1)
         crime_counts.to_csv(
             f"{paths.DATA_HISTOGRAM_FOLDER}/histogram_{name}.csv", index=False

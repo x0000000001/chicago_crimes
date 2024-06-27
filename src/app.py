@@ -30,7 +30,7 @@ with open(DATA_REDUCED_PATH, encoding="utf-8") as data_file:
     data = pd.read_csv(data_file)
 
 # Load figures
-figures_files = ["multiline", "histogram", "map", "cluster", "stacked_bar_chart"]
+figures_files = ["multiline", "map", "cluster", "stacked_bar_chart"]
 
 figures = {}
 html_elements = {}
@@ -178,7 +178,7 @@ app.layout = html.Div(
                                         ),
                                         html.Div(
                                             className="viz-container",
-                                            children=html_elements["histogram"],
+                                            children=[],
                                         ),
                                     ],
                                 ),
@@ -188,6 +188,79 @@ app.layout = html.Div(
                             className="map-section-viz",
                             id="viz_3",
                             children=[
+                                html.Div(
+                                    className="overlay hidden",
+                                ),
+                                html.Section(
+                                    className="modal hidden",
+                                    children=[
+                                        html.Div(
+                                            className="modal-content",
+                                            children=[
+                                                html.H2("About the categorization"),
+                                                html.P(
+                                                    "Here is how we grouped the crime types:"
+                                                ),
+                                                html.Ul(
+                                                    children=[
+                                                        html.Li(
+                                                            children = [
+                                                                html.Strong("Violent Crimes:"),
+                                                                " Battery, Robbery, Assault, Stalking, Criminal Sexual Assault, Homicide, Kidnapping, Sex Offense, Intimidation, and Domestic Violence."
+                                                            ]
+                                                        ),
+                                                        html.Li(
+                                                            children = [
+                                                                html.Strong("Crimes Against Children:"),
+                                                                " Offenses Involving Children."
+                                                            ]
+                                                        ),
+                                                        html.Li(
+                                                            children = [
+                                                                html.Strong("Property Crimes:"),
+                                                                " Theft, Criminal Damage, Burglary, Motor Vehicle Theft, Criminal Trespass, and Arson."
+                                                            ]
+                                                        ),
+                                                        html.Li(
+                                                            children = [
+                                                                html.Strong("Public Order Crimes:"),
+                                                                " Weapons Violation, Prostitution, Public Peace Violation, Concealed Carry License Violation, Liquor Law Violation, Obscenity, Gambling, and Public Indecency."
+                                                            ]
+                                                        ),
+
+                                                        html.Li(
+                                                            children = [
+                                                                html.Strong("White Collar Crimes:"),
+                                                                " Deceptive Practice."
+                                                            ]
+                                                        ),
+                                                        html.Li(
+                                                            children = [
+                                                                html.Strong("Drug Offenses:"),
+                                                                " Narcotics and Other Narcotic Violations."
+                                                            ]
+                                                        ),
+                                                        html.Li(
+                                                            children = [
+                                                                html.Strong("Miscellaneous Crimes:"),
+                                                                " Other Offenses, Interference with Public Officer, Non-Criminal, Human Trafficking, Ritualism, and various other non-criminal classifications."
+                                                            ]
+                                                        ),
+                                                    ]
+                                                ),
+                                            ]
+                                        ),
+                                        html.Div(
+                                            className="modal-flex",
+                                            children=[
+                                                html.Button(
+                                                    className="btn btn-close",
+                                                    children="Close",
+                                                )
+                                            ]
+                                        ),
+                                    ],
+                                ),
                                 html.Div(
                                     className="viz-content",
                                     id="map-text",
@@ -199,20 +272,24 @@ app.layout = html.Div(
                                             ],
                                         ),
                                         html.Div(
-                                            className="viz-text-content",
+                                            className="viz-text-content map-viz-text-content",
                                             children=[
                                                 html.P("This chloropleth map shows the distribution of crimes in Chicago. The color intensity denounces the number of crime reported according to the search parameters configurations."),
-                                                html.Br(),
-                                                html.P("The following visualization addresses these spatial analysis points:"),
-                                                html.P("• The regions where crimes are more frequent. | • Patterns or trends linking districts to specific criminal activities."),
-                                                html.P("• Do certain police beats handle more crimes than others? | • Types of crimes are most commonly associated with specific beats"),
-                                            ],
+                                                html.P("In order to allow for a more effective comparison of crime rates within the same category across districts and beats, rather than analyzing each type individually, we regrouped the crimes by using general categories."),
+                                                html.P("This re categorization is designed to provide you with actionable insights, making it easier to identify trends and make informed decisions."),
+                                                html.P("It will also enable a more effective and strategic planning, helping you allocate resources more efficiently and take more targeted actions to improve public safety."),
+                                                
+                                            ]
+                                        ),
+                                        html.Button(
+                                            className="btn btn-open",
+                                            children="More information",
                                         ),
                                         html.Div(
                                             className="viz-container",
                                             children=html_elements["map"],
                                         ),
-                                    ],
+                                    ],  
                                 ),
                             ],
                         ),

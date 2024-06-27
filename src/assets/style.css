@@ -109,6 +109,13 @@ main {
   margin-bottom: 100px;
 }
 
+.title-page-container a {
+  width: fit-content;
+  height: fit-content;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
 .button-start {
   padding: 10px 20px;
   margin-top: 50px;
@@ -155,7 +162,6 @@ main {
 .section-slider {
   background-color: #3c3c3d;
   height: 250vh;
-  overflow: visible;
 
   view-timeline-name: --section-pin-tl;
   view-timeline-axis: block;
@@ -166,8 +172,6 @@ main {
   width: 100vw;
   position: sticky;
   top: 0;
-
-  overflow: hidden;
 }
 
 .slider-elements {
@@ -303,7 +307,7 @@ ul {
   font-size: 1.5em;
   font-weight: 100;
   margin-top: 4vh;
-  width: 75%;
+  width: 80%;
   text-align: center;
   margin-bottom: 5vh;
 }
@@ -452,4 +456,123 @@ ul {
 
 #time-slider {
   margin-top: 10px;
+}
+
+.map-viz-text-content {
+  margin-bottom: 2vh;
+}
+
+/* Modal */
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 0.5rem;
+  width: 50%;
+  min-height: 250px;
+  position: absolute;
+  z-index: 3;
+
+  top: 10%;
+  left: 25%;
+
+  background-color: #f4f4f4;
+  color: #000000;
+
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.modal .modal-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  padding: 2rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  margin-bottom: 0px;
+}
+
+.modal-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.modal-content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+.modal-content ul li {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.modal input {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  font-weight: 300;
+
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.8em;
+  margin-bottom: 2vh;
+
+  transition: 0.5s;
+}
+
+.btn:hover {
+  scale: 1.05;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.btn-close {
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  display: none;
 }
