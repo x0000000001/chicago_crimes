@@ -164,15 +164,18 @@ app.layout = html.Div(
                                         html.Div(
                                             className="viz-text-title",
                                             children=[
-                                                "What about crimes in Chicago ?",
+                                                "A temporal analysis",
                                             ],
                                         ),
                                         html.Div(
                                             className="viz-text-content",
                                             children=[
                                                 html.P(
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                                                    "Crimes do not all happen at the same intensities, \
+                                                    at the same time. Play with this barchart to see which \
+                                                    crimes happen when. See, for instance, how thefts \
+                                                    happen mostly during the afternoon, or kidnappings \
+                                                    have a peak on fridays."
                                                 ),
                                             ],
                                         ),
@@ -201,11 +204,19 @@ app.layout = html.Div(
                                         html.Div(
                                             className="viz-text-content",
                                             children=[
-                                                html.P("This chloropleth map shows the distribution of crimes in Chicago. The color intensity denounces the number of crime reported according to the search parameters configurations."),
+                                                html.P(
+                                                    "This chloropleth map shows the distribution of crimes in Chicago. The color intensity denounces the number of crime reported according to the search parameters configurations."
+                                                ),
                                                 html.Br(),
-                                                html.P("The following visualization addresses these spatial analysis points:"),
-                                                html.P("• The regions where crimes are more frequent. | • Patterns or trends linking districts to specific criminal activities."),
-                                                html.P("• Do certain police beats handle more crimes than others? | • Types of crimes are most commonly associated with specific beats"),
+                                                html.P(
+                                                    "The following visualization addresses these spatial analysis points:"
+                                                ),
+                                                html.P(
+                                                    "• The regions where crimes are more frequent. | • Patterns or trends linking districts to specific criminal activities."
+                                                ),
+                                                html.P(
+                                                    "• Do certain police beats handle more crimes than others? | • Types of crimes are most commonly associated with specific beats"
+                                                ),
                                             ],
                                         ),
                                         html.Div(
@@ -256,15 +267,16 @@ app.layout = html.Div(
                                         html.Div(
                                             className="viz-text-title",
                                             children=[
-                                                "What about crimes in Chicago ?",
+                                                "Districts, beats and arrest rates",
                                             ],
                                         ),
                                         html.Div(
                                             className="viz-text-content",
                                             children=[
                                                 html.P(
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                                                    "Should someone be arrested for theft ? assault ? drug offenses ? \
+                                                    While this obviously depends on the type of crime, it seems \
+                                                    to be correlated with the geographical location of the crime too..."
                                                 ),
                                             ],
                                         ),
@@ -282,6 +294,7 @@ app.layout = html.Div(
         ),
     ],
 )
+
 
 # Use start button to go to the next section
 @app.callback(
