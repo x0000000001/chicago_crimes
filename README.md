@@ -56,3 +56,8 @@ Team members :
 ## Data source
 
 All data was extracted from the [Chicago data portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data).
+
+## Website
+
+[Here](https://chicago-crimes.onrender.com) is the website.
+[Here](https://www.loom.com/share/6399725cf0ac4be58722145cbb481372?sid=3a06aab2-73c5-4105-9be1-8abc5b1daeb2) is the presentation video.
